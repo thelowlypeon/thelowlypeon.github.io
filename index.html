@@ -2,22 +2,12 @@
 layout: default
 ---
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+<div id="intro" class="row">
+  <div class="col-sm-3 col-sm-offset-1">
+    <img src="{% asset_path meditating.png %}" class="img-circle" style="width:100%;max-width:180px" alt-src="{% asset_path my-real-face.png %}" />
+  </div>
+  <div class="col-sm-5 col-sm-offset-4">
+    <h1 class="welcome-message top-buffer">Hi there.</h1>
+    <p>I make software and ride bikes in the greatest city on Earth.</p>
+  </div>
 </div>
