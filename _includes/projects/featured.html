@@ -1,0 +1,10 @@
+<div class="row project-feature bottom-buffer" id="feature-{{ project.slug }}">
+  <div class="col-md-10 col-md-offset-1">
+    <img src="{% asset_path "projects/{{ project.image }}" %}" width="180px" height="180px" class="img-circle drop-shadow" />
+    <h1>{{ project.title }}</h1>
+    {% if project.caption %}
+    <div class="caption">{{ project.caption }}</div>
+    {% endif %}
+    <p class="project-more"><a href="{{ project.url }}">More &rarr;</a></p>
+  </div>
+</div>

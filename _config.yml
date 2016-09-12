@@ -17,6 +17,11 @@ twitter_username: thelowlypeon
 github_username:  thelowlypeon
 bitbucket_username:  thelowlypeon
 google_analytics: "UA-2133957-3"
+permalink: "/:year/:month/:day/:title"
+
+collections:
+  - posts
+  - projects
 
 # Build settings
 markdown: kramdown

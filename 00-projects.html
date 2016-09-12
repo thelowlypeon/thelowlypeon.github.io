@@ -1,0 +1,23 @@
+---
+layout: default
+title: Projects
+permalink: /projects/
+---
+
+<div class="row featured-projects">
+  {% for project in site.projects %}
+    <div class="col-md-6">
+      {% include projects/featured.html project=project %}
+    </div>
+  {% endfor %}
+</div>
+
+<div class="row other-projects">
+  {% for project in site.projects %}
+    {% if tablerow.rindex0 == 0 and forloop.index0 != 0 and forloop.length > forloop.index0 %}
+    </div><div class="row other-projects">
+    {% endif %}
+    <div class="col-md-4">
+    </div>
+  {% endfor %}
+</div>

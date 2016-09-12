@@ -217,3 +217,17 @@ img.drop-shadow {
   a:hover { text-decoration: none !important; }
   margin-bottom: 10px;
 }
+
+.project-feature , .project-thumbnail {
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  .project-thumbnail {
+    text-align: left;
+    .caption {
+      h1 , h2 , h3 { margin-top: 0; font-size: 1em; font-weight: bold; }
+      p { font-size: 0.9em; }
+    }
+  }
+}
