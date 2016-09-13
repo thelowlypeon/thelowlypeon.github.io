@@ -12,9 +12,11 @@ google_analytics: "UA-2133957-3"
 
 collections:
   posts:
+    output: true
     permalink: "/blog/:year/:title"
   projects:
-    permalink: "/:collection/:title"
+    output: true
+    permalink: "/projects/:name"
 
 # Build settings
 markdown: kramdown
