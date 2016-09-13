@@ -9,4 +9,6 @@ caption: Stop driving and take a bike. This simple iOS app I wrote will help you
 
 Stop driving and take a bike. This simple iOS app I wrote will help you find nearby bikeshare bikes or docks.
 
-[stationtostationapp.com](http://stationtostationapp.com/)
+<a href="https://itunes.apple.com/us/app/apple-store/id936262970?pt=96075968&ct=website&mt=8"><img src="{% asset_path app-store.png %}" width="180px;" /></a>
+
+Read more at [stationtostationapp.com](http://stationtostationapp.com/)
