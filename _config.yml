@@ -1,10 +1,3 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
 title: Peter Compernolle
 email: me@petercompernolle.com
@@ -15,13 +8,13 @@ root_url: "/" # the subpath of your site, e.g. /blog
 url: "https://petercompernolle.com" # the base hostname & protocol for your site
 twitter_username: thelowlypeon
 github_username:  thelowlypeon
-bitbucket_username:  thelowlypeon
 google_analytics: "UA-2133957-3"
-permalink: "/:year/:month/:day/:title"
 
 collections:
-  - posts
-  - projects
+  posts:
+    permalink: "/blog/:year/:title"
+  projects:
+    permalink: "/:collection/:title"
 
 # Build settings
 markdown: kramdown
