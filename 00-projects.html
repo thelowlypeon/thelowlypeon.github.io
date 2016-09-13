@@ -4,20 +4,27 @@ title: Projects
 permalink: /projects/
 ---
 
-<div class="row featured-projects">
-  {% for project in site.projects %}
-    <div class="col-md-6">
-      {% include projects/featured.html project=project %}
-    </div>
-  {% endfor %}
-</div>
+{% for project in site.projects %}
 
-<div class="row other-projects">
-  {% for project in site.projects %}
-    {% if tablerow.rindex0 == 0 and forloop.index0 != 0 and forloop.length > forloop.index0 %}
-    </div><div class="row other-projects">
+  {% assign index_in_other_projects = forloop.index0|minus:2|modulo:3 %}
+  {% if forloop.index0 == 0 %}
+    <div class="row featured-projects">
+  {% elsif index_in_other_projects == 0 %}
+    <div class="row other-projects">
+  {% endif %}
+
+    {% if forloop.index0 < 2 %}
+      <div class="col-md-6">
+        {% include projects/featured.html project=project %}
+      </div>
+    {% else %}
+      <div class="col-md-4">
+        non-featured projects go here
+      </div>
     {% endif %}
-    <div class="col-md-4">
+
+  {% if forloop.index0 == 1 or forloop.index0 == forloop.length or index_in_other_projects == 2 %}
     </div>
-  {% endfor %}
+  {% endif %}
+{% endfor %}
 </div>
