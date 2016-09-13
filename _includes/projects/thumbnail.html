@@ -1,0 +1,11 @@
+<div class="col-md-12 project-thumbnail bottom-buffer" id="project-{{ project.slug }}">
+  <div class="col-md-4">
+    <a href="{{ project.url }}"><img src="{% asset_path "projects/{{ project.image }}" %}" style="width:100%;max-width:180px;" class="img-circle drop-shadow" /></a>
+  </div>
+  <div class="col-md-8">
+    <div class="caption">
+      <h1>{{ project.title }}</h1>
+      {{ project.caption }}
+    </div>
+  </div>
+</div>
