@@ -220,6 +220,7 @@ img.drop-shadow {
 
 .project-feature , .project-thumbnail {
   text-align: center;
+  h1 a, h1 a:visited { color: $black; }
 }
 
 @media (min-width: 992px) {
