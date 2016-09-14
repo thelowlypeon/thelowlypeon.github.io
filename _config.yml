@@ -13,7 +13,7 @@ google_analytics: "UA-2133957-3"
 collections:
   posts:
     output: true
-    permalink: "/blog/:year/:title"
+    permalink: "/:year/:title"
   projects:
     output: true
     permalink: "/projects/:name"
