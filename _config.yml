@@ -30,3 +30,4 @@ markdown: kramdown
 
 gems:
   - jekyll-assets
+  - jekyll-redirect-from

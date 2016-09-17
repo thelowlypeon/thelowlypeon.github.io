@@ -3,6 +3,7 @@ layout: post
 title:  "Good Music's Nationality"
 date:   2010-04-26 12:00:00 -0500
 categories: music
+redirect_from: /41549386862/musics-nationality
 ---
 
 For a while now, I've wanted to thoroughly analyze my [last.fm](http://last.fm/user/thelowlypeon)&nbsp;statistics, all the music I've listened to and when since I started documenting it in 2006, and try to see patterns based on the country the music comes from.
