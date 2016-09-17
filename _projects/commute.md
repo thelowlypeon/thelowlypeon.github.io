@@ -4,7 +4,7 @@ title:  "'Commute'"
 date:   2011-05-13 10:59:32 -0500
 categories: film iphone
 image: commute.png
-caption: I shot, edited, and published a video of my daily commute in Hangzhou, China, on an iPhone 4.
+caption: A video of my daily commute in Hangzhou, China, shot & edited entirely on an iPhone 4.
 more: https://vimeo.com/23712057
 ---
 
