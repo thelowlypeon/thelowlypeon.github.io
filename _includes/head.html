@@ -21,6 +21,7 @@
   {% endif %}
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="sitemap" type="application/xml" title="Sitemap" href="sitemap.xml" />
 
   <link href="{% asset_path apple-touch-icon-57x57.png %}" rel="apple-touch-icon" sizes="57x57" type="image/png" />
   <link href="{% asset_path apple-touch-icon-72x72.png %}" rel="apple-touch-icon" sizes="72x72" type="image/png" />
