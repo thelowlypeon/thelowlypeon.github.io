@@ -163,6 +163,12 @@ hr#header-divider {
   font-size: 0.9em;
 }
 
+.blog-container h1.blog-container-header {
+  font-size:16px;
+  font-variant:small-caps;
+  text-align: center;
+}
+
 @media (max-width: 767px) {
   #etc-page {
     div.left, div.right {

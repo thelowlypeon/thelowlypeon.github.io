@@ -5,7 +5,10 @@ permalink: /blog/
 ---
 
 <div class="blog-container">
-{% for post in site.posts %}
+{% include blog-index-header.html %}
+
+{% assign recent = site.posts|slice:0,5 %}
+{% for post in recent %}
   <div class="row" id="{{ post.slug }}">
     <div class="col-sm-3 left">
       <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
@@ -15,12 +18,15 @@ permalink: /blog/
       {% if post.blurb %}
         {{ post.blurb }}
       {% else %}
-        {{ post.content | strip_html | truncatewords:50 }}
+        {{ post.content }}
       {% endif %}
-      <a href="{{ post.url }}">&rarr;</a>
     </div>
   </div>
 
   <hr />
 {% endfor %}
 </div>
+
+<p class="text-center">
+  <a href="/archive/">View Archive</a>
+</p>
