@@ -5,7 +5,7 @@ permalink: /blog/
 ---
 
 <div class="blog-container">
-{% for post in site.posts reversed %}
+{% for post in site.posts %}
   <div class="row" id="{{ post.slug }}">
     <div class="col-sm-3 left">
       <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
