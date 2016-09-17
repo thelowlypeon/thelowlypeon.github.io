@@ -1,6 +1,7 @@
 # Site settings
 title: Peter Compernolle
 email: me@petercompernolle.com
+hex_email: "%6d%65@%70%65%74%65%72%63%6f%6d%70%65%72%6e%6f%6c%6c%65.%63%6f%6d"
 description: > # this means to ignore newlines until "baseurl:"
   I make software and ride bikes in the greatest city on Earth.
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -8,6 +9,7 @@ root_url: "/" # the subpath of your site, e.g. /blog
 url: "https://petercompernolle.com" # the base hostname & protocol for your site
 twitter_username: thelowlypeon
 github_username:  thelowlypeon
+bitbucket_username:  thelowlypeon
 google_analytics: "UA-2133957-3"
 
 collections:
@@ -17,6 +19,11 @@ collections:
   projects:
     output: true
     permalink: "/projects/:name"
+
+navigation_pages:
+  - Projects
+  - Blog
+  - Etc.
 
 # Build settings
 markdown: kramdown
