@@ -8,12 +8,8 @@ layout: default
     <div class="col-sm-3 left">
       <header class="post-header">
         <h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
-        <div class="hidden-xs" style="margin-top:200px;">
-          <div class="ad">
-            // ad stuff here //
-          </div>
-        </div>
       </header>
+      {% include side_panel_ads.html %}
     </div>
 
     <div class="col-sm-8 right">
