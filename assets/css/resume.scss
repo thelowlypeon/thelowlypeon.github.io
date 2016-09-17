@@ -1,0 +1,70 @@
+---
+# Must also import skeleton and base
+---
+/********************************************  VARIABLES  *********************************************************/
+$lightgray: #e7e7e7;
+$gray: darken( $lightgray , 20% );
+$black: #444;
+/********************************************  END VARIABLES  *********************************************************/
+
+a { text-decoration: none; }
+body , #title { 
+    margin:25px;
+	font-family: "Gill Sans", Helvetica, sans-serif;
+	font-size: 14px;
+}
+p { line-height: 1.5em; margin-bottom: 0.2em; }
+/********************************************  FONTS/ASSETS  *********************************************************/
+/********************************************  END FONTS/ASSETS  *********************************************************/
+
+#title {
+	margin: 0;
+	font-variant: small-caps;
+	border-bottom: 1px solid black;
+	line-height: 21px;
+    #name-first {
+        font-size: 32px;
+    }
+    #name-j {
+        font-size: 32px;
+        //position: absolute;
+    }
+    #name-last {
+        font-size: 32px;
+        //margin-left: 34px;
+    }
+}
+#contact-info {
+	font-style: italic;
+	//color: gray;
+	font-size: 13px;
+	margin-top: 3px;
+	margin-bottom: 32px;
+    span {
+        margin-right: 2em;
+    }
+
+}
+
+.section {
+    padding-bottom: 1em;
+    border-bottom: 1px solid $gray;
+    &.last { border-bottom: none; }
+}
+.detail {
+    margin-top: 10px;
+    li { margin-bottom: 0; }
+    li p { margin-bottom: 0; }
+}
+
+h2 { 
+    font-size: 1.5em; 
+    font-variant: small-caps;
+}
+h3 {
+    font-size: 1.25em;
+}
+h4 {
+    font-size: 1em;
+}
+h2 , h3 , h4 { margin-bottom: 0; }

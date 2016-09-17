@@ -13,11 +13,13 @@
   <meta content="USA" property="og:country-name">
 
   {% if page.layout == 'resume' %}
-    {% css resume/base %}
-    {% css resume/skeleton %}
-    {% css resume %}
+    <link rel="stylesheet" href="/assets/css/resume/base.css">
+    <link rel="stylesheet" href="/assets/css/resume/skeleton.css">
+    <link rel="stylesheet" href="/assets/css/resume.css">
   {% else %}
-    {% css main %}
+    <link rel="stylesheet" href="/assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
   {% endif %}
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
