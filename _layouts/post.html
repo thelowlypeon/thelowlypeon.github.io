@@ -1,15 +1,42 @@
 ---
 layout: default
 ---
+
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+<div class="blog-container">
+  <div class="row">
+    <div class="col-sm-3 left">
+      <header class="post-header">
+        <h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
+        <div class="hidden-xs" style="margin-top:200px;">
+          <div class="ad">
+            // ad stuff here //
+          </div>
+        </div>
+      </header>
+    </div>
 
-  <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
-  </header>
+    <div class="col-sm-8 right">
+      <div class="post-content" itemprop="articleBody">
+        {{ content }}
+      </div>
 
-  <div class="post-content" itemprop="articleBody">
-    {{ content }}
+      <div class="details">
+        <div class="details">
+          <p class="date fa fa-calendar"> <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }}</time></p>
+          {% if page.categories %}
+            <p class="tags fa fa-tags">
+            {% for category in page.categories %}
+              <a href="/tagged/{{ category }}">#{{ category }}</a>
+            {% endfor %}
+          {% endif %}
+        </div>
+
+        <p class="top-buffer">
+          <a href="/blog/">&larr; Return</a>
+        </p>
+      </div>
+    </div>
   </div>
-
+</div>
 </article>
