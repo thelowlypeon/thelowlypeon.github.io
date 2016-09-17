@@ -3,7 +3,10 @@
     <a href="{{ project.more }}" target="blank"><img src="{% asset_path "projects/{{ project.image }}" %}" width="180px" height="180px" class="img-circle drop-shadow" /></a>
     <h1><a target="blank" href="{{ project.more }}">{{ project.title }}</a></h1>
     {% if project.caption %}
-    <div class="caption">{{ project.caption }}</div>
+    <div class="caption">
+      {{ project.caption }}
+      <a title="permalink" href="{{ project.url }}">#</a>
+    </div>
     {% endif %}
   </div>
 </div>
