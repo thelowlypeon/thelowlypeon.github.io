@@ -13,12 +13,8 @@
   <meta content="USA" property="og:country-name">
 
   {% if page.layout == 'resume' %}
-    <link rel="stylesheet" href="/assets/css/resume/base.css">
-    <link rel="stylesheet" href="/assets/css/resume/skeleton.css">
     <link rel="stylesheet" href="/assets/css/resume.css">
   {% else %}
-    <link rel="stylesheet" href="/assets/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="/assets/css/main.css">
   {% endif %}
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
