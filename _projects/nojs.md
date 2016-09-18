@@ -6,6 +6,7 @@ categories: ios javascript
 image: nojs.png
 caption: Easily view any page without JS on your iOS device with no.js. Easily debug your site, improve load times, or avoid pesky interruptions.
 more: https://itunes.apple.com/us/app/no-js/id1062685513?mt=8
+redirect_from: /134015575196/introducing-nojs
 ---
 
 Easily view any page without JS on your iOS device with no.js. Easily debug your site, improve load times, or avoid pesky interruptions.
