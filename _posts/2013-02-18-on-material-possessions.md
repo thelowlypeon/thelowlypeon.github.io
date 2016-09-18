@@ -3,7 +3,7 @@ layout: post
 title:  "On Material Possessions"
 date:   2013-02-18 12:00:00 -0500
 categories: materialism coworking
-redirect_from: /43445173320/on-material-possessions
+redirect_from: /post/43445173320/on-material-possessions
 ---
 
 I love where I work. I work out of the [best coworking space in Chicago](http://coworkchicago.com/) (the best city on Earth — does this mean, by commutative property, that I work at the best coworking space on Earth? Maybe.)

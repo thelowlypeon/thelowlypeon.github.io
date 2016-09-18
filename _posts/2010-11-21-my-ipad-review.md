@@ -3,7 +3,7 @@ layout: post
 title:  "My iPad Review"
 date:   2010-11-10 12:00:00 -0500
 categories: ipad apple hardware
-redirect_from: /41550295466/my-ipad-review
+redirect_from: /post/41550295466/my-ipad-review
 ---
 
 I've been hesitant to write an iPad review until now for a handful of reasons — namely, I worried that the lack of iPad specific apps, my being in China, where some of the web's greatest services are blocked, or that I've been otherwise pretty busy, would skew my view — but because iOS 4.2 is scheduled to come out in the next week or two, I figured it's now as good a time as any.

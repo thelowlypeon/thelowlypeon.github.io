@@ -3,7 +3,7 @@ layout: post
 title:  "On iTunes, Playcounts, and Strategies"
 date:   2009-09-01 12:00:00 -0500
 categories: itunes music data
-redirect_from: /41547735041/on-itunes-playcounts-and-strategies
+redirect_from: /post/41547735041/on-itunes-playcounts-and-strategies
 ---
 
 _i just learned some startling news. i've been up since about 4am, jetlagged, playing around with my computers because i haven't been able to for so long. in organizing some of my tv shows for my upcoming two week trip (in a few hours, only about 18 hours after arriving), i noticed something horrible._

@@ -3,7 +3,7 @@ layout: post
 title:  "Fixing httpd.conf in Mountain Lion 10.8"
 date:   2012-07-26 12:00:00 -0500
 categories: osx apache
-redirect_from: /41557124730/fixing-httpdconf-in-osx-mountainlion
+redirect_from: /post/41557124730/fixing-httpdconf-in-osx-mountainlion
 ---
 
 I've been having some annoying issues with OS X 10.7 Lion, and I had hoped that upgrading to OS X 10.8 Mountain Lion, Apple's newest OS, released just yesterday, would fix some of the problems. Giving my history of upgrading my OS, I should have predicted that upgrading would a) not solve my issues, and b) cause a whole lot more of them.

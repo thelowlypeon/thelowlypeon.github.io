@@ -3,7 +3,7 @@ layout: post
 title:  "A Letter to Adobe"
 date:   2009-10-21 12:00:00 -0500
 categories: adobe software
-redirect_from: /41548424146/a-letter-to-adobe
+redirect_from: /post/41548424146/a-letter-to-adobe
 ---
 
 Adobe, I had given you all, and now I have nothing. Adobe, six hundred ninety nine dollars and zero cents, October 21, 2009. I had almost lost my mind.

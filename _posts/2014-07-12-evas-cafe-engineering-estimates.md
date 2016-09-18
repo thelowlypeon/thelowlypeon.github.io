@@ -3,7 +3,7 @@ layout: post
 title: "Eva's Cafe: Engineering Estimates"
 date: 2014-07-12 10:10:21 -0500
 categories: work software engineering estimates
-redirect_from: /91552604696/evas-cafe-engineering-estimates
+redirect_from: /post/91552604696/evas-cafe-engineering-estimates
 ---
 
 Your friend calls and asks if you want to get some coffee. You're pretty busy these days, so you say time is tight. "That's fine. How long will it take you to get to Eva's Cafe?" You have to answer fast because your friend is waiting and you have to appear vested and interested, and willing to go the extra mile for the relationship.

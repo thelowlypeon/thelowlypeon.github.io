@@ -3,7 +3,7 @@ layout: post
 title: "Back in China"
 date: 2014-11-22 20:37:23 -0500
 categories: china travel
-redirect_from: /103332599286/back-in-china
+redirect_from: /post/103332599286/back-in-china
 ---
 
 I'm back in Hangzhou for the first time in almost two years. In some ways, this city feels completely different; in others, it feels like it's only been a few weeks since I left. 

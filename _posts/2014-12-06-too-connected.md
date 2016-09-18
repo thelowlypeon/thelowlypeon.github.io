@@ -3,7 +3,7 @@ layout: post
 title: "Maybe It's All Too Connected"
 date: 2014-12-06 11:35:00 -0500
 categories: dependencies
-redirect_from: /104502480226/maybe-its-all-too-connected
+redirect_from: /post/104502480226/maybe-its-all-too-connected
 ---
 
 <em>A few days ago, upon realizing my iPhone hadn’t synced with my always-on-and-available Mac Mini for several months, I decided to invest some time into trying to fix it. Eventually, I found a solution, and wanted to let future googlers know in case they had the same problem. As I opened up Tumblr to write my post, I realized that my server had been throwing 500 errors when trying to sync with Tumblr.</em></p>

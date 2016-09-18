@@ -3,7 +3,7 @@ layout: post
 title:  "Rails 4 Asset Pipeline & jquery-validation-rails Gem"
 date:   2013-10-31 10:31:42 -0500
 categories: rails jquery assetpipeline gem
-redirect_from: /65616664487/rails-4-asset-pipeline-jquery-validation-rails
+redirect_from: /post/65616664487/rails-4-asset-pipeline-jquery-validation-rails
 ---
 
 I recently started on a new project with the intention of becoming familiar with Rails 4. The site itself is very simple: it consists of only three resources, and index page that shows a random unviewed resource, a form for the public to submit new data, and an admin controller to approve or reject public submissions.

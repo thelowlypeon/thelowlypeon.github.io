@@ -3,7 +3,7 @@ layout: post
 title:  "Be a Real Man or Woman"
 date:   2013-12-05 13:48:06 -0500
 categories: vim
-redirect_from: /69095422256/be-a-real-man
+redirect_from: /post/69095422256/be-a-real-man
 ---
 
 .vimrc:

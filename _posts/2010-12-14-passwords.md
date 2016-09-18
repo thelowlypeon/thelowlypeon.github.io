@@ -3,7 +3,7 @@ layout: post
 title:  "Passwords"
 date:   2010-12-14 12:00:00 -0500
 categories: passwords security technology
-redirect_from: /41553345903/passwords
+redirect_from: /post/41553345903/passwords
 ---
 
 Unless you're part of Google's "[Opt-out](http://www.theonion.com/video/google-opt-out-feature-lets-users-protect-privacy,14358/)", you probably spend a bunch of time on the internet, and thus give your private information to a handful of websites. The battle of internet security is, for many, constantly finding the balance between convenience and security/privacy — you _could_&nbsp;have this website store your credit card information for your next visit, but do you want to risk that? Browsing the web safely can be both — but you need to know what you're up against, and how to protect yourself.

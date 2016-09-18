@@ -3,7 +3,7 @@ layout: post
 title: "Immutable Data Structures"
 date: 2014-05-21 16:43:16 -0500
 categories: data compsci
-redirect_from: /86440757266/immutable-data-structures
+redirect_from: /post/86440757266/immutable-data-structures
 ---
 
 I just saw a talk by the great [David Nolan](https://github.com/swannodette) ([@swannodette](https://twitter.com/swannodette)) on how software architecture, namely the MVC design pattern, is "like the great pyramids," which take a long time and lots of manpower, and how we as software architects haven't yet discovered the arch. The DOM, as he succinctly put it, is fundamentally about documents, not about events or views.

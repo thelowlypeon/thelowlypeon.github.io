@@ -3,7 +3,7 @@ layout: post
 title:  "iPhone Update, iPod Woes"
 date:   2010-11-24 12:00:00 -0500
 categories: ipod ios badapple
-redirect_from: /41551675301/ipod-has-no-content-after-ios-update
+redirect_from: /post/41551675301/ipod-has-no-content-after-ios-update
 ---
 
 Last night, after too many hours trying to download it, I successfully updated my iPhone's operating system to iOS 4.2.1, the newest available version. Everything seemed to go along without a hitch. That is, until this morning, when I wanted to listen to some tunes on my way to work. Instead of all my music, I saw this rather frightening message:

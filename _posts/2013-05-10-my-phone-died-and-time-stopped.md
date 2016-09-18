@@ -3,7 +3,7 @@ layout: post
 title:  "My Phone Died and Time Stopped"
 date:   2013-05-10 09:26:10 -0500
 categories: alcohol time
-redirect_from: /50134202451/my-iphone-died-and-time-stopped
+redirect_from: /post/50134202451/my-iphone-died-and-time-stopped
 ---
 
 Last night, while on a drunk with my new friends and colleagues, my phone's battery died around 9:45. The evening didn't stop then, but time did:

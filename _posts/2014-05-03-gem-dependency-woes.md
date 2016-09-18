@@ -3,7 +3,7 @@ layout: post
 title: "Gem Dependency Woes: Faraday and Tumblr Client"
 date: 2014-05-03 14:28:18 -0500
 categories: gem dependency tumblr
-redirect_from: /84642056436/gem-dependency-woes-faraday-and-tumblr-client
+redirect_from: /post/84642056436/gem-dependency-woes-faraday-and-tumblr-client
 ---
 
 Well there goes the better part of my Saturday.</p>

@@ -3,7 +3,7 @@ layout: post
 title:  "Time is Fleeting"
 date:   2009-11-21 13:53:32 -0500
 categories: poem time philosphy
-redirect_from: /41548916334/time-is-fleeting
+redirect_from: /post/41548916334/time-is-fleeting
 ---
 
 This evening, daisy posted an ellipsis that reminded me of something I wrote a lifetime ago. It was simple, but far more complex than the mere words.

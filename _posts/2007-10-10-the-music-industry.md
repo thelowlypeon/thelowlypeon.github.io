@@ -4,7 +4,7 @@ title:  "The Music Industry"
 date:   2007-10-10 17:26:32 -0500
 categories: music riaa
 blurb: "a message to the RIAA, record labels, and all other people in fine italian suits making money off of other people's music: you'd better start swimming or you'll sink like a stone, for the times, they are a-changin'."
-redirect_from: /41547047734/the-music-industry
+redirect_from: /post/41547047734/the-music-industry
 ---
 
 _a message to the RIAA, record labels, and all other people in fine italian suits making money off of other people's music: you'd better start swimming or you'll sink like a stone, for the times, they are a-changin'._

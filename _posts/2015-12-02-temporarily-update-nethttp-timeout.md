@@ -3,7 +3,7 @@ layout: post
 title: "Temporarily Update Net::HTTP Timeout"
 date: 2015-12-02 15:50:56 -0500
 categories: ruby nethttp heroku
-redirect_from: /134420374716/temporarily-update-nethttp-timeout
+redirect_from: /post/134420374716/temporarily-update-nethttp-timeout
 ---
 
 I’ve been working on a project recently that deals with lots of third party data. Well, lots of _unreliable_ third party data. We have a bunch of tasks running to import and massage the data.

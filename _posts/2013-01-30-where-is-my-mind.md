@@ -3,7 +3,7 @@ layout: post
 title:  "Where is My Mind"
 date:   2013-01-30 12:00:00 -0500
 categories: gettingold
-redirect_from: /41927877210/where-is-my-mind
+redirect_from: /post/41927877210/where-is-my-mind
 ---
 
 The following are all true statements:

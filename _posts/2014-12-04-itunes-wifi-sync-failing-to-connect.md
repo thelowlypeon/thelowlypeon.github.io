@@ -3,7 +3,7 @@ layout: post
 title: "iTunes Wifi Sync Failing to Connect"
 date: 2014-12-04 22:15:37 -0500
 categories: itunes iphone wifi technology
-redirect_from: /104384206711/itunes-wifi-sync-failing-to-connect
+redirect_from: /post/104384206711/itunes-wifi-sync-failing-to-connect
 ---
 
 For the last several months, my iPhone has been failing to sync over wifi with iTunes. My iPad has had no problem.

@@ -3,7 +3,7 @@ layout: post
 title:  "Fibonacci or Phi?"
 date:   2012-10-30 12:00:00 -0500
 categories: math fibonacci phi
-redirect_from: /41556640993/fibonacci-or-phi
+redirect_from: /post/41556640993/fibonacci-or-phi
 ---
 
 Last night, as Hurricane Sandy was growing ever more fierce, a friend of mine posted a satellite photo of the storm with a spiral laid out over it:
