@@ -19,6 +19,9 @@ collections:
   projects:
     output: true
     permalink: "/projects/:name"
+  films:
+    output: true
+    permalink: "/films/:name"
 
 navigation_pages:
   - Projects

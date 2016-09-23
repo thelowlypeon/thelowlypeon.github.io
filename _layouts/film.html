@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<div class="row">
+  <header class="post-header">
+    <div class="row project-feature bottom-buffer" id="feature-{{ page.slug }}">
+      <div class="col-md-10 col-md-offset-1">
+        <h1><a href="{{ page.url }}">{{ page.title }} <span class="date">({{ page.date | date:"%Y" }})</span></a></h1>
+      </div>
+    </div>
+  </header>
+
+  <div class="row post-content" itemprop="articleBody" style="text-align:center">
+
+    <div class="col-sm-8 col-sm-offset-2">
+      {% if page.aspect and page.aspect.height and page.aspect.width %}
+        {% assign aspect = page.aspect.height|times:100|divided_by:page.aspect.width %}
+      {% else %}
+        {% assign aspect = "56.25" %}
+      {% endif %}
+      <div class="video-container" style="padding-bottom:{{ aspect }}%">
+        <iframe src="{{ page.embed }}" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      </div>
+
+      <hr />
+
+      {{ page.content }}
+      </div>
+  </div>
+</div>

@@ -1,16 +1,13 @@
 ---
-layout: project
-title:  "'Commute'"
+layout: film
+title:  Commute
 date:   2011-05-13 10:59:32 -0500
-categories: film iphone
-image: commute.png
 caption: A video of my daily commute in Hangzhou, China, shot & edited entirely on an iPhone 4.
-more: https://vimeo.com/23712057
+more: https://vimeo.com/pcompernolle/commute
+thumbnail: https://i.vimeocdn.com/video/154673564_300x170.jpg
+embed: https://player.vimeo.com/video/23712057
+redirect_from: /projects/commute
 ---
-
-<iframe src="https://player.vimeo.com/video/23712057" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
-<hr />
 
 Every workday from 2007 through 2011, I took a bit of a journey to get to work. I'd first ride a public bike to get my daily breakfast, an egg pancake made by the world's greatest egg pancake master. I'd continue through the southern streets of the city, past the train station and a few rivers, until I arrived at 金衙庄, a neighborhood near the train station.
 

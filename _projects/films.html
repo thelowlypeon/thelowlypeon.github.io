@@ -1,0 +1,48 @@
+---
+layout: default
+title:  Films
+date:   2002-11-26 17:26:32 -0500
+categories: films
+image: films.png
+caption: "A collection of some of the short films I've made over the years. Most of them in terribly low quality, having lost the originals."
+more: /projects/films/
+---
+
+  <header class="post-header">
+    <div class="row text-center bottom-buffer">
+      <div class="col-md-10 col-md-offset-1">
+        <h1>Films</h1>
+      </div>
+    </div>
+  </header>
+
+{% assign columns = 3 %}
+{% assign last_column_index = columns|minus:1 %}
+{% for film in site.films reversed %}
+  {% assign column = forloop.index0|modulo:columns %}
+  {% if column == 0 %}
+    <div class="row">
+  {% endif %}
+      <div class="film film-thumbnail col-sm-{{ 12|divided_by:columns }}">
+        <a href="{{ film.url }}">
+          <h2>{{ film.title }} <span class="date">({{ film.date | date:"%Y" }})</span></h2>
+          <img src="{{ film.thumbnail }}" />
+        </a>
+      </div>
+  {% if column == last_column_index or forloop.last %}
+    </div>
+  {% endif %}
+{% endfor %}
+
+<hr />
+
+<div class="row text-center" style="margin-top:8em">
+  <div class="col-sm-8 col-sm-offset-2">
+    <p>{{ page.caption }}</p>
+    <p>
+      <span style="font-variant:small-caps;">Editor's note:</span>
+      I'm pretty sad that I've been unable to find a couple of my better shorts (including a wholly David Bowie themed surrealist film called <i>To Touch the Flaming Dove</i>) and a better quality version of <i>The Industrial Revolution Never Seemed So Attractive</i>, which won Best Film &amp; Best Stalker Movie at the Colorado College Film Festival in 2004.
+      I'll throw those on here as soon as I find them.
+    </p>
+  </div>
+</div>
