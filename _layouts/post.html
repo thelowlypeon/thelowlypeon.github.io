@@ -13,6 +13,9 @@ layout: default
     </div>
 
     <div class="col-sm-8 right">
+      {% if page.reposted_from %}
+        {% include repost.html %}
+      {% endif %}
       <div class="post-content" itemprop="articleBody">
         {{ content }}
       </div>
