@@ -15,6 +15,10 @@ permalink: /blog/
       <p class="date"> <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %-d, %Y" }}</time></p>
     </div>
     <div class="col-sm-8 right">
+      {% if post.reposted_from %}
+        <p><i>[Syndicated from <a href="{{ post.reposted_from.url }}">{{ post.reposted_from.site }}</a>]</i></p>
+      {% endif %}
+
       {% if post.blurb %}
         {{ post.blurb }}
       {% else %}
