@@ -3,7 +3,7 @@ layout: post
 title: "Facetime, China, and an Outdated iOS 6"
 date: 2014-04-27 08:58:18 -0500
 categories: facetime china ios
-redirect_from: /post/84017682565/facetime-china-and-an-outdated-ios-6
+redirect_from: /84017682565/facetime-china-and-an-outdated-ios-6
 ---
 
 My wife and I have a lot of ties in China, and as such, spend a good amount of time on FaceTime with one end in the states and one end in China. For the last two weeks, making a FaceTime call would show the status "connecting" for an instant and then fail. 

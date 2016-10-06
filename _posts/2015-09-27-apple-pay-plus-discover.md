@@ -3,7 +3,7 @@ layout: post
 title: "Why You Should Use Apple Pay + Discover"
 date: 2015-09-27 17:04:31 -0500
 categories: applepay discover cashback
-redirect_from: /post/130017372411/why-you-should-use-applepay-discover
+redirect_from: /130017372411/why-you-should-use-applepay-discover
 ---
 
 Why? Because you can save 10% on almost everything.

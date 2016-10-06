@@ -3,7 +3,7 @@ layout: post
 title:  "False Security"
 date:   2013-04-13 12:00:00 -0500
 categories: security technology
-redirect_from: /post/44572156188/false-security
+redirect_from: /44572156188/false-security
 ---
 
 I've had a pretty rough week. Mere days after finding out someone likely had possession of my name, address, &amp; social security number, and calling all my banks, credit cards, and the credit bureaus, I was given the opportunity to bathe my wounds in a pool of salt: someone else, in an unrelated incidence, had gotten a hold of my credit card and tried to buy a $2k computer.&nbsp;

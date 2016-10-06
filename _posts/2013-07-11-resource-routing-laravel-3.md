@@ -3,7 +3,7 @@ layout: post
 title:  "Resource Routing with Laravel 3"
 date:   2013-07-11 09:47:42 -0500
 categories: php laravel web
-redirect_from: /post/55174735020/resource-routing-laravel-3
+redirect_from: /55174735020/resource-routing-laravel-3
 ---
 
 I've been working on a side project recently using [Laravel](http://laravel.com), the “PHP framework for artisans". It’s a fantastic framework, based largely on concepts from Rails, except more flexible and not as snobby. Laravel 4 was released not long ago, which has some really excellent features, but after spending a full day attempting an upgrade, I made little enough progress that I had to `git reset --hard HEAD`.

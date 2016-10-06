@@ -3,7 +3,7 @@ layout: post
 title: "EXC_BAD_ACCESS When Using CoreImage"
 date: 2015-01-14 13:40:00 -0500
 categories: ios coreimage xcode swift
-redirect_from: /post/108096113846/excbadaccess-when-using-coreimage
+redirect_from: /108096113846/excbadaccess-when-using-coreimage
 ---
 
 I'm working on an iOS app, in Swift. In general, I _love_ Swift. Xcode is still learning some things about it, but in general, it's simply fantastic.

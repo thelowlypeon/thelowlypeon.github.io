@@ -3,7 +3,7 @@ layout: post
 title:  "On Journalism and Blogging"
 date:   2011-03-20 12:00:00 -0500
 categories: journalism
-redirect_from: /post/41554560635/journalists-and-bloggers
+redirect_from: /41554560635/journalists-and-bloggers
 ---
 
 My friend [Benjamin](http://benjaminthomas.org/) and I had a very interesting talk yesterday about the subtle — and not so subtle — differences between journalism and blogging. Our conversation was born as a result of the [New York _Times_](http://www.nytimes.com/) implementing a wildly expensive paywall, but mostly from our years-old debate about English and grammar and my continuing dissatisfaction with the feeds I’ve subscribed to.

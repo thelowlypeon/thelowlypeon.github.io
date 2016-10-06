@@ -3,7 +3,7 @@ layout: post
 title:  "International Roaming with Skype & Google Voice"
 date:   2010-11-22 12:00:00 -0500
 categories: phone iphone skype googlevoice google
-redirect_from: /post/41551167133/international-roaming-with-skype-and-google-voice
+redirect_from: /41551167133/international-roaming-with-skype-and-google-voice
 ---
 
 **The Situation**

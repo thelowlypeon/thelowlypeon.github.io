@@ -3,7 +3,7 @@ layout: post
 title:  "My Technology Setup"
 date:   2010-11-10 12:00:00 -0500
 categories: software hardware
-redirect_from: /post/41550583167/tech-setup
+redirect_from: /41550583167/tech-setup
 ---
 
 For years, my technology consisted only of an iPod with as much storage as possible, the cheapest cell phone I could find, and a laptop that was as powerful as possible with no regard to size or weight. This worked for me, and made things surprisingly simple.

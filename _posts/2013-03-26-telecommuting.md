@@ -3,6 +3,7 @@ layout: post
 title:  "Telecommuting"
 date:   2013-3-26 12:00:00 -0500
 categories: telecommuting remote work coworking
+redirect_from: /46345056836/telecommuting-video
 ---
 
 A few weeks ago, Amy Clark got in touch with me regarding a post I'd written a while back about working remotely. She later sent me a link to this video outlining the benefits of telecommuting.&nbsp;

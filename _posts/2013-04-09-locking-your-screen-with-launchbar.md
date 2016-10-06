@@ -3,7 +3,7 @@ layout: post
 title:  "Locking Your Screen with Launchbar"
 date:   2013-04-09 11:50:29 -0500
 categories: software osx
-redirect_from: /post/47547107904/locking-your-screen-with-launchbar
+redirect_from: /47547107904/locking-your-screen-with-launchbar
 ---
 
 One of the very few things I enjoy about using Windows is the easy ability to lock your computer with the simple key command windows-l. Macs don't have anything so simple, except to use your mouse (ugh!) and hot corners (ugh! ugh!).&nbsp;

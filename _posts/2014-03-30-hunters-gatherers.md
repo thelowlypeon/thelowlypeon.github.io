@@ -3,7 +3,7 @@ layout: post
 title: "Hunters & Gatherers"
 date: 2014-03-30 10:44:47 -0500
 categories: running exercise
-redirect_from: /post/81188504229/hunters-gatherers
+redirect_from: /81188504229/hunters-gatherers
 ---
 
 For the last few weeks, my wife, Daisy, has been thinking a lot about questions borne from her ethics class. We've had some excellent discussions, many about things I've either taken for granted, or connections I simply never drew.

@@ -19,7 +19,7 @@ After a bit more digging, we identified the problem: the example payload sent by
 
 We had registered our custom routing in our plugin using the hook [`registerSiteRoutes()`](https://craftcms.com/docs/plugins/hooks-reference#registerSiteRoutes):
 
-```
+```php
 public function registerSiteRoutes() {
     return array(
         'pluginHandle/process' => array('action' => 'controllerName/process')

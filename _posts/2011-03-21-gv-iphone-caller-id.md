@@ -3,7 +3,7 @@ layout: post
 title:  "Google Voice iPhone App Woes"
 date:   2011-03-21 12:00:00 -0500
 categories: googlevoice iphone technology
-redirect_from: /post/41555033381/gv-iphone-caller-id
+redirect_from: /41555033381/gv-iphone-caller-id
 ---
 
 I've been a proud user of Google Voice now since I first received an invitation only shortly after it was available. Because I live in China, it provides me with a convenient, cheap way to stay in touch with my US based friends and family, regardless of where I am at any given time. And, with [a little bit of tinkering](http://petercompernolle.com/2010/11/22/international-roaming-with-skype-and-google-voice), I can even have the number forward to my China Unicom mobile for a mere two cents per minute.
