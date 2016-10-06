@@ -1,16 +1,17 @@
 ---
-layout: project
+layout: film
 title:  "Music for 'The Kite'"
 date:   2006-02-27 17:26:32 -0500
 categories: music animation film
 image: thekite.png
 caption: I was honored by being asked to write the music for an incredible animated short by an old friend.
+thumbnail: https://i.vimeocdn.com/video/595738327_300x170.jpg
+embed: https://player.vimeo.com/video/185843673
 more: https://www.youtube.com/watch?v=hjrtZbUhAmo
+aspect:
+  width: 720
+  height: 404
 ---
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hjrtZbUhAmo" frameborder="0" allowfullscreen></iframe>
-
-<hr />
 
 I was honored by being asked to write the music for an incredible animated short by an old friend.
 
