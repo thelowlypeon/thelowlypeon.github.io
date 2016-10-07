@@ -9,7 +9,7 @@ categories: technology cloudflare automation bash
 
 <hr />
 
-When I [rewrote this site as static HTML](http://cloudflare.com) (generated using Jekyll), it seemed only natural to start caching it entirely.
+When I [rewrote this site as static HTML](/2016/new-site) (generated using Jekyll), it seemed only natural to start caching it entirely.
 And because I'm using [Cloudflare](https://cloudflare.com) to enable secure connections (because Github Pages doesn't), it seemed only natural to _also_ use Cloudflare's caching.
 
 Cloudflare seems to update their cache pretty regularly, so at times I'd push changes up and wait, and within a couple hours, the changes would be published. Most of the time, though, I'd log into Cloudflare and manually purge the cache. And because the site is pretty small, purging and regenerating the cache didn't take long at all.
