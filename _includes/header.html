@@ -5,16 +5,14 @@
       <a href="{{ site.root_url }}" class="navbar-brand" title="{{ site.title }}">{{ site.title }}</a>
     </div>
 
-  <div class="" id="main-navigation-collapse">
     <ul class="nav navbar-nav">
-        <li><a href="/projects/">Projects</a></li>
-        <li><a href="/blog/">Blog</a></li>
-        <li><a href="/etc/">Etc.</a></li>
-        {% if page.layout == 'film' or page.title == 'Films' %}
-          <li><a href="/projects/films">Films</a></li>
-        {% endif %}
-      </ul>
-      </div>
-    </nav>
+      <li><a href="/projects/">Projects</a></li>
+      <li><a href="/blog/">Blog</a></li>
+      <li><a href="/etc/">Etc.</a></li>
+      {% if page.layout == 'film' or page.title == 'Films' %}
+        <li><a href="/projects/films">Films</a></li>
+      {% endif %}
+    </ul>
+  </nav>
 
 </header>
