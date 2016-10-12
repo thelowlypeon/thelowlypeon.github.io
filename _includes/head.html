@@ -3,14 +3,55 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  {% if JEKYLL_ENV != "production" %}<meta name="robots" content="noindex">{% endif %}
+  <link rel="home" href="{{ site.url }}" />
+  {% if jekyll.environment != "production" %}<meta name="robots" content="noindex">{% endif %}
 
   <title>Peter Compernolle{% if page.title %} | {{ page.title | escape }}{% endif %}</title>
+  <meta property="og:title" content="Peter Compernolle{% if page.title %} | {{ page.title | escape }}{% endif %}" />
   <meta content="Peter Compernolle" property="og:site_name">
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description | strip_newlines }}{% endif %}" property="og:description">
+  <meta name="keywords" content="peter compernolle chicago software {% if page.tags %}{{ page.tags|join: ' ' }}{% endif %}{% if page.categories %}{{ page.categories|join: ' ' }}{% endif %}">
+
   <meta content="Chicago" property="og:locality">
   <meta content="IL" property="og:region">
   <meta content="USA" property="og:country-name">
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="en_us" />
+  <meta property="og:url" content="{{ site.url }}" />
+  <meta property="og:image" content="{{ site.url }}assets/images/meditating.png" />
+  <meta property="og:see_also" content="https://twitter.com/{{ site.twitter_username }}" />
+  <meta property="og:see_also" content="https://github.com/{{ site.github_username }}" />
+
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ site.url }}{{ site.baseurl }}/sitemap.xml" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "Peter Compernolle",
+    "description": "Peter Compernolle writes software and rides bikes in Chicago, IL.",
+    "url": "{{ site.url }}",
+    "image": "{{ site.url }}assets/images/my-real-face.png",
+    "sameAs": ["https://twitter.com/{{ site.twitter_username }}","https://github.com/{{ site.github_username }}"],
+    "author": {
+      "@type": "Person",
+      "name": "Peter Compernolle",
+      "url": "{{ site.url }}"
+    }
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Person",
+    "name": "Peter Compernolle",
+    "url": "{{ site.url }}",
+    "sameAs": ["https://twitter.com/{{ site.twitter_username }}","https://github.com/{{ site.github_username }}"]
+  }
+  </script>
 
   {% if page.layout == 'resume' %}
   <link rel="stylesheet" href="/assets/css/resume.css">
@@ -18,17 +59,12 @@
   <link rel="stylesheet" href="/assets/css/main.css">
   {% endif %}
 
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ site.url }}{{ site.baseurl }}/sitemap.xml" />
-
   <link href="/assets/images/apple-touch-icon-57x57.png" rel="apple-touch-icon" sizes="57x57" type="image/png" />
   <link href="/assets/images/apple-touch-icon-72x72.png" rel="apple-touch-icon" sizes="72x72" type="image/png" />
   <link href="/assets/images/apple-touch-icon-144x144.png" rel="apple-touch-icon" sizes="144x144" type="image/png" />
   <link href="/assets/images/apple-touch-icon-precomposed.png" rel="apple-touch-icon-precomposed" sizes="144x144" type="image/png" />
   <link href="/assets/images/apple-touch-icon.png" rel="apple-touch-icon" sizes="144x144" type="image/png" />
   <link href="/favicon.ico" rel="icon" type="image/vnd.microsoft.icon" />
-
 
   {% include google_analytics.html %}
 </head>
