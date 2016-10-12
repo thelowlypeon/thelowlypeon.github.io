@@ -13,6 +13,9 @@ aspect:
   height: 404
 ---
 
+_(Use the password `kite` to watch here, or check it out on [YouTube](https://www.youtube.com/watch?v=hjrtZbUhAmo).)_
+
 I was honored by being asked to write the music for an incredible animated short by an old friend.
 
 Film by Gwynne Simmons, 2006.
+
