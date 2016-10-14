@@ -16,7 +16,15 @@ layout: default
       {% if page.reposted_from %}
         {% include repost.html %}
       {% endif %}
+
+      {% if page.editors_note %}
+        {% include editors_note.html %}
+      {% endif %}
       <div class="post-content" itemprop="articleBody">
+        {% if page.updates %}
+          {% include updates.html %}
+        {% endif %}
+
         {{ content }}
       </div>
 

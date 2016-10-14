@@ -285,7 +285,9 @@ img.app-icon {
   height: 100%;
 }
 
-.syndicated {
+.syndicated, .editors-note, .post-updates {
   span { font-variant: small-caps; }
+}
+.syndicated, .editors-note {
   font-size: 0.9em;
 }

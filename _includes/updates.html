@@ -1,0 +1,9 @@
+<div class="post-updates">
+  {% for update in page.updates %}
+    <span>Updated {{ update[0] | date:"%B %-d, %Y" }}:</span>
+
+    {{ update[1] | prepend:date | markdownify }}
+  {% endfor %}
+</div>
+
+<hr />

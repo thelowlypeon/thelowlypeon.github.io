@@ -3,6 +3,8 @@ layout: post
 title: "Purging Cloudflare Caches"
 date: 2016-10-07 13:14:56 -0500
 categories: technology cloudflare automation bash
+updates:
+  2016-10-14: "I made this script much more flexible. Read more about it [here](/2016/cloudflare-cli)." 
 ---
 
 **tldr;** Automatically purge Cloudflare caches with [this script](https://raw.githubusercontent.com/thelowlypeon/dotfiles/master/bin/purge-cf-cache).
