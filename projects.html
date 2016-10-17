@@ -4,26 +4,37 @@ title: Projects
 permalink: /projects/
 ---
 
-{% for project in site.projects reversed %}
+{% assign featured_projects = site.projects | where: "featured", true %}
+{% assign nonfeatured_projects = site.projects %}
 
-  {% assign index_in_other_projects = forloop.index0|minus:2|modulo:3 %}
-  {% if forloop.index0 == 0 %}
-    <div class="row featured-projects">
-  {% elsif index_in_other_projects == 0 %}
+<div class="row featured-projects">
+{% for project in featured_projects reversed %}
+  <div class="col-md-6">
+    {% include projects/featured.html project=project %}
+  </div>
+{% endfor %}
+</div>
+
+<div class="hr-with-text">
+  <span class="hr-text-container">
+    <span>&#9650;</span> Featured <span>&middot;</span> All <span>&#9660;</span>
+  </span>
+</div>
+
+
+
+{% for project in nonfeatured_projects reversed %}
+
+  {% assign index_in_projects = forloop.index0|modulo:3 %}
+  {% if index_in_projects == 0 %}
     <div class="row other-projects">
   {% endif %}
 
-    {% if forloop.index0 < 2 %}
-      <div class="col-md-6">
-        {% include projects/featured.html project=project %}
-      </div>
-    {% else %}
       <div class="col-md-4">
         {% include projects/thumbnail.html project=project %}
       </div>
-    {% endif %}
 
-  {% if forloop.index0 == 1 or forloop.index0 == forloop.length or index_in_other_projects == 2 %}
+  {% if forloop.index0 == forloop.length or index_in_projects == 2 %}
     </div>
   {% endif %}
 {% endfor %}
