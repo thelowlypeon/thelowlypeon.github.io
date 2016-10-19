@@ -6,6 +6,7 @@ categories: chicago web
 image: outoftheloop.png
 caption: Simple facts about the greatest city on Earth.
 more: http://outoftheloopfacts.com
+redirect_from: /67719574870/my-new-project-out-of-the-loop
 ---
 
 Things have been busy and somewhat stressful at work, so I've been itching to start a side project that would be interesting, not too time consuming, and fun. Over the last few weeks, I'd been bouncing ideas around, and I decided to come at it from a different angle. What do I love?
