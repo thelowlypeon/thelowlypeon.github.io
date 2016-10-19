@@ -9,6 +9,7 @@ more: https://itunes.apple.com/us/app/no-js/id1062685513?mt=8
 redirect_from:
   - /post/134015575196/introducing-nojs
   - /post/135125946151/nojs-on-the-app-store
+  - /134015575196/introducing-nojs
 ---
 
 Easily view any page without JS on your iOS device with no.js. Easily debug your site, improve load times, or avoid pesky interruptions.
