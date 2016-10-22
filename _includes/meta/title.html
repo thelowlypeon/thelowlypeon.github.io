@@ -1,0 +1,4 @@
+{% assign _title = page.title | default: site.title | escape %}
+<title>{{ _title }}</title>
+<meta property="og:title" content="{{ _title }}" />
+<meta name="twitter:title" content="{{ _title }}" />

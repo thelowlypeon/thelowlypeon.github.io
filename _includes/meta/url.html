@@ -1,0 +1,4 @@
+{% assign _url = page.url | replace:'index.html','' | prepend: site.url %}
+<link rel="home" href="{{ site.url }}" />
+<link rel="canonical" href="{{ _url }}">
+<meta property="og:url" content="{{ _url }}" />

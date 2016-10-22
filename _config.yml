@@ -1,5 +1,10 @@
 # Site settings
 title: Peter Compernolle
+keywords:
+  - peter
+  - compernolle
+  - chicago
+  - software
 email: me@petercompernolle.com
 hex_email: "%6d%65@%70%65%74%65%72%63%6f%6d%70%65%72%6e%6f%6c%6c%65.%63%6f%6d"
 description: > # this means to ignore newlines until "baseurl:"

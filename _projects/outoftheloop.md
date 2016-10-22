@@ -3,7 +3,7 @@ layout: project
 title:  "Out of the Loop"
 date:   2013-11-22 21:12:0 -0500
 categories: chicago web
-image: outoftheloop.png
+image: projects/outoftheloop.png
 caption: Simple facts about the greatest city on Earth.
 more: http://outoftheloopfacts.com
 redirect_from: /67719574870/my-new-project-out-of-the-loop

@@ -1,0 +1,28 @@
+
+  <script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "Peter Compernolle",
+    "description": "Peter Compernolle writes software and rides bikes in Chicago, IL.",
+    "url": "{{ site.url }}",
+    "image": "{{ site.url }}/assets/images/my-real-face.png",
+    "sameAs": ["https://twitter.com/{{ site.twitter_username }}","https://github.com/{{ site.github_username }}"],
+    "author": {
+      "@type": "Person",
+      "name": "Peter Compernolle",
+      "url": "{{ site.url }}"
+    }
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Person",
+    "name": "Peter Compernolle",
+    "url": "{{ site.url }}",
+    "sameAs": ["https://twitter.com/{{ site.twitter_username }}","https://github.com/{{ site.github_username }}"]
+  }
+  </script>
+
