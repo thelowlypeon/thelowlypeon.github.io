@@ -171,6 +171,9 @@ hr#header-divider {
   font-variant:small-caps;
   text-align: center;
 }
+.blog-container h1.blog-container-header a.current {
+  text-decoration: underline;
+}
 
 @media (max-width: 767px) {
   #etc-page {

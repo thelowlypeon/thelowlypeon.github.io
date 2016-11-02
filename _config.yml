@@ -21,6 +21,9 @@ collections:
   posts:
     output: true
     permalink: "/:year/:title"
+  lily:
+    output: true
+    permalink: "/lily/:year/:month/:day/:name"
   projects:
     output: true
     permalink: "/projects/:name"
@@ -32,6 +35,11 @@ navigation_pages:
   - Projects
   - Blog
   - Etc.
+
+blog_header_links:
+  "/blog/": "Recent Posts"
+  "/archive/": "Archive"
+  "/lily/": "Lily"
 
 # Build settings
 markdown: kramdown

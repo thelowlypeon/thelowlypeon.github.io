@@ -5,37 +5,8 @@ permalink: /archive/
 description: "I talk a lot. These are some of the things I've said."
 ---
 
-<div class="blog-container blog-archive">
-{% include blog-index-header.html %}
-
-{% assign year = -1 %}
-{% assign month = -1 %}
-{% for post in site.posts %}
-  {% assign post_year = post.date|date:"%Y" %}
-  {% assign post_month = post.date|date:"%Y%m" %}
-  {% if post_year != year %}
-    {% if forloop.index0 != 0 %}</dl></div></div><!-- end {{ year }} -->{% endif %}
-    {% assign year = post_year %}
-
-    <div class="row" id="{{ post_year }}">
-    <div class="col-sm-3 left">
-      <h3>{{ post_year }}</h3>
-    </div>
-    <div class="col-sm-8 right">
-      <dl>
-  {% endif %}
-
-      {% if post_month != month %}
-        {% assign month = post_month %}
-        <dt>{{ post.date|date:"%B" }}</dt>
-      {% endif %}
-
-        <dd><a href="{{ post.url }}">{{ post.title }}</a></dd>
-
-{% endfor %}
-</dl></div></div><!-- end last year -->
-<hr />
-</div>
+{% assign entries = site.posts %}
+{% include collection.html %}
 
 <p class="text-center">
   <a href="/blog/">View Recent Posts</a>

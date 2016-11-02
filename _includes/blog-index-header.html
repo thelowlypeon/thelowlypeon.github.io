@@ -1,5 +1,8 @@
   <h1 class="blog-container-header">
-    <a href="/blog/">Recent Posts</a> | <a href="/archive/">Archive</a>
+    {% for link in site.blog_header_links %}
+      <a href="{{ link[0] }}">{{ link[1] }}</a>
+      {% unless forloop.last %}|{% endunless %}
+    {% endfor %}
   </h1>
 
   <hr />
