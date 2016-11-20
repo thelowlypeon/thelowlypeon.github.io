@@ -6,7 +6,7 @@ categories: podcast ecommerce technology development
 editors_note: "Warning! Podcast advertisement & Self Promotion!"
 ---
 
-A few weeks ago I was invited to speak with Noah Bernson on [CTRL+CLICK CAST](http://ctrlclickcast.com/episodes/ecommerce-shipping-fulfillment)
+A few weeks ago I was invited to speak with Noah Bernsohn on [CTRL+CLICK CAST](http://ctrlclickcast.com/episodes/ecommerce-shipping-fulfillment)
 about ecommerce and order fulfillment.
 
 For those of you who don't want to listen to me talk for an hour (which should be
@@ -22,3 +22,5 @@ hectic chatting with the Cubs parade going on outside
 and the footsteps on the creaky floor above us, but I think it turned out well.
 
 Hope you enjoy it, and thanks for the invite, CTRL+CLICK CAST!
+
+### [e-commerce Shipping & Fulfillment on CTRL+CLICK CAST](http://ctrlclickcast.com/episodes/ecommerce-shipping-fulfillment)
