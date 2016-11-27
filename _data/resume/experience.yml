@@ -1,3 +1,11 @@
+- company: Vibes Media
+  start: 2016-11-01
+  positions:
+    - title: Senior Software Engineer & Team Lead
+      misc:
+        - points:
+          - "Service oriented architecture with primarily Rails applications"
+          - "Lead for Special Operations team, with focus on mobile passbook and wallet integration"
 - company: Side Projects / Out of Something, LLC
   start: 2012-12-01
   positions:
