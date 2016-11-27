@@ -1,0 +1,24 @@
+<div class="row remove-bottom">
+  <div class="fourteen columns alpha">
+    <p>Noteworthy Projects:</p>
+    <ul class="disc">
+    {% if projects %}
+        {% for project in projects %}
+        <li>{{ project }}</li>
+        {% endfor %}
+    {% endif %}
+    {% if project_categories %}
+      {% for project_category in project_categories %}
+        <li>
+        <p>{{ project_category[0] }}:</p>
+        <ul>
+            {% for project in project_category[1] %}
+            <li>{{ project|markdownify }}</li>
+            {% endfor %}
+        </ul>
+        </li>
+      {% endfor %}
+    {% endif %}
+    </ul>
+  </div>
+</div>

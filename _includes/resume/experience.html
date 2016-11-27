@@ -1,0 +1,18 @@
+<div id="experience" class="row section">
+  <div class="two columns alpha">
+    <h2>Experience</h2>
+  </div>
+
+  <div class="fourteen columns omega detail" style="margin-top:4px;">
+    {% for experience in site.data.resume.experience %}
+    <h3>{{ experience.company }} &mdash; {{ experience.start | date: "%B %Y" }} - {{ experience.end | date:"%B %Y" | default:"present" }}</h3>
+    <ul>
+      {% for position in experience.positions %}
+      <li>
+        {% include resume/position.html %}
+      </li>
+      {% endfor %}
+    </ul>
+    {% endfor %}
+  </div>
+</div>

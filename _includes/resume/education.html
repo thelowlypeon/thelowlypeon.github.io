@@ -1,0 +1,21 @@
+<div id="education" class="row section">
+  <div class="two columns alpha">
+    <h2>Education</h2>
+  </div>
+  
+  <div class="fourteen columns omega detail" style="margin-top:4px;">
+    {% for school in site.data.resume.education %}
+    <h3>{{ school.name }} &mdash; {{ school.years }}</h3>
+    <ul>
+      <li>
+        <h4>{{ school.degree }}</h4>
+        <ul class="disc">
+        {% for accomplishment in school.accomplishments %}
+          <li>{{ accomplishment|markdownify }}</li>
+        {% endfor %}
+        </ul>
+      </li>
+    </ul>
+    {% endfor %}
+  </div>
+</div>

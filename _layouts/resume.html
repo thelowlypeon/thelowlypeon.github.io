@@ -3,305 +3,33 @@
 {% include head.html %}
 {% assign year = site.time | date: '%Y' %}
 <body>
-<div class="container" id="resume">
-<div class="sixteen columns">
-
-	<h1 id="title"><a href="/"><span id="name-first">Peter</span> <span id="name-j">J</span> <span id="name-last">Compernolle</span></a></h1>
-	<div class="row" id="contact-info">
-        <p>
-            <span id="address">Chicago</span>
-            <span id="contact"><a href="mailto:{{ site.hex_email }}">me<span style="display:none;">null</span>@petercompernolle<span style="display:none">blabla</span>.com</a></span>
-            <span id="github">/(<a href="http://twitter.com/{{ site.twitter_username }}">@</a>|<a href="https://github.com/{{ site.github_username }}">github.com|<a href="https://bitbucket.org/{{ site.bitbucket_username }}">bitbucket.org</a>)\/thelowlypeon/</span>
-        </p>
-	</div>
-
-	<div id="basics" class="row section">
-        <div class="two columns alpha">
-            <h2>Summary</h2>
-        </div>
-
-        <div class="fourteen columns omega detail">
-            <p>
-                With a BA in mathematics and computer science from Colorado College, I have always been drawn to solving complex problems.
-                I've spent over four years analyzing data and customizing software for an international manufacturing company while living in China, started two companies, lead a team of engineers, been lead engineer on several projects, and have built some pretty amazing things.
-            </p>
-            <p>
-                I am currently looking to exercise and practice my skills in the software development process and to make awesome stuff, and to grow as much as I can as an engineer.
-            </p>
-        </div>
-	</div>
-
-
-	<div id="experience" class="row section">
-        <div class="two columns alpha">
-		    <h2>Experience</h2>
-        </div>
-
-        <div class="fourteen columns omega detail" style="margin-top:4px;">
-            <h3>One Design Company &mdash; November 2014 - present</h3>
-            <ul>
-                <li>
-                    <h4>Senior Software Engineer</h4>
-                    <p>Responsibilities:</p>
-                    <ul class="disc">
-                        <li><p>As lead engineer, I enforced strict code review, development, and deployment processes</p></li>
-                        <li><p>Work with clients to determine ideal solutions, provide them with options of varying cost/benefit</p></li>
-                    </ul>
-                    <p>Noteworthy Projects:</p>
-                    <ul class="disc">
-                        <li>
-                            <p>iOS:</p>
-                            <ul>
-                                <li><a target="blank" href="https://eastmanegg.com/app">Eastman Egg Company</a> &mdash; Principal engineer, iOS app and API. (<a href="https://onedesigncompany.com/news/eastman-egg-app-building-a-living-software-project">Read more</a>)</li>
-                                <li><a target="blank" href="https://www.hestahome.com">Hesta Home</a> &mdash; Principal engineer, iOS app.</li>
-                            </ul>
-                        </li>
-                        <li>
-                            <p>Web:</p>
-                            <ul>
-                                <li><a target="blank" href="https://fieldnotesbrand.com">fieldnotesbrand.com</a> &mdash; ecommerce site for Coudal's Field Notes notebooks</li>
-                                <li><a target="blank" href="https://shalecast.com">shalecast.com</a> &mdash; Monitor the estimated value of your gas or oil well, including estimated forecasts.</li>
-                                <li><a target="blank" href="https://hines.com">hines.com</a> &mdash; Real estate</li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-
-            <h3>Personal / Out of Something, LLC &mdash; December 2012 - present</h3>
-            <ul>
-                <li>
-                    <h4>Cofounder, Partner, Sole Developer</h4>
-                    <p><a href="http://outofpages.com">Out of Pages</a></p>
-                    <ul class="disc">
-                        <li><p>Notebook subscriptions. Written initially with CodeIngniter and then Laravel 3 (no longer in operation)</p></li>
-                        <li><p>Cofounding Out of Pages, I learned what it means to run a business and evaluate cost/benefit tradeoffs with real consequences</p></li>
-                    </ul>
-                    <p>Station to Station
-                        <small>
-                            (<a target="blank" href="https://stationtostationapp.com">website</a>,
-                            <a target="blank" href="https://itunes.apple.com/us/app/apple-store/id936262970">app store</a>)
-                        </small>
-                    </p>
-                    <ul class="disc">
-                        <li><p>An iOS app for finding bikeshare docks or stations closest to your origin or destination. The app, written in Swift, uses my <a href="https://github.com/thelowlypeon/bikeshare-kit">BikeshareKit</a> framework, which contacts my private API, written using the micro framework Grape. The associated website is written in Sinatra.</p></li>
-                        <li><p>Station to Station is an app I use nearly every day. It's also been a great way to keep up with the latest available iOS features, like geofencing, 3D Touch, and in-app purchases</li>
-                    </ul>
-                    <p>No JS <small>(<a target="blank" href="https://itunes.apple.com/us/app/no-js/id1062685513?mt=8">app store</a>)</small></p>
-                    <ul class="disc">
-                        <li><p>A dead simple iOS app for quickly viewing a website with Javascript disabled.</p></li>
-                        <li><p>Uses iOS Action Extension to view links or the current webpage. Great for debugging, web development, or preventing finicky JS from ruining your browsing experience.</p></li>
-                    </ul>
-                </li>
-            </ul>
-
-            <h3>Wellspring Worldwide &mdash; April 2013 - November 2014</h3>
-            <ul>
-                <li>
-                    <h4>Senior Software Engineer &amp; Team Lead</h4>
-                    <p>Responsibilities:</p>
-                    <ul class="disc">
-                        <li>
-                            <p>Build upon years-old proprietary framework to improve speed, security, and reliability</p>
-                        </li>
-                        <li>
-                            <p>Practice in depth the agile development process</p>
-                        </li>
-                    </ul>
-                    <p>Accomplishments:</p>
-                    <ul class="disc">
-                        <li>
-                            <p>Built a "portal" that will be used by thousands of people around the world to manage grants</p>
-                        </li>
-                        <li>
-                            <p>Lead a team using Test Driven Development</p>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-
-            <h3>Parsecco, Inc &mdash; March 2012 - April 2013</h3>
-            <ul>
-                <li>
-                    <h4>Technical Cofounder, CTO</h4>
-                    <p>Responsibilities:</p>
-                    <ul class="disc">
-                        <li>
-                            <p>Lead developer of Parsecco written on the LAMP stack in CodeIgniter and later Laravel</p>
-                        </li>
-                    </ul>
-                    <p>Accomplishments:</p>
-                    <ul class="disc">
-                        <li>
-                            <p>parsec.co was an elegant, robust, and scalable website. I learned more during this year than I ever thought possible.</p>
-                        </li>
-                        <li>
-                            <p>I had to try. And we did some great stuff until the well ran dry.</p>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-
-            <h3>Bray International, Inc &mdash; August 2007 - March 2012</h3>
-            <ul>
-                <li>
-                    <h4>Microsoft SQL Database Administrator, specializing in data analysis &amp; integration &mdash; 2009 - 2012</h4>
-                    <p>Responsibilities:</p>
-                    <ul class="disc">
-                        <li>
-                            <p>BI development and major data integrations with third parties, architect of new data warehouse for aggregating and reporting</p>
-                        </li>
-                    </ul>
-                    <p>Accomplishments:</p>
-                    <ul class="disc">
-                        <li>
-                            <p>
-                                Replaced a reporting system that took over eight hours for each of 40+ companies daily with one with better error handling that took less than twelve minutes to run for all companies, and could be re-run at any time
-                            </p>
-                        </li>
-                    </ul>
-
-                    <h4>ERP Software Developer (2009-2012) &amp; Conversion Specialist (2007-2009, 2011-2012): ERP MK &amp; ERP LN</h4>
-                    <p>Responsibilities:</p>
-                    <ul class="disc">
-                        <li>
-                            <p>Work closely with the business team to build customization and issue bug fixes for otherwise unsupported software</p>
-                        </li>
-                        <li>
-                            <p>Configure software to suit local government or business requirements, and train users, in Mandarin and English</p>
-                        </li>
-                    </ul>
-                    <p>Accomplishments:</p>
-                    <ul class="disc">
-                        <li>
-                            <p>Successfully implemented in more than a dozen offices in China, as well as major manufacturing facilities in China, the US, Vietnam, and India</p>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-    <!--
+  <div class="container" id="resume">
+    <div class="sixteen columns">
+    
+      {% include resume/header.html %}
+    
+      {% include resume/summary.html %}
+    
+      {% if site.data.resume.experience %}
+        {% include resume/experience.html %}
+      {% endif %}
+    
+      {% if site.data.resume.skills %}
+        {% include resume/skills.html %}
+      {% endif %}
+    
+      {% if site.data.resume.education %}
+        {% include resume/education.html %}
+      {% endif %}
+    
+      {% if page.references %}
+        {% include resume/references.html %}
+      {% else %}
+        <div id="footer">Code samples and references available upon request</div>
+      {% endif %}
+    
     </div>
-
-	<h1 id="title"><span id="name-first">Peter</span> <span id="name-j">J</span> <span id="name-last">Compernolle</span><span style="float:right;line-height:32px;">page 2 of 2</span></h1>
-	<div class="row" id="contact-info">
-        <p>
-            <span id="address">Chicago</span>
-            <span id="contact"><%= mail_to "me@petercompernolle.com", 'me<span style="display:none;">null</span>@petercompernolle<span style="display:none">blabla</span>.com'.html_safe, encode: "hex" %></span>
-            <span id="github">/(@|github\.com|bitbucket\.org)\/thelowlypeon/</span>
-        </p>
-	</div>
-
-    <div class="row section">
-    -->
-    </div>
-
-	<div id="skills" class="row section">
-        <div class="two columns alpha">
-            <h2>Skills</h2>
-        </div>
-
-        <div class="fourteen columns omega detail" style="margin-top:4px;">
-            <h3>Languages &amp; Platforms</h3>
-            <ul class="disc">
-                <li>
-                    <p>Web Development</p>
-                    <ul><li>LAMP/PHP (incl. Laravel, CraftCMS, Zend, CodeIgniter) &mdash; {{ year | minus:2005 }}yrs</li></ul>
-                    <ul><li>Ruby (incl. Rails, Sinatra, Jekyll) &mdash; {{ year | minus:2012 }}yrs</li></ul>
-                    <ul><li>Javascript (vanilla, jQuery, Exress, node.js) &mdash; {{ year | minus:2007 }}yrs</li></ul>
-                </li>
-                <li>
-                    <p>iOS &mdash; {{ year | minus:2014 }}yrs</p>
-                    <ul><li>Swift, XCode, ReactiveCocoa, Alamofire, some Objective-C</li></ul>
-                </li>
-            </ul>
-            <h3>Data &amp; Data Systems</h3>
-            <ul class="disc">
-                <li>
-                    <p>Relational &mdash; {{ year | minus:2004 }}yrs</p>
-                    <ul>
-                        <li>MySQL ({{ year | minus:2004 }}yrs), PostgreSQL ({{ year | minus:2014 }}yrs), Microsoft SQL 2000 - 2008 (4yrs)</li>
-                    </ul>
-                </li>
-                <li>
-                    <p>Document Store / Schema-less &mdash; {{ year | minus:2013 }}yrs</p>
-                    <ul><li>MongoDB, Firebase</li></ul>
-                </li>
-                <li><p>Hyperion Essbase &mdash; 2yrs, including certification from Perficient, Inc, in Houston (2011)</p></li>
-            </ul>
-            <h3>Miscellaneous</h3>
-            <ul class="disc">
-                <li><p>Fluent in Mandarin Chinese</p></li>
-                <li><p>My fingers sometimes go faster than my brain when using Vim + Tmux + ctrl-p:wq</p></li>
-            </ul>
-        </div>
-	</div>
-
-	<div id="education" class="row section">
-        <div class="two columns alpha">
-            <h2>Education</h2>
-        </div>
-		
-        <div class="fourteen columns omega detail" style="margin-top:4px;">
-            <h3>Colorado College &mdash; 2003 - 2006</h3>
-            <ul>
-                <li>
-                    <h4>BA, Mathematics &amp; Computer Science</h4>
-                    <ul class="disc">
-                        <li>
-                            <p>Received Howard Hughes Institute scholarship, 2003</p>
-                        </li>
-                        <li>
-                            <p>Tutor of Mathematics and Computer Science &mdash; 2005 - 2007</p>
-                        </li>
-                        <li>
-                            <p>Minor in Asian studies</p>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-	</div>
-
-    {% if page.references %}
-	<div id="references" class="row section last">
-        <div class="two columns alpha">
-            <h2>References</h2>
-        </div>
-		
-        <div class="fourteen columns omega detail" style="margin-top:4px;">
-            <ul class="disc">
-                <li>
-                    <h4>Eric Kingery, CTO Wellspring Worldwide</h4>
-                    <p>
-                        <a href="mailto:%65%72%69%63.%6b%69%6e%67%65%72%79@%77%65%6c%6c%73%70%72%69%6e%67%77%6f%72%6c%64%77%69%64%65.%63%6f%6d">eric.kingery@wellspringworldwide.com</a>
-                    </p>
-                </li>
-
-                <li>
-                    <h4>Andy Giannini, Sr Software Engineer &amp; Security Consultant</h4>
-                    <p>
-                        <a href="mailto:%61%6e%64%79.%67%69%61%6e%6e%69%6e%69@%67%6d%61%69%6c.%63%6f%6d">andy.giannini@gmail.com</a>
-                    </p>
-                </li>
-
-                <li>
-                    <h4>Laurel Hechanova, Cofounder &amp; Designer, <a href="http://outofsomething.com">Out of Something, LLC</a></h4>
-                    <p>
-                        <a href="mailto:%6c%61%75%72%65%6c@%6f%75%74%6f%66%73%6f%6d%65%74%68%69%6e%67.%63%6f%6d">laurel@outofsomething.com</a>
-                    </p>
-                </li>
-            </ul>
-        </div>
-	</div>
-	<div id="footer">Code samples available upon request</div>
-    {% else %}
-	<div id="footer">Code samples and references available upon request</div>
-    {% endif %}
-
-
-</div>
-</div>
-{% include google_analytics.html %}
+  </div>
+  {% include google_analytics.html %}
 </body>
 </html>

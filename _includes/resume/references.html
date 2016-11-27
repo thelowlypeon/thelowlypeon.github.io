@@ -1,0 +1,19 @@
+<div id="references" class="row section last">
+  <div class="two columns alpha">
+    <h2>References</h2>
+  </div>
+  
+  <div class="fourteen columns omega detail" style="margin-top:4px;">
+    <ul class="disc">
+      {% for reference in site.data.resume.references %}
+      <li>
+        <h4>{{ reference.name }}, {{ reference.title }}</h4>
+        <p>
+          <a href="mailto:{{ reference.hex_email }}">email {{ reference.email }}</a>
+        </p>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+<div id="footer">Code samples available upon request</div>

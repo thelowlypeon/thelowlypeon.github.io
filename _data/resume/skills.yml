@@ -1,0 +1,26 @@
+- section: "Languages & Platforms"
+  categories:
+    - name: Web Development
+      skills:
+        - name: "LAMP/PHP (incl. Laravel, CraftCMS, Zend, CodeIgniter)"
+          start: 2005
+        - name: "Ruby (incl. Rails, Sinatra, Jekyll)"
+          start: 2012
+        - name: "Javascript (vanilla, jquery, node.js, etc)"
+          start: 2007
+    - name: iOS
+      skills:
+        - name: "Swift, XCode, ReactiveCocoa, Alamofire, some Objective-C"
+          start: 2014
+- section: "Data & Data Systems"
+  skills:
+    - name: Relational
+      start: 2004
+      details: MySQL, PostgreSQL, Microsoft SQL
+    - name: Document Store / Schema-less
+      start: 2013
+    - name: Hyperion Essbase
+      details: 2yrs, including certification from Perficient, Inc, in Houston (2011)
+- section: "Miscellaneous"
+  skills:
+    - name: Fluent in Mandarin Chinese

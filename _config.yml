@@ -27,6 +27,9 @@ collections:
   films:
     output: true
     permalink: "/films/:name"
+  resume:
+    experience:
+      output: false
 
 navigation_pages:
   - Projects

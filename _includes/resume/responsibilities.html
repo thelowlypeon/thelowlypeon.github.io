@@ -1,0 +1,10 @@
+<div class="row remove-bottom">
+  <div class="fourteen columns alpha">
+    <p>Responsibilities:</p>
+    <ul class="disc">
+      {% for responsibility in responsibilities %}
+      <li>{{ responsibility|markdownify }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>

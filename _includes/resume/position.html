@@ -1,0 +1,36 @@
+<div class="position">
+  {% if position.title %}<h4>{{ position.title }}</h4>{% endif %}
+
+  {% if position.responsibilities %}
+    {% assign responsibilities = position.responsibilities %}
+    {% include resume/responsibilities.html %}
+  {% endif %}
+
+  {% if position.projects or position.project_categories %}
+    {% assign projects = position.projects %}
+    {% assign project_categories = position.project_categories %}
+    {% include resume/projects.html %}
+  {% endif %}
+
+  {% if position.misc %}
+    <div class="row">
+    {% for misc in position.misc %}
+  
+    {% if misc.column %}
+      <div class="seven columns {% if misc.column == "left" %}alpha{% else %}omega{% endif %}">
+    {% else %}
+      <div class="fourteen columns alpha">
+    {% endif %}
+  
+    <p>{{ misc.title|markdownify }}</p>
+    <ul class="disc">
+      {% for point in misc.points %}
+      <li>{{ point|markdownify }}</li>
+      {% endfor %}
+    </ul>
+  
+      </div><!-- end column positioning -->
+    {% endfor %}
+    </div>
+  {% endif %}
+</div>

@@ -1,0 +1,71 @@
+- company: Side Projects / Out of Something, LLC
+  start: 2012-12-01
+  positions:
+    - misc:
+        - title: "Station to Station <small>([website](https://stationtostationapp.com), [app store](https://itunes.apple.com/us/app/apple-store/id936262970))</small>"
+          points:
+            - "An iOS app for finding bikeshare docks or stations closest to your origin or destination. The app, written in Swift, uses my [BikeshareKit](https://github.com/thelowlypeon/bikeshare-kit) framework, which contacts my private API, built using the micro framework Grape. The associated website is built using Sinatra."
+            - "Station to Station is an app I use nearly every day. It's also been a great way to keep up with the latest available iOS features, like geofencing, 3D Touch, and in-app purchases"
+        - title: "No JS <small>([app store](https://itunes.apple.com/us/app/no-js/id1062685513?mt=8))</small>"
+          points:
+            - "A dead simple iOS app for quickly viewing a website with Javascript disabled."
+            - "Uses iOS Action Extension to view links or the current webpage. Great for debugging, web development, or preventing finicky JS from ruining your browsing experience."
+        - title: "Out of Pages <small>(no longer in operation)</small>"
+          points:
+            - "Notebook subscriptions. Built initially with CodeIngniter and then Laravel 3"
+            - "Cofounding Out of Pages, I learned what it means to run a business and evaluate cost/benefit tradeoffs with real consequences"
+- company: One Design Company
+  start: 2014-11-01
+  end: 2016-11-15
+  positions:
+    - title: Senior Software Engineer
+      responsibilities:
+        - As lead engineer, I enforced strict code review, development, and deployment processes
+        - Worked with clients to determine ideal solutions and timelines, providing them with options of varying cost/benefit
+      misc:
+        - title: Noteworthy iOS Projects
+          column: left
+          points:
+            - "[Eastman Egg Company](https://eastmanegg.com/app) &mdash; Principal engineer, Swift / Rails ([read more](https://onedesigncompany.com/news/eastman-egg-app-building-a-living-software-project))"
+            - "[Hesta Home](https://www.hestahome.com) &mdash; Principal engineer, Swift / Firebase"
+            - "[One Mapping Kit](https://github.com/onedesign/one-mapping-kit) &mdash; Principal engineer, Swift"
+        - title: Noteworthy Web Projects
+          column: right
+          points:
+            - "[fieldnotesbrand.com](https://fieldnotesbrand.com) &mdash; Craft CMS & Custom Plugins"
+            - "[shalecast.com](https://shalecast.com) &mdash; Rails"
+            - "[hines.com](https://hines.com) &mdash; Laravel"
+- company: Wellspring Worldwide
+  start: 2013-04-01
+  end: 2014-11-01
+  positions:
+    - title: Senior Software Engineer & Team Lead
+      misc:
+        - points:
+          - "Lead an agile team using Test Driven Development and a focus on the software development process"
+          - "Build upon years-old proprietary PHP framework to improve speed, security, and reliability"
+- company: Parsecco, Inc
+  start: 2012-03-01
+  end: 2013-04-01
+  positions:
+    - title: Technical Cofounder, CTO
+      misc:
+        - points:
+          - "Lead developer and architect of parsec.co, built on the LAMP stack in CodeIgniter and later Laravel"
+          - "parsec.co was an elegant, robust, and scalable website. I learned more during this year than I ever thought possible."
+          - "I had to try. And we did some great stuff until the well ran dry."
+- company: Bray International, Inc
+  start: 2007-08-01
+  end: 2012-03-01
+  positions:
+    - title: "Microsoft SQL Database Administrator, specializing in data analysis &amp; integration &mdash; 2009 - 2012"
+      responsibilities:
+        - "BI development and major data integrations with third parties, architect of new data warehouse for aggregating and reporting"
+      projects:
+        - "Replaced a reporting system that took over eight hours for each of 40+ companies daily with one with better error handling that took less than twelve minutes to run for all companies, and could be re-run at any time"
+    - title: "ERP Software Developer (2009-2012) &amp; Conversion Specialist (2007-2009, 2011-2012): ERP MK &amp; ERP LN"
+      responsibilities:
+        - "Work closely with the business team to build customization and issue bug fixes for otherwise unsupported software"
+        - "Configure software to suit local government or business requirements, and train users, in Mandarin and English"
+      projects:
+        - "Successfully implemented in more than a dozen offices in China, as well as major manufacturing facilities in China, the US, Vietnam, and India"

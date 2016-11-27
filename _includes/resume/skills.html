@@ -1,0 +1,33 @@
+<div id="skills" class="row section">
+  <div class="two columns alpha">
+    <h2>Skills</h2>
+  </div>
+
+  <div class="fourteen columns omega detail" style="margin-top:4px;">
+    {% for skillset in site.data.resume.skills %}
+      <h3>{{ skillset.section }}</h3>
+      {% if skillset.categories %}
+      <ul class="disc">
+        {% for category in skillset.categories %}
+          <li>
+            <p>{{ category.name }}</p>
+            <ul>
+              {% for skill in category.skills %}
+                <li>{{ skill.name }}{% if skill.start %} &mdash; {{ year | minus:skill.start }}yrs{% endif %}</li>
+              {% endfor %}
+            </ul>
+          </li>
+        {% endfor %}
+      </ul>
+      {% else %}
+      <ul class="disc">
+        {% for skill in skillset.skills %}
+          <li><p>{{ skill.name }}{% if skill.details %} &mdash; {{ skill.details }}{% endif %}{% if skill.start %} &mdash; {{ year | minus:skill.start }}yrs{% endif %}</p></li>
+        {% endfor %}
+      </ul>
+
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
