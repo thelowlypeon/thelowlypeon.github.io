@@ -1,31 +1,106 @@
 ---
-layout: project
+layout: default
 title:  "no.js"
 date:   2015-11-26 17:26:32 -0500
 categories: ios javascript
 image: projects/nojs.png
 caption: Easily view any page without JS on your iOS device with no.js. Easily debug your site, improve load times, or avoid pesky interruptions.
 more: https://itunes.apple.com/us/app/no-js/id1062685513?mt=8
+appstore: https://itunes.apple.com/us/app/no-js/id1062685513?mt=8
 redirect_from:
   - /post/134015575196/introducing-nojs
   - /post/135125946151/nojs-on-the-app-store
   - /134015575196/introducing-nojs
 ---
 
-Easily view any page without JS on your iOS device with no.js. Easily debug your site, improve load times, or avoid pesky interruptions.
+<script src="/assets/scripts/projects/nojs/jquery.min.js"></script>
+<script src="/assets/scripts/projects/nojs/bootstrap.min.js"></script>
 
-<a href="https://itunes.apple.com/us/app/no-js/id1062685513?mt=8"><img src="/assets/images/app-store.png" width="180px;"></a>
+<div class="modal fade" tabindex="-1" role="dialog" id="annoying-popup">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">You're allowing this to happen!</h4>
+      </div>
+      <div class="modal-body">
+        <div id="ip-info">
+          <h5>How's the weather in <strong id="address"></strong>, by the way?</h5>
+          <p>Oh, and by the way. I know your IP is <code id="ip"></code>.</p>
+        </div>
+        <p>By enabling javascript, this stuff is bound to happen.</p>
+        <p>But never fear!</p>
+        <p>Download <a href="{{ page.appstore }}">no.js</a> and refresh the page temporarily without javascript!</p>
+        <div style="margin-top:20px;">
+          <a href="{{ page.appstore }}"><img src="/assets/images/app-store.png" width="180px;"></a>
+   	    </div>
+      </div>
+      <div class="modal-footer">
+        <a href="#" data-dismiss="modal">No thanks,<br />I love being interrupted</a>
+        <span style="display:none;" class="modal-sorry">Sorry. Javascript can do this too :(</span>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
 
-***
+<noscript>
+  <div class="row">
+    <header class="post-header">
+      <div class="row project-feature bottom-buffer" id="feature-{{ page.slug }}">
+        <div class="col-md-10 col-md-offset-1">
+          <h3 style="color:#a7b583">Looks like your Javascript is disabled! Hooray!</h3>
+          <p>Did you see how much faster the page loaded?</p>
+          <hr />
+        </div>
+      </div>
+    </header>
+  </div>
+</noscript>
 
-A week or so ago, I went to a site that wouldn't allow scrolling when Javascript was enabled. It turned out to be a pesky Safari CSS bug, but it wasn't a problem when Javascript was disabled, because Modernizr was assigning the CSS class.
+<div class="row">
+  <div class="col-sm-3 col-sm-offset-2">
+    <a href="{{ page.appstore }}"><img src="/assets/images/{{ page.image }}" width="180px" height="180px" class="img-circle drop-shadow" /></a>
+  </div>
+  <div class="col-sm-6">
+    <h2>no.js</h2>
 
-Meanwhile, every time someone sends me a link to the Chicago Tribune, I get stuck behind the paywall, and need to go into Settings / Safari / Advanced, and toggle Javascript. Then go back to the page, reload, and then go back into settings.
+    <p>Ever realize how pesky javascript can be?</p>
 
-On top of all that, Javascript sometimes just drives me crazy.
+    <p>
+      It tracks you,
+      it can run malicious code in your browser,
+      it blocks content with annoying popups,
+      and it breaks lots of websites.
+    </p>
 
-So I decided: why not make a simple action extension that allows a quick, painless, temporary disabling of Javascript. iOS 9 introduced SFSafariViewController, a simple way to present an in-app browser with all the benefits of native Safari, as well as content blockers - perfect for my new idea.
+    <h4>With no.js, available for iOS, with only two taps you can:</h4>
+    <ul>
+      <li>Prevent client-side trackers</li>
+      <li>Prevent execution of <a href="http://www.welivesecurity.com/2016/12/06/readers-popular-websites-targeted-stealthy-stegano-exploit-kit-hiding-pixels-malicious-ads/">malicious client-side code</a></li>
+      <li>Prevent popups, including many paywalls</li>
+      <li>Prevent websites from breaking, including annoying scrolljacking business that breaks basic browser functionality</li>
+    </ul>
 
-A few hours later, I concluded it was impossible to use SFSafariViewController without conditionally setting content blockers and then unsetting them, which was too complicated. So instead, I used a good ol' fashioned WKWebView, with some lightweight UI elements.
+    <div style="padding-top:20px;">
+      <a href="{{ page.appstore }}"><img src="/assets/images/app-store.png" width="180px;"></a>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
 
-In the end, viola! no.js is now finished, working wonderfully, and pending app store review. Hooray!
+setTimeout(function() {
+  $('#ip-info').hide();
+  try {
+    $.get("http://ipinfo.io", function(response) {
+      $("#ip").html(response.ip);
+      $("#address").html(response.city + ", " + response.region);
+      $('#ip-info').show();
+    }, "jsonp");
+  } catch(e) {}
+
+  $('#annoying-popup').modal({});
+  $('#annoying-popup .modal-footer a').hover(function(){
+    $(this).fadeOut(function() { $('#annoying-popup .modal-footer .modal-sorry').fadeIn(); });
+  });
+}, 2000);
+</script>
