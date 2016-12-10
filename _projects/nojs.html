@@ -93,7 +93,7 @@ redirect_from:
 setTimeout(function() {
   $('#ip-info').hide();
   try {
-    $.get("http://ipinfo.io", function(response) {
+    $.get("//ipinfo.io", function(response) {
       $("#ip").html(response.ip);
       $("#address").html(response.city + ", " + response.region);
       $('#ip-info').show();
