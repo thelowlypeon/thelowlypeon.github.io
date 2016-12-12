@@ -1,6 +1,12 @@
-<p class="editors-note">
-  [<span>Editor's note</span>:
-  {{ page.editors_note }}]
-</p>
+{% if page.editors_note_markdown %}
+  <div class="editors-note" style="font-style:italic;">
+    {{ page.editors_note|markdownify }}
+  </div>
+{% else %}
+  <p class="editors-note">
+    [<span>Editor's note</span>:
+    {{ page.editors_note }}]
+  </p>
+{% endif %}
 
 <hr />
