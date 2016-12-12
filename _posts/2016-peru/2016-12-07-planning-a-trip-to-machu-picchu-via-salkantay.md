@@ -10,7 +10,7 @@ editors_note: >
   This is broken into three parts:
 
    1. Planning & Research (this post)
-   2. Preparation & Packing List
+   2. [Preparation & Packing List](/2016/preparing-for-the-salkantay-pass-to-machu-picchu)
    3. The Trip
 ---
 
@@ -65,4 +65,7 @@ At this point, we had our hotel arrangements taken care of, thanks to Peru For L
 We bought our airfare (which, yikes!, is expensive and tricky depending on your origin city), and were set to start preparing for our trip.
 
 * * *
-Stay tuned! Next up: preparing for a week long trip to Peru, including four days hiking up to Machu Picchu.
+
+Stay tuned!
+
+Next up: [Preparing for a week long hiking trip in Peru &rarr;](/2016/preparing-for-the-salkantay-pass-to-machu-picchu)
