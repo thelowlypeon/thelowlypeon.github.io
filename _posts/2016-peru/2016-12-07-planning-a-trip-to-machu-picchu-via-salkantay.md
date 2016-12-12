@@ -66,6 +66,4 @@ We bought our airfare (which, yikes!, is expensive and tricky depending on your 
 
 * * *
 
-Stay tuned!
-
-Next up: [Preparing for a week long hiking trip in Peru &rarr;](/2016/preparing-for-the-salkantay-pass-to-machu-picchu)
+Continue to part 2: [Preparing for a week long hiking trip in Peru &rarr;](/2016/preparing-for-the-salkantay-pass-to-machu-picchu)

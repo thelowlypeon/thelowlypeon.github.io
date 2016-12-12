@@ -102,7 +102,6 @@ So, I opted to take my d70s. It indeed turned out to be a lot more to carry arou
 
 * * *
 
-Previously: [&larr; Researching a trip to Machu Picchu via Salkantay](/2016/planning-a-trip-to-machu-picchu-via-salkantay)
+Read part 1: [&larr; Researching a trip to Machu Picchu via Salkantay](/2016/planning-a-trip-to-machu-picchu-via-salkantay)
 
-Next up: Hiking the Salkantay Pass to Machu Picchu
-
+Stay tuned for part 2: Hiking the Salkantay Pass to Machu Picchu
