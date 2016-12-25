@@ -8,7 +8,7 @@ editors_note: "Baby warning! If you don't have a baby, you probably won't be int
 
 In the months leading up to our daughter Lily's birth, my wife and I did a bunch of
 research about all the _stuff_ we'd need. It was overwhelming, seeing just how much _stuff_
-involved in adding a new human to the mix. It was in fact _so_ overwhelming that I quickly
+is involved in adding a new human to the mix. It was in fact _so_ overwhelming that I quickly
 entered this mode of trying to minimize how much stuff we'd need, and after visualizing
 the hundreds of diapers -- estimates averaged around 8-12 diapers _per day_ -- we'd have
 stocked up in Lily's room, I started researching cloth diapers.
