@@ -33,7 +33,7 @@ have led a few teams of excellent engineers,
 wrote [a couple](http://eastmanegg.com/app) [of iOS](https://stationtostationapp.com) [apps](https://itunes.apple.com/us/app/no-js/id1062685513?mt=8),
 and met countless wonderful people.
 
-And now, I live in Chicago with my wife (and, soon, our daughter!),
+And now, I live in Chicago with my wife and daughter,
 I bike everywhere,
 run a few times a week,
 and travel back to China as often as I can.
