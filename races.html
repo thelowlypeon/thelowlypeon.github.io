@@ -1,28 +1,28 @@
 ---
 layout: default
-title: Races
-permalink: /races
-description: "My race schedule"
+title: Running
+permalink: /running
+redirect_from: /races
+description: "I run a lot. These are races I've done or am doing."
 ---
-
 
 <div class="races-container races-archive">
 
-{% assign upcoming = site.data.races | where:'upcoming',true %}
-{% if upcoming.size > 0 %}
-  <div class="row">
-    <div class="col-sm-10 col-sm-offset-1 text-center">
-      <h1 class="races-container-header">Upcoming Races</h1>
-        <dl>
-          {% for race in upcoming %}
-            <dt>{{ race.date|date: '%b %d, %Y' }}</dt>
-            <dd><a href="{{ race.url }}">{{ race.name }}</a> &mdash; {{ race.distance }}</dd>
-          {% endfor %}
-        </dl>
+  {% assign upcoming = site.data.races | where:'upcoming',true %}
+  {% if upcoming.size > 0 %}
+    <div class="row">
+      <div class="col-sm-10 col-sm-offset-1 text-center">
+        <h1 class="races-container-header">Upcoming Races</h1>
+          <dl>
+            {% for race in upcoming %}
+              <dt>{{ race.date|date: '%b %d, %Y' }}</dt>
+              <dd><a href="{{ race.url }}">{{ race.name }}</a> &mdash; {{ race.distance }}</dd>
+            {% endfor %}
+          </dl>
+        </div>
       </div>
-    </div>
-  <hr />
-{% endif %}
+    <hr />
+  {% endif %}
 
   <div class="row">
     <div class="col-sm-10 col-sm-offset-1">
