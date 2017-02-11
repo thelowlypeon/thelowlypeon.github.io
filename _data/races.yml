@@ -13,7 +13,7 @@
 - name: Chicago Spring
   url: http://www.run131series.com/chicago/
   date: 2015-05-17
-  distance: Half Marathon
+  distance: 10k
   time: '46:00'
   results_url: https://results.chronotrack.com/event/results/event/event-8604?lc=en
 - name: Bolder Boulder
