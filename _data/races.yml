@@ -1,3 +1,56 @@
+- name: Bolder Boulder
+  url: http://onlineraceresults.com/event/view_event.php?event_id=8227
+  date: 2012-05-28
+  distance: 10k
+  time: '51:56'
+  results_url: http://onlineraceresults.com/race/view_race.php?submit_action=select_result&race_id=25304&re_NO=DA332#racetop
+- name: Chicago Spring
+  url: http://www.run131series.com/chicago
+  date: 2013-05-19
+  distance: Half Marathon
+  time: '1:51:45'
+  results_url: https://results.chronotrack.com/event/results/event/event-2250?lc=en
+- name: Bolder Boulder
+  url: http://onlineraceresults.com/event/view_event.php?event_id=10347
+  date: 2013-05-27
+  distance: 10k
+  time: '49:03'
+  results_url: http://onlineraceresults.com/race/view_race.php?submit_action=select_result&race_id=32347&re_NO=CB317#racetop
+- name: Race Against Hate
+  url: http://www.ywca.org/site/c.ewK0LoO8LmK6F/b.7966989/k.ED0/Ricky_Byrdsong_Memorial_Race_Against_Hate.htm
+  date: 2013-06-16
+  distance: 10k
+  time: '46:33'
+  results_url: http://results.active.com/events/ricky-byrdsong-memorial-race-against-hate--4/10k-overall/expanded?
+- name: Bastille Day
+  url: http://www.bastilledayrun.com/
+  date: 2013-07-11
+  distance: 8k
+  time: '36:00'
+  results_url: http://www.theracershub.com/results_view.php?id=2114&result_type=db&highlight=compernolle
+- name: Rock n Roll
+  date: 2013-07-21
+  url: http://www.runrocknroll.com/chicago
+  distance: Half Marathon
+  time: '1:53:51'
+  results_url: http://running.competitor.com/rnrresults?eId=43&eiId=136&seId=&pId=2084
+- name: Flying Turkey
+  url: 2013-11-28
+  distance: 5k
+  time: '22:42'
+  results_url: https://www.strava.com/activities/171793332
+- name: Cinco de Miler
+  url: https://www.cincodemiler.com/chicago
+  date: 2014-05-05
+  distance: 5mi
+  time: '36:46'
+  results_url: http://ramracing.enmotive.com/results/index/eventid
+- name: Bolder Boulder
+  url: http://onlineraceresults.com/event/view_event.php?event_id=12771
+  date: 2014-05-26
+  distance: 10k
+  time: '47.25'
+  results_url: http://onlineraceresults.com/race/view_race.php?submit_action=select_result&race_id=39815&re_NO=BA256#racetop
 - name: Bastille Day
   url: http://www.bastilledayrun.com/
   date: 2014-07-10
@@ -17,10 +70,10 @@
   time: '46:00'
   results_url: https://results.chronotrack.com/event/results/event/event-8604?lc=en
 - name: Bolder Boulder
-  url: http://www.bolderboulder.com
+  url: http://onlineraceresults.com/event/view_event.php?event_id=15314
   date: 2015-05-25
   distance: 10k
-  time: '46:09.19'
+  time: '46:09'
   results_url: http://onlineraceresults.com/race/view_race.php?race_id=47441&submit_action=select_result&re_NO=B217
 - name: The Original 5k
   url: https://www.facebook.com/TheOriginal5K
@@ -47,7 +100,7 @@
   time: '32:04'
   results_url: https://www.strava.com/activities/370815008
 - name: Bolder Boulder
-  url: http://www.bolderboulder.com
+  url: http://onlineraceresults.com/event/view_event.php?event_id=17298
   date: 2016-05-30
   distance: 10k
   time: '46:49'
