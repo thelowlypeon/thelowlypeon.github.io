@@ -106,7 +106,7 @@ hr#header-divider {
     }
 }
 
-#etc-page , .blog-container {
+#etc-page , .blog-container, .races-container {
   div.left p , div.right .details {
     color: $gray;
     font-style: italic;
@@ -154,11 +154,19 @@ hr#header-divider {
   }
 }
 
-.blog-container p.date {
+.races-container th, .races-container td {
+  border: none !important;
+}
+.races-container .table tbody tr td {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.blog-container p.date, .races-container p.date {
   font-size: 0.9em;
 }
 
-.blog-archive dt {
+.blog-archive dt, .races-archive th, .races-archive dt {
   font-variant: small-caps;
   margin-top: 0.5em;
 }
@@ -166,7 +174,7 @@ hr#header-divider {
   margin-top: 0;
 }
 
-.blog-container h1.blog-container-header {
+.blog-container h1.blog-container-header, .races-container h1.races-container-header {
   font-size:16px;
   font-variant:small-caps;
   text-align: center;
@@ -179,7 +187,7 @@ hr#header-divider {
     }
     ul { padding-left: 0; list-style-type: none; }
   }
-  .blog-container {
+  .blog-container, .races-container {
     div.right , div.left {
       text-align: left;
     }

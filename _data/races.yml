@@ -1,0 +1,81 @@
+- name: Bastille Day
+  url: http://www.bastilledayrun.com/
+  date: 2014-07-10
+  distance: 8k
+  time: '35:53'
+  results_url: http://www.theracershub.com/results_view.php?id=2396&result_type=db&highlight=2169
+- name: Hot Chocolate
+  url: https://www.hotchocolate15k.com/chicago
+  date: 2014-11-09
+  distance: 5k
+  time: '21:21'
+  results_url: http://ramracing.enmotive.com/results/index/eventid
+- name: Chicago Spring
+  url: http://www.run131series.com/chicago/
+  date: 2015-05-17
+  distance: Half Marathon
+  time: '46:00'
+  results_url: https://results.chronotrack.com/event/results/event/event-8604?lc=en
+- name: Bolder Boulder
+  url: http://www.bolderboulder.com
+  date: 2015-05-25
+  distance: 10k
+  time: '46:09.19'
+  results_url: http://onlineraceresults.com/race/view_race.php?race_id=47441&submit_action=select_result&re_NO=B217
+- name: The Original 5k
+  url: https://www.facebook.com/TheOriginal5K
+  date: 2015-06-11
+  distance: 5k
+  time: '20:06'
+  results_url: https://www.strava.com/activities/323631101
+- name: Ragnar Great River Leg 1
+  url: https://www.runragnar.com/event-detail/relay/greatriver
+  date: 2015-08-14
+  distance: 7.6mi
+  time: '1:04:12'
+  results_url: https://www.strava.com/activities/370815237
+- name: Ragnar Great River Leg 2
+  url: https://www.runragnar.com/event-detail/relay/greatriver
+  date: 2015-08-15
+  distance: 5.5mi
+  time: '46:27'
+  results_url: https://www.strava.com/activities/370815123
+- name: Ragnar Great River Leg 3
+  url: https://www.runragnar.com/event-detail/relay/greatriver
+  date: 2015-08-15
+  distance: 4mi
+  time: '32:04'
+  results_url: https://www.strava.com/activities/370815008
+- name: Bolder Boulder
+  url: http://www.bolderboulder.com
+  date: 2016-05-30
+  distance: 10k
+  time: '46:49'
+  results_url: http://bolderboulder2016.onlineraceresults.com/individual.php?bib=AB220
+- name: Turkey Day Run
+  url: http://www.turkeyday-5k.com/races/chicago/
+  date: 2016-11-24
+  distance: 5k
+  time: '20:48'
+  results_url: https://results.chronotrack.com/event/results/event/event-17696
+- name: F^3
+  url: http://www.f3running.com
+  date: 2017-01-28
+  distance: 5k
+  time: '22:13'
+  results_url: https://results.chronotrack.com/event/results/event/event-27252#
+- name: Lakefront 10 Miler
+  url: http://www.cararuns.org/en/Race/Wintrust-Lakefront-10-Miler--5K/
+  date: 2017-03-18
+  distance: 10mi
+  upcoming: true
+- name: Chicago Spring
+  url: http://www.run131series.com/chicago/
+  date: 2017-05-21
+  distance: Half Marathon
+  upcoming: true
+- name: Bolder Boulder
+  url: http://www.bolderboulder.com
+  date: 2017-05-29
+  distance: 10k
+  upcoming: true
