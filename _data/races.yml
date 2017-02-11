@@ -64,6 +64,7 @@
   distance: 5k
   time: '22:13'
   results_url: https://results.chronotrack.com/event/results/event/event-27252#
+
 - name: Lakefront 10 Miler
   url: http://www.cararuns.org/en/Race/Wintrust-Lakefront-10-Miler--5K/
   date: 2017-03-18
@@ -78,4 +79,9 @@
   url: http://www.bolderboulder.com
   date: 2017-05-29
   distance: 10k
+  upcoming: true
+- name: Chicago Marathon
+  url: https://www.chicagomarathon.com
+  date: 2017-10-08
+  distance: Marathon
   upcoming: true
