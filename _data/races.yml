@@ -10,6 +10,7 @@
   distance: Half Marathon
   time: '1:51:45'
   results_url: https://results.chronotrack.com/event/results/event/event-2250?lc=en
+  pr: Half Marathon
 - name: Bolder Boulder
   url: http://onlineraceresults.com/event/view_event.php?event_id=10347
   date: 2013-05-27
@@ -57,6 +58,7 @@
   distance: 8k
   time: '35:53'
   results_url: http://www.theracershub.com/results_view.php?id=2396&result_type=db&highlight=2169
+  pr: 8k
 - name: Hot Chocolate
   url: https://www.hotchocolate15k.com/chicago
   date: 2014-11-09
@@ -69,6 +71,7 @@
   distance: 10k
   time: '46:00'
   results_url: https://results.chronotrack.com/event/results/event/event-8604?lc=en
+  pr: 10k
 - name: Bolder Boulder
   url: http://onlineraceresults.com/event/view_event.php?event_id=15314
   date: 2015-05-25
@@ -81,6 +84,7 @@
   distance: 5k
   time: '20:06'
   results_url: https://www.strava.com/activities/323631101
+  pr: 5k
 - name: Ragnar Great River Leg 1
   url: https://www.runragnar.com/event-detail/relay/greatriver
   date: 2015-08-14

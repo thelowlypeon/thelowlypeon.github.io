@@ -1,0 +1,34 @@
+---
+layout: default
+title: Official PRs
+permalink: /running/records
+description: "I run a lot. These are my best official times"
+---
+<div class="races-container races-archive">
+  {% include running-index-header.html %}
+
+  <div class="row">
+    <div class="col-sm-10 col-sm-offset-1 text-center">
+      <h1 class="races-container-header">Best Official Times</h1>
+        <dl>
+          {% for race in site.data.races %}
+            {% unless race.pr %}{% continue %}{% endunless %}
+            <dt>{{ race.pr }}</dt>
+            <dd>
+              <a href="{{ race.url }}">{{ race.name }}</a>,
+              {{ race.date|date: '%b %d, %Y' }}
+              &mdash;
+              <b>
+              {% if race.results_url %}
+                <a href="{{ race.results_url}}">{{ race.time }}</a>
+              {% else %}
+                {{ race.time }}
+              {% endif %}
+              </b>
+            </dd>
+          {% endfor %}
+        </dl>
+    </div>
+  </div>
+
+</div>
