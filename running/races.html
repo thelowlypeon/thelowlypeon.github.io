@@ -18,6 +18,7 @@ description: "I run a lot. These are races I've done."
         <tbody>
           {% assign year = -1 %}
           {% assign month = -1 %}
+          {% assign displayedBBInfo = false %}
           {% for race in site.data.races reversed %}
             {% if race.upcoming %}{% continue %}{% endif %}
       
@@ -48,6 +49,11 @@ description: "I run a lot. These are races I've done."
               </td>
               <td>{{ race.distance }}</td>
               <td>
+                {% if race.rating %}
+                  <small>{{ race.rating }}{% unless displayedBBInfo %}*{% endunless %}</small>
+                {% endif %}
+              </td>
+              <td>
                 {% if race.time %}
                   {% if race.results_url %}
                     <a href="{{ race.results_url}}">{{ race.time }}</a>
@@ -57,6 +63,7 @@ description: "I run a lot. These are races I've done."
                 {% endif %}
               </td>
             </tr>
+            {% assign displayedBBInfo = true %}
           {% endfor %}
         </tbody>
       </table>
@@ -65,6 +72,9 @@ description: "I run a lot. These are races I've done."
   <hr />
 </div>
 
+<p class="text-center">
+  *Rating corresponds to <a href="http://bb10k.bolderboulder.com/waves-qualifying/">Bolder Boulder's Qualifying Waves</a> (<a href="/assets/images/bolderboulder-qualifying-times.pdf">chart</a>).
+</p>
 <p class="text-center">
   <a title="it may take me a while to log these..." href="https://www.strava.com/athletes/5810518">View more...</a>
 </p>
