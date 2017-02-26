@@ -3,7 +3,7 @@ layout: post
 title:  "Time Travel - Part I"
 date:   2017-02-26 06:42:00 -0500
 categories: travel me thisisprobablyboringformostpeople
-image: posts/time-travel/am-i-the-doctor.png
+image: posts/time-travel/am-i-the-doctor-combined.png
 editors_note: "This post continues in the future! <a href='/2017/time-travel-part-2'>Read Part II</a>."
 ---
 

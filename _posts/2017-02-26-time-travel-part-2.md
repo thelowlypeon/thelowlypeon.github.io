@@ -3,7 +3,7 @@ layout: post
 title:  "Time (and relative dimension in space) Travel - Part II"
 date:   2017-02-26 08:07:00 -0500
 categories: travel me tardis doctorwho georgemoore
-image: posts/time-travel/am-i-the-doctor.png
+image: posts/time-travel/am-i-the-doctor-combined.png
 editors_note: "This post is a continuation from the past! It might not make a whole lot of sense unless you go back and <a href='/2017/time-travel'>read it</a> first."
 ---
 
