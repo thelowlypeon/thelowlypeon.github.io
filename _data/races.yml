@@ -138,12 +138,14 @@
   time: '22:13'
   results_url: https://results.chronotrack.com/event/results/event/event-27252#
   rating: BB
-
 - name: Lakefront 10 Miler
   url: http://www.cararuns.org/en/Race/Wintrust-Lakefront-10-Miler--5K/
   date: 2017-03-18
   distance: 10mi
-  upcoming: true
+  results_url: https://results.chronotrack.com/event/results/event/event-28654
+  time: '1:14:59'
+  rating: BA
+
 - name: Chicago Spring
   url: http://www.run131series.com/chicago/
   date: 2017-05-21
