@@ -124,3 +124,5 @@ If you like Docker, awesome. If you like LXC Containers, that's awesome(r). If y
 Moving the components of my application into different containers (whether servers, LXC containers, whatever) made me think more about how they talk to each other, what they need to run effectively, and how to isolate possibly vulnerabilities. For my more significant applications, like the API for [Station to Station](http://stationtostationapp.com), I can have one machine with different containers, which I can easily scale, clone, whatever, as my needs change. Or for my smaller side projects, I can share resources by having a single webserver forwarding traffic to each application, a single database that I can backup or add slaves to, and I can keep costs way down by doing so on fewer machines.
 
 Either way, if you host web applications, this is something worth looking into.
+
+Also, I really love Linux.
