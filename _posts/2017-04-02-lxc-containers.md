@@ -131,8 +131,9 @@ Also, I really love Linux.
 
 Turns out you can connect to LXC containers by hostname pretty easily.
 
-1. On Ubuntu 16.04, update `/etc/default/lxc-net` to set the top level domain. The default is `lxc`, which you can set by uncommenting the line `LXC_DOMAIN="lxc"`.
-2. Restart the LXC net service `sudo service lxc-net restart`
-3. Add forwarding by editing `/etc/dnsmasq.d/lxc` and adding `server=/lxc/10.0.3.1` (this is `/etc/NetworkManager/dnsmasq.d/lxc.conf` for Ubuntu 14.04)
+1. Install `dnsmaq` with `sudo apt-get install dnsmasq`
+2. On Ubuntu 16.04, update `/etc/default/lxc-net` to set the top level domain. The default is `lxc`, which you can set by uncommenting the line `LXC_DOMAIN="lxc"`.
+3. Restart the LXC net service `sudo service lxc-net restart`
+4. Add forwarding by editing `/etc/dnsmasq.d/lxc` and adding `server=/lxc/10.0.3.1` (this is `/etc/NetworkManager/dnsmasq.d/lxc.conf` for Ubuntu 14.04)
 
 Then you can connect using `ssh user@container-name.lxc`, or verify using `dig container-name.lxc`
