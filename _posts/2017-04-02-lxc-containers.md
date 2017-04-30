@@ -82,7 +82,7 @@ Then I could ssh using `ssh appname` or `ssh deploy@appname`, which would first 
 ### Notes
 
 * Containers don't autostart by default. Which is good! But easy to forget.
-* Containers use DHCP on a virtual private network. You can make it a bit easier to connect by adding a line in `/etc/hosts`, but either way, you'll probably want to set the container's IP to be static if you plan on connecting to it in any way other than `lxc-console`.
+* Containers use DHCP on a virtual private network. You can make it a bit easier to connect by adding a line in `/etc/hosts`, but either way, you'll probably want to set the container's IP to be static if you plan on connecting to it in any way other than `lxc-console` (see update below to connect by hostname)
 * Containers use DHCP by default, so if you plan to do this often, you'll want to set your container's IP to be static (in `/etc/network/interface`).
 * Containers, by default, use the same filesystem as the host. But you can also set them up to use different filesystems, such as `btrfs`. The benefits [are pretty mindblowing](https://www.flockport.com/supercharge-lxc-with-btrfs/).
 
@@ -126,3 +126,13 @@ Moving the components of my application into different containers (whether serve
 Either way, if you host web applications, this is something worth looking into.
 
 Also, I really love Linux.
+
+## Update
+
+Turns out you can connect to LXC containers by hostname pretty easily.
+
+1. On Ubuntu 16.04, update `/etc/default/lxc-net` to set the top level domain. The default is `lxc`, which you can set by uncommenting the line `LXC_DOMAIN="lxc"`.
+2. Restart the LXC net service `sudo service lxc-net restart`
+3. Add forwarding by editing `/etc/dnsmasq.d/lxc` and adding `server=/lxc/10.0.3.1` (this is `/etc/NetworkManager/dnsmasq.d/lxc.conf` for Ubuntu 14.04)
+
+Then you can connect using `ssh user@container-name.lxc`, or verify using `dig container-name.lxc`
