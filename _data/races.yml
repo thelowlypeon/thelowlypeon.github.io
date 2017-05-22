@@ -11,7 +11,6 @@
   distance: Half Marathon
   time: '1:51:45'
   results_url: https://results.chronotrack.com/event/results/event/event-2250?lc=en
-  pr: Half Marathon
   rating: D
 - name: Bolder Boulder
   url: http://onlineraceresults.com/event/view_event.php?event_id=10347
@@ -152,6 +151,7 @@
   results_url: https://results.chronotrack.com/event/results/event/event-18979
   time: '1:39:43'
   rating: BA
+  pr: Half Marathon
 
 - name: Bolder Boulder
   url: http://www.bolderboulder.com

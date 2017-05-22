@@ -11,7 +11,7 @@ description: "I run a lot. These are my best official times"
     <div class="col-sm-10 col-sm-offset-1 text-center">
       <h1 class="races-container-header">Best Official Times</h1>
         <dl>
-          {% for race in site.data.races %}
+          {% for race in site.data.races reversed %}
             {% unless race.pr %}{% continue %}{% endunless %}
             <dt>{{ race.pr }}</dt>
             <dd>
