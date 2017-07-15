@@ -153,10 +153,10 @@
   rating: BA
   pr: Half Marathon
 
-- name: Bolder Boulder
-  url: http://www.bolderboulder.com
-  date: 2017-05-29
-  distance: 10k
+- name: CARA Ready to Run
+  url: https://www.carareadytorun.com
+  date: 2017-09-17
+  distance: 20mi
   upcoming: true
 - name: Chicago Marathon
   url: https://www.chicagomarathon.com
