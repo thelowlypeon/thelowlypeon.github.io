@@ -70,7 +70,7 @@ Let's take a look at those alongside each other as well:
   <div class="col-sm-12 text-center">
     <i class="small">
       Me and the other me, aka Matt Smith as Doctor Who.
-      Taken on Halloween, 2017.
+      Taken on Halloween, 2016.
     </i>
   </div>
 </div>
