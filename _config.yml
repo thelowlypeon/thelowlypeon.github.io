@@ -39,6 +39,6 @@ navigation_pages:
 # Build settings
 markdown: kramdown
 
-gems:
+plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
