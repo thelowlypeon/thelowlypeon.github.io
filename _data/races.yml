@@ -152,14 +152,18 @@
   time: '1:39:43'
   rating: BA
   pr: Half Marathon
-
 - name: CARA Ready to Run
   url: https://www.carareadytorun.com
   date: 2017-09-17
   distance: 20mi
-  upcoming: true
+  results_url: https://connect.garmin.com/modern/activity/1982827699
+  time: '2:41:24'
+  rating: N/A
 - name: Chicago Marathon
   url: https://www.chicagomarathon.com
   date: 2017-10-08
   distance: Marathon
-  upcoming: true
+  results_url: "http://results.chicagomarathon.com/2017/?content=detail&fpid=search&pid=search&idp=999999107FA30900001C208A&lang=EN_CAP&event=MAR&lang=EN_CAP&search%5Bname%5D=compernolle&search%5Bnation%5D=%25&search_sort=name&search_event=MAR"
+  time: '3:37:51'
+  rating: C
+  pr: Marathon
