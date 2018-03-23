@@ -2,7 +2,7 @@ I'm just another mid-thirties software engineer. But how I got here is what make
 
 I've always liked math.
 But I spent my life in high school playing music and making hot glass art.
-I went to college to be a [film major](/projects/film),
+I went to college to be a [film major](/projects/films),
 then decided I'd rather _watch_ films than make them,
 so I decided to study astro-physics,
 before I realized you could learn all the interesting stuff by watching the Discover Science channel and the rest was physics.
