@@ -318,3 +318,16 @@ div.hr-with-text {
         }
     }
 }
+
+table.hsk {
+  margin: 15px 0;
+  width: 100%;
+  tr, th, td {
+    border: 1px solid black;
+    padding: 0.4em;
+  }
+}
+p.caption {
+  font-size: 0.8em;
+  color: gray;
+}
