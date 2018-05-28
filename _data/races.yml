@@ -173,3 +173,11 @@
   time: '3:37:51'
   rating: C
   pr: Marathon
+- name: Bolder Boulder
+  url: https://bb10k.bolderboulder.com/
+  date: 2018-05-28
+  distance: 10k
+  time: '44:57'
+  results_url: http://bolderboulder2018.onlineraceresults.com/individual.php?bib=C219
+  pr: 10k
+- name: Turkey Day Ru
