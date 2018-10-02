@@ -8,10 +8,15 @@
           start: 2012
         - name: "Javascript (vanilla, jquery, node.js, etc)"
           start: 2007
-    - name: iOS
+    - name: Mobile Application Development
       skills:
-        - name: "Swift, XCode, ReactiveCocoa, Alamofire, some Objective-C"
+      skills:
+        - name: "iOS Application and Framework Development"
           start: 2014
+        - name: "Apple Wallet, Google Pay"
+          start: 2016
+        - name: "Push / Rich Push via APNS, Firebase Messaging Service"
+          start: 2016
 - section: "Data & Data Systems"
   skills:
     - name: Relational
@@ -23,4 +28,6 @@
       details: 2yrs, including certification from Perficient, Inc, in Houston (2011)
 - section: "Miscellaneous"
   skills:
+    - name: Infrastructure
+      details: Chef, Docker, AWS
     - name: Fluent in Mandarin Chinese
