@@ -171,11 +171,19 @@
   results_url: "http://results.chicagomarathon.com/2017/?content=detail&fpid=search&pid=search&idp=999999107FA30900001C208A&lang=EN_CAP&event=MAR&lang=EN_CAP&search%5Bname%5D=compernolle&search%5Bnation%5D=%25&search_sort=name&search_event=MAR"
   time: '3:37:51'
   rating: C
-  pr: Marathon
 - name: Bolder Boulder
   url: https://bb10k.bolderboulder.com/
   date: 2018-05-28
   distance: 10k
   time: '44:57'
   results_url: http://bolderboulder2018.onlineraceresults.com/individual.php?bib=C219
+  rating: BA
   pr: 10k
+- name: Chicago Marathon
+  url: https://www.chicagomarathon.com
+  date: 2018-10-07
+  distance: Marathon
+  time: '3:35:13'
+  results_url: "http://results.chicagomarathon.com/2018/?content=detail&fpid=search&pid=search&idp=999999107FA30E00002105F4&lang=EN_CAP&event=MAR&lang=EN_CAP&search%5Bname%5D=Compernolle&search_event=MAR"
+  rating: C
+  pr: Marathon
