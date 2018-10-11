@@ -33,5 +33,6 @@ and my ultimate conclusion about whether I'll stick with my own code, or if I'm 
 reinventing the wheel.
 
 Part 1: [Key-Value Observing](/2018/simple-reactive-kvo)
+Part 2: [Notifier](/2018/simple-reactive-notifier)
 
 [ReactiveCocoa]: https://github.com/ReactiveCocoa/ReactiveCocoa
