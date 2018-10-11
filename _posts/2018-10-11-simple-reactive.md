@@ -36,5 +36,6 @@ Continue reading!
 
 1. [Key-Value Observing](/2018/simple-reactive-kvo)
 2. [Notifier](/2018/simple-reactive-notifier)
+3. Observable Properties: Post coming soon, but here's a [teaser](https://github.com/thelowlypeon/simple-observable)
 
 [ReactiveCocoa]: https://github.com/ReactiveCocoa/ReactiveCocoa
