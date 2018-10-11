@@ -2,7 +2,7 @@
 layout: post
 title:  "Simple Reactive Programming"
 date:   2018-10-11 15:04:00 -0500
-categories: swift ios mobile programming
+categories: swift ios mobile programming simple-reactive
 editors_note: A colleague insisted Reactive Programming for iOS in Swift required depending on RxSwift or ReactiveCocoa/ReactiveSwift. I disagree. This is my evidence.
 ---
 
