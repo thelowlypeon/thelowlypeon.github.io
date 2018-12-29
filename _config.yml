@@ -15,7 +15,6 @@ url: "https://petercompernolle.com" # the base hostname & protocol for your site
 twitter_username: thelowlypeon
 github_username:  thelowlypeon
 bitbucket_username:  thelowlypeon
-google_analytics: "UA-2133957-3"
 
 collections:
   posts:
