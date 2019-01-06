@@ -9,6 +9,13 @@ _UPDATE 2018-01-02: privacy.com responded with the following: "I've shared this 
 
 ---
 
+_UPDATE 2019-01-06: Privacy International has written a very similar post
+about Facebook Tracking on Android, available
+[here](https://privacyinternational.org/campaigns/investigating-apps-interactions-facebook-android).
+Thanks to Andy for the tip._
+
+---
+
 As I noted in my recent post about [Mint sending data to Facebook](/2018/intuit-mint-facebook),
 I discovered several POST requests going to `graph.facebook.com` containing
 data about my device, among other things, despite having no Facebook account,
