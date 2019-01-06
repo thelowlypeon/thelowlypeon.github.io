@@ -5,6 +5,10 @@ date:   2018-12-28 13:49:31 -0500
 categories: privacy facebook data sharing evil
 ---
 
+_UPDATE 2018-01-02: privacy.com responded with the following: "I've shared this with the team and will ensure we investigate this thoroughly and remove it in the next iOS deploy."_
+
+---
+
 As I noted in my recent post about [Mint sending data to Facebook](/2018/intuit-mint-facebook),
 I discovered several POST requests going to `graph.facebook.com` containing
 data about my device, among other things, despite having no Facebook account,
@@ -192,7 +196,7 @@ Bundle IDs are below for requests where available.
 * Mint (`com.mint.internal`)
 * Outlook (`com.microsoft.office.outlook`)
 * Pocket (`com.ideashower.ReadItLaterPro`)
-* Privacy (`com.privacy.paybeta`)
+* Privacy (`com.privacy.paybeta` -- see 2018-01-02 update)
 * REI
 * Seafood Watch
 * Songkick
