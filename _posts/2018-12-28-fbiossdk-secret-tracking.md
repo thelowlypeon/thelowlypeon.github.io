@@ -63,7 +63,7 @@ when the application launches.
 The data sent to Facebook seems to vary slightly by application and SDK version,
 which makes sense given the SDK allows sending custom attributes with each request.
 
-Much of this data is mostly harmful: iOS version, screen size, the bundle ID of the application.
+Much of this data is mostly harmless: iOS version, screen size, the bundle ID of the application.
 But some of this could easily be used to identify patterns, or infer
 details, about you personally.
 
