@@ -106,6 +106,11 @@ hr#header-divider {
     }
 }
 
+blockquote {
+    font-size: inherit;
+    font-style: italic;
+}
+
 #etc-page , .blog-container, .races-container {
   div.left p , div.right .details {
     color: $gray;
@@ -216,6 +221,9 @@ pre, code {
     white-space: nowrap;
     overflow-x: scroll;
     max-width: 100%;
+    color: $black;
+    background: #f0f0f4;
+    letter-spacing: 0.7px;
 }
 
 img.drop-shadow {
