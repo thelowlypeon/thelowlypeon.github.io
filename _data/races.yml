@@ -194,3 +194,8 @@
   results_url: http://results.itsracetime.com/myresults.aspx?uid=17095-4183-2-128783
   rating: AB
   pr: 10k
+- name: San Francisco Marathon
+  url: https://www.thesfmarathon.com
+  date: 2019-07-28
+  distance: Marathon
+  upcoming: true
