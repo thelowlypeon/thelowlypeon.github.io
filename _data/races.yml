@@ -178,7 +178,6 @@
   time: '44:57'
   results_url: http://bolderboulder2018.onlineraceresults.com/individual.php?bib=C219
   rating: BA
-  pr: 10k
 - name: Chicago Marathon
   url: https://www.chicagomarathon.com
   date: 2018-10-07
@@ -187,3 +186,11 @@
   results_url: "http://results.chicagomarathon.com/2018/?content=detail&fpid=search&pid=search&idp=999999107FA30E00002105F4&lang=EN_CAP&event=MAR&lang=EN_CAP&search%5Bname%5D=Compernolle&search_event=MAR"
   rating: C
   pr: Marathon
+- name: Chi Town 10k
+  url: https://allcommunityevents.com/chitownhalfmarathon10k
+  date: 2019-04-06
+  distance: 10k
+  time: '42:30'
+  results_url: http://results.itsracetime.com/myresults.aspx?uid=17095-4183-2-128783
+  rating: AB
+  pr: 10k
