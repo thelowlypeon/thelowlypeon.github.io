@@ -5,7 +5,7 @@ date:   2018-12-28 13:49:31 -0500
 categories: privacy facebook data sharing evil
 ---
 
-_UPDATE 2018-01-02: privacy.com responded with the following: "I've shared this with the team and will ensure we investigate this thoroughly and remove it in the next iOS deploy."_
+_UPDATE 2019-01-02: privacy.com responded with the following: "I've shared this with the team and will ensure we investigate this thoroughly and remove it in the next iOS deploy."_
 
 ---
 
