@@ -2,16 +2,15 @@
   categories:
     - name: Web Development
       skills:
-        - name: "LAMP/PHP (incl. Laravel, CraftCMS, Zend, CodeIgniter)"
-          start: 2005
         - name: "Ruby (incl. Rails, Sinatra, Jekyll)"
           start: 2012
-        - name: "Javascript (vanilla, jquery, node.js, etc)"
+        - name: "Javascript (vanilla, jquery, node.js, React, etc)"
           start: 2007
+        - name: "LAMP/PHP (incl. Laravel, CraftCMS, Zend, CodeIgniter)"
+          start: 2005
     - name: Mobile Application Development
       skills:
-      skills:
-        - name: "iOS Application and Framework Development"
+        - name: "iOS Application & Framework Development"
           start: 2014
         - name: "Apple Wallet, Google Pay"
           start: 2016

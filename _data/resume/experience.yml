@@ -1,18 +1,12 @@
-- company: Vibes Media
-  start: 2016-11-01
+- company: Gusto
+  start: 2019-02-18
   positions:
-    - title: Principal Software Engineer & Team Lead
-      misc:
-        - title: Apple Wallet & Google Pay
-          points:
-            - "Service oriented architecture with primarily Rails applications"
-            - "High throughput applications hosting hundreds of millions of active passes"
-        - title: Push Notification Frameworks
-          points:
-            - "Designed, contributed to, and maintained iOS and Android frameworks providing easy integration with platform driven push notifications via APNS (iOS) and Firebase Messaging Service (Android)"
-            - "Managed offshore team for continued development"
+    - title: Principal Software Engineer
+      responsibilities:
+        - "As one of the more senior engineers on the Benefits mission, I've made improvements to the team's processes, mentored junior engineers, and made architectural level decisions and improvements"
 - company: Side Projects / Out of Something, LLC
-  start: 2012-12-01
+  start:
+  end:
   positions:
     - misc:
         - title: "Station to Station <small>([website](https://stationtostationapp.com), [app store](https://itunes.apple.com/us/app/apple-store/id936262970))</small>"
@@ -27,6 +21,20 @@
           points:
             - "Notebook subscriptions. Built initially with CodeIngniter and then Laravel 3"
             - "Cofounding Out of Pages, I learned what it means to run a business and evaluate cost/benefit tradeoffs with real consequences"
+- company: Vibes Media
+  start: 2016-11-01
+  end: 2019-02-08
+  positions:
+    - title: Principal Software Engineer & Team Lead
+      misc:
+        - title: Apple Wallet & Google Pay
+          points:
+            - "Service oriented architecture with primarily Rails applications"
+            - "High throughput applications hosting hundreds of millions of active passes"
+        - title: Push Notification Frameworks
+          points:
+            - "Designed, contributed to, and maintained iOS and Android frameworks providing easy integration with platform driven push notifications via APNS (iOS) and Firebase Messaging Service (Android)"
+            - "Managed offshore team for continued development"
 - company: One Design Company
   start: 2014-11-01
   end: 2016-11-15
@@ -71,13 +79,8 @@
   end: 2012-03-01
   positions:
     - title: "Microsoft SQL Database Administrator, specializing in data analysis &amp; integration &mdash; 2009 - 2012"
-      responsibilities:
-        - "BI development and major data integrations with third parties, architect of new data warehouse for aggregating and reporting"
       projects:
         - "Replaced a reporting system that took over eight hours for each of 40+ companies daily with one with better error handling that took less than twelve minutes to run for all companies, and could be re-run at any time"
     - title: "ERP Software Developer (2009-2012) &amp; Conversion Specialist (2007-2009, 2011-2012): ERP MK &amp; ERP LN"
-      responsibilities:
-        - "Work closely with the business team to build customization and issue bug fixes for otherwise unsupported software"
-        - "Configure software to suit local government or business requirements, and train users, in Mandarin and English"
       projects:
         - "Successfully implemented in more than a dozen offices in China, as well as major manufacturing facilities in China, the US, Vietnam, and India"
