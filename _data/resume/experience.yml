@@ -29,6 +29,7 @@
       misc:
         - title: Apple Wallet & Google Pay
           points:
+            - "Identified and patched several security vulnerabilities, and introduced static code analysis to help prevent future ones"
             - "Service oriented architecture with primarily Rails applications"
             - "High throughput applications hosting hundreds of millions of active passes"
         - title: Push Notification Frameworks
