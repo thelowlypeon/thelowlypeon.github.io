@@ -185,7 +185,6 @@
   time: '3:35:13'
   results_url: "http://results.chicagomarathon.com/2018/?content=detail&fpid=search&pid=search&idp=999999107FA30E00002105F4&lang=EN_CAP&event=MAR&lang=EN_CAP&search%5Bname%5D=Compernolle&search_event=MAR"
   rating: C
-  pr: Marathon
 - name: Chi Town 10k
   url: https://allcommunityevents.com/chitownhalfmarathon10k
   date: 2019-04-06
@@ -196,6 +195,9 @@
   pr: 10k
 - name: San Francisco Marathon
   url: https://www.thesfmarathon.com
+  results_url: 'https://www.runraceresults.com/Secure/individual-results.cfm?theRace=1&theEvent=RCLF2019&firstName=&lastName=compernolle&bibNumber=722'
   date: 2019-07-28
   distance: Marathon
-  upcoming: true
+  rating: BB
+  time: '3:31:49'
+  pr: Marathon
