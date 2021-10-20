@@ -4,7 +4,7 @@ title:  Commute
 date:   2011-05-13 10:59:32 -0500
 caption: A video of my daily commute in Hangzhou, China, shot & edited entirely on an iPhone 4.
 more: https://vimeo.com/pcompernolle/commute
-thumbnail: https://i.vimeocdn.com/video/154673564_300x170.jpg
+thumbnail: https://i.vimeocdn.com/video/154673564-e8aebb81fea0357340eb6bc4ee0c8b1602820836aadc9aa3bb001d5e9ebe2d25-d_300x170
 embed: https://player.vimeo.com/video/23712057
 redirect_from: /projects/commute
 ---
