@@ -201,3 +201,10 @@
   rating: BB
   time: '3:31:49'
   pr: Marathon
+- name: Chicago Marathon
+  url: https://www.chicagomarathon.com
+  results_url: 'https://results.chicagomarathon.com/2021/?content=detail&fpid=search&pid=search&idp=LSMG9638244382&lang=EN_CAP&event=MAR&lang=EN_CAP&search%5Bstart_no%5D=7754&search_event=MAR'
+  date: 2021-10-10
+  distance: Marathon
+  rating: BB
+  time: '3:33:37'
