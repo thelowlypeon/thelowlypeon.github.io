@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<div class="row">
+  <header class="post-header">
+    <div class="row project-feature bottom-buffer" id="feature-{{ page.slug }}">
+      <div class="col-md-10 col-md-offset-1">
+        <a href="{{ page.url }}"><img src="/assets/images/{{ page.image }}" width="180px" height="180px" class="img-circle drop-shadow" /></a>
+        <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+      </div>
+    </div>
+  </header>
+
+  <div class="post-content" itemprop="articleBody" style="text-align:left">
+    {{ page.content }}
+  </div>
+</div>

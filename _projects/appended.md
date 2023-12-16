@@ -1,39 +1,44 @@
 ---
-layout: project
+layout: project-left
 title:  "Appended"
-date:   2023-12-16 17:26:32 -0500
+date:   2023-12-16 10:26:32 -0500
 categories: ios notes notebooks
 featured: true
 image: projects/appended.png
-caption: A simple notes app for people who like jotting ideas down without the pressure of making it "worth it"
+caption: "A simple notes app for people who like jotting ideas down without the pressure of making it \"worth it.\""
+redirect_from:
+ - /projects/blabla
 ---
 
-I have lots of ideas, but I have the memory of a doorknob.
+### This is not your typical notes app!
 
-Since middleschool, I've carried around really small notebooks to help me remember things: phone numbers, addresses, TODOs, random ideas.
+In simpler times, if someone had a thought, they might jot it down in a notebook. If they had another thought, it would go right below the earlier one. No need for organizing, tagging, editing, or correcting old mistakes. If something became distracting, or if it was a TODO item that was done, it could just be crossed out.
 
-I wrote the [Field Notes Brand](https://fieldnotesbrand.com) website, and even started a company with [Laurel Hechanova](https://hechanova.com) that sold subscriptions to paper notebooks.
+This app is that: a note taking app reminiscent of pen and paper, where the only form of organization was the sequence the notes were written in. With Appended, if you have a thought, you append it to your only ongoing note. If some entry is no longer relevant, you can cross it out, or delete it, but there is no temptation -- because there's no ability -- to edit or organize.
 
-So, as a software engineer that is on a computer or phone a _lot_, I've spent a lot of time trying to find a note taking app that feels like paper and pen.
+#### Appended differs from a paper notebook in only two ways:
 
-The Apple Notes app is too complicated.
-Messages I send to myself on Slack or iMessage get mixed up with important communications.
-The reminders app gets cluttered and I stop using it, missing important reminders.
-Markdown files with a good editor works, but I feel like such an idiot creating a file with only a fragment of a sentence, and get overwhelmed trying to figure out how to organize the files so I can find them in the future.
+* Notes are (optionally) rendered in markdown, allowing you to emphasize, embolden, or italicize text, or add links to websites you come across
+* Notes are full searchable, making it much easier to find something you wrote months ago buried among all your other great ideas
 
-Then, earlier this year, when I was working on a different app with Laurel, frustrated that all the ideas I was having throughout the day had no place to go, I built an insanely simple app that really only allows appending text to one super long, running document.
-I never published it to the app store, but then a friend said at random that he wanted a really simple notes app, and described, almost exactly, the app that I had already built.
+#### Other great features:
 
-And so, I'm thrilled to announce **Appended**, the stupid simple note app.
+* Encrypted notes sync securely across all your devices (requires iCloud)
+* Create notes using Siri by simply saying "Create a note using Appended"
+* View or add notes straight from your Apple Watch
+* Easily toggle markdown
+* Optionally hide entries that don't match your search results for a cleaner view, or show them to provide some extra context
+* Strikethrough notes that are no longer important to you, or optionally hide them. Easily toggle whether they're included in search results
+* Share individual notes
+* Copy notes to your clipboard
 
-You can add text, and, if you want to, scratch it out. (If you really want to, you can delete them too.)
-There's robust search, integration with Siri, and it syncs across your devices (iCloud required, Mac app coming soon).
-No complicated tagging, just add "#tag" to your text and search for it later.
-No complicated UI for grouping, say, notes with links, just search for "http".
-No complicated organization, just one long, ongoing, fast-to-load stream of thoughts, sorted by the time you wrote it.
-No pressure to fix your old typos, or correct your past self, because there's no ability to edit.
+#### Features Appended does NOT have:
 
-**Appended is awaiting App Store review, but I'll be sure to update this when it's approved!**
+* Complicated organization that makes you wonder where you've put old notes
+* Super flexible organization that makes you feel guilty when you just need to write something down so you don't forget it
+* Todo lists that grow faster than you can manage, resulting in you never using it anymore
+* Complicated sorting
+* Editing existing notes
 
 ## Privacy
 
