@@ -33,6 +33,8 @@ No complicated UI for grouping, say, notes with links, just search for "http".
 No complicated organization, just one long, ongoing, fast-to-load stream of thoughts, sorted by the time you wrote it.
 No pressure to fix your old typos, or correct your past self, because there's no ability to edit.
 
+**Appended is awaiting App Store review, but I'll be sure to update this when it's approved!**
+
 ## Privacy
 
 Appended doesn't collect, store, or share any of your data. If you use iCloud, your notes are stored encrypted in iCloud to sync across your devices.
