@@ -3,7 +3,6 @@ layout: project
 title:  "emoj.es"
 date:   2017-04-02 17:26:32 -0500
 categories: silly emoji
-featured: true
 image: projects/emojes.png
 caption: A silly website that'll take your emoji input and generate a huge "preview" image in chat apps.
 more: https://emoj.es
