@@ -6,7 +6,7 @@ description: "I always have something I'm working on. Here are some of those thi
 ---
 
 {% assign featured_projects = site.projects | where: "featured", true %}
-{% assign nonfeatured_projects = site.projects %}
+{% assign nonfeatured_projects = site.projects | where: "archived", nil %}
 
 <div class="row featured-projects">
 {% for project in featured_projects reversed %}

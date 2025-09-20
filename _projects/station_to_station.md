@@ -7,6 +7,7 @@ featured: false
 image: projects/stationtostation.png
 caption: Stop driving and take a bike. This simple iOS app I wrote will help you find nearby bikeshare bikes or docks.
 more: https://stationtostationapp.com
+archived: true
 redirect_from:
  - /projects/station_to_station
  - /110444460776/station-to-station-stop-driving-and-take-a-bike
