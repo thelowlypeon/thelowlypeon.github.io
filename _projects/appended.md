@@ -11,10 +11,6 @@ redirect_from:
  - /projects/blabla
 ---
 
-<div style="text-align:center">
-  <a href="{{ page.appstore }}"><img src="/assets/images/app-store.png" width="180px;"></a>
-</div>
-
 ### This is not your typical notes app!
 
 In simpler times, if someone had a thought, they might jot it down in a notebook. If they had another thought, it would go right below the earlier one. No need for organizing, tagging, editing, or correcting old mistakes. If something became distracting, or if it was a TODO item that was done, it could just be crossed out.

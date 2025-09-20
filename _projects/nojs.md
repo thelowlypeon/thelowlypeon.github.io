@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: project-left
 title:  "no.js"
 date:   2015-11-26 17:26:32 -0500
 categories: ios javascript
@@ -57,39 +57,24 @@ redirect_from:
   </header>
 </noscript>
 
-<div class="row">
-  <div class="col-sm-3 col-sm-offset-2 text-center">
-    <a href="{{ page.appstore }}"><img src="/assets/images/{{ page.image }}" width="180px" height="180px" class="img-circle drop-shadow" /></a>
-  </div>
-  <div class="col-sm-6">
-    <h2>no.js</h2>
+Ever realize how pesky javascript can be?
 
-    <p>Ever realize how pesky javascript can be?</p>
+It tracks you,
+it can run malicious code in your browser,
+it blocks content with annoying popups,
+and it breaks lots of websites.
 
-    <p>
-      It tracks you,
-      it can run malicious code in your browser,
-      it blocks content with annoying popups,
-      and it breaks lots of websites.
-    </p>
+#### With no.js, available for iOS, with only two taps you can:
 
-    <h4>With no.js, available for iOS, with only two taps you can:</h4>
-    <ul>
-      <li>Prevent client-side trackers</li>
-      <li>Prevent execution of <a href="http://www.welivesecurity.com/2016/12/06/readers-popular-websites-targeted-stealthy-stegano-exploit-kit-hiding-pixels-malicious-ads/">malicious client-side code</a></li>
-      <li>Prevent popups, including many paywalls</li>
-      <li>Prevent websites from breaking, including annoying scrolljacking business that breaks basic browser functionality</li>
-    </ul>
+* Prevent client-side trackers
+* Prevent execution of <a href="http://www.welivesecurity.com/2016/12/06/readers-popular-websites-targeted-stealthy-stegano-exploit-kit-hiding-pixels-malicious-ads/">malicious client-side code</a>
+* Prevent popups, including many paywalls
+* Prevent websites from breaking, including annoying scrolljacking business that breaks basic browser functionality
 
-    <h4 id="privacy">Privacy Policy</h4>
+#### Privacy
 
-    <p>no.js doesn't track anything. At all. URLs you share with no.js remain entirely on device, as does any browsing you do in the app.</p>
+no.js doesn't track anything. At all. URLs you share with no.js remain entirely on device, as does any browsing you do in the app.
 
-    <div style="padding-top:20px;">
-      <a href="{{ page.appstore }}"><img src="/assets/images/app-store.png" width="180px;"></a>
-    </div>
-  </div>
-</div>
 <script type="text/javascript">
 
 setTimeout(function() {

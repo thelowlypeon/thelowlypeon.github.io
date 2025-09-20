@@ -2,17 +2,63 @@
 layout: default
 ---
 
-<div class="row">
-  <header class="post-header">
-    <div class="row project-feature bottom-buffer" id="feature-{{ page.slug }}">
-      <div class="col-md-10 col-md-offset-1">
-        <a href="{{ page.url }}"><img src="/assets/images/{{ page.image }}" width="180px" height="180px" class="img-circle drop-shadow" /></a>
-        <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+<div class="blog-container">
+  <div class="row">
+    <div class="col-sm-3 text-center">
+      <header class="posat-header">
+        <h3>
+          <div>
+            <a href="{{ page.url }}"><img src="/assets/images/{{ page.image }}" width="180px" height="180px" class="img-circle drop-shadow" /></a>
+          </div>
+          {% if page.appstore %}
+            <div style="margin-top:30px">
+            <a href="{{ page.appstore }}"><img src="/assets/images/app-store.png" width="180px;"></a>
+            </div>
+          {% else %}
+            <h1>{{ page.title }}</h1>
+          {% endif %}
+        </h3>
+      </header>
+    </div>
+
+    <div class="col-sm-8 right">
+      {% if !page.appstore %}
+        <h1>{{ page.title }}</h1>
+      {% endif %}
+
+      {% if page.reposted_from %}
+        {% include repost.html %}
+      {% endif %}
+
+      {% if page.editors_note %}
+        {% include editors_note.html %}
+      {% endif %}
+      <div class="post-content" itemprop="articleBody">
+        {% if page.updates %}
+          {% include updates.html %}
+        {% endif %}
+
+        {{ content }}
+
+        {% if page.appstore %}
+          <div style="margin-top:30px" class="text-center hidden-md hidden-lg">
+            <a href="{{ page.appstore }}"><img src="/assets/images/app-store.png" width="180px;"></a>
+          </div>
+        {% endif %}
+      </div>
+
+      <div class="details">
+        <div class="details">
+          {% if page.categories %}
+            <p class="tags fa fa-tags">
+            {% for category in page.categories %}
+              #{{ category }}
+            {% endfor %}
+          {% endif %}
+        </div>
       </div>
     </div>
-  </header>
-
-  <div class="post-content" itemprop="articleBody" style="text-align:left">
-    {{ page.content }}
   </div>
 </div>
+</article>
