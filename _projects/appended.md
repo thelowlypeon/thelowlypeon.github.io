@@ -6,9 +6,14 @@ categories: ios notes notebooks
 featured: true
 image: projects/appended.png
 caption: "A simple notes app for people who like jotting ideas down without the pressure of making it \"worth it.\""
+appstore: https://apps.apple.com/us/app/appended/id6443959370
 redirect_from:
  - /projects/blabla
 ---
+
+<div style="text-align:center">
+  <a href="{{ page.appstore }}"><img src="/assets/images/app-store.png" width="180px;"></a>
+</div>
 
 ### This is not your typical notes app!
 
