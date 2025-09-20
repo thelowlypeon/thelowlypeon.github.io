@@ -5,6 +5,7 @@ date:   2025-09-20 05:44:32 -0500
 categories: fitness activity fit utility
 featured: true
 image: projects/fitarchive.png
+appstore: https://apps.apple.com/us/app/fit-archive/id6752515522
 caption: "Your source of truth for years of activity files."
 ---
 
