@@ -29,6 +29,11 @@ FIT Archive is built for people who care about the long game—athletes whose li
 
 #### Support
 
+FIT Archive will read any FIT _activity_ file. Reading course or workout files are expected in a future release.
+
+Many services refer to FIT files as "Original". For example, to export your original FIT file from Garmin connect,
+click the gear icon and select "Export Original". If you want a FIT file to play with, try this [cycling activity](https://github.com/thelowlypeon/purefit/blob/83624f350801fac0c75275e265a0bc2ae5b657ac/Tests/PureFITTests/Fixtures/cyclingActivityFromGarmin.fit).
+
 Having trouble with the app, or want to see something different? [Reach out](mailto:fitarchive@petercompernolle.com) and let me know! 
 
 #### Privacy
