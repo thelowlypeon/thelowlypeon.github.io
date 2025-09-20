@@ -23,9 +23,9 @@ layout: default
     </div>
 
     <div class="col-sm-8 right">
-      {% if !page.appstore %}
+      {% unless page.appstore %}
         <h1>{{ page.title }}</h1>
-      {% endif %}
+      {% endunless %}
 
       {% if page.reposted_from %}
         {% include repost.html %}
