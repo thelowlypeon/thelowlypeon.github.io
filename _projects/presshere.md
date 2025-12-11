@@ -10,6 +10,14 @@ appstore: https://apps.apple.com/us/app/press-here/id6756083334
 
 ## Press Here!
 
+Ever felt bored at the airport? Easy, just Press Here!
+
+Ever wanted something to entertain you that isn't too intense? Simple: Press Here!
+
+Or maybe you've felt a bit nervous and needed something to calm you down? This is getting repetitive: just Press Here!
+
+Press Here! is an app designed from the ground up by Lily & Elly, two kids who understand boredom and do not like it!
+
 * Super satisfying touch!
 * Pick your favorite color!
 * Try them big! Or try them small!
