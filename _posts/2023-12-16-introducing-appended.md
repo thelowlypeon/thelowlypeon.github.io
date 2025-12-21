@@ -3,6 +3,7 @@ layout: post
 title:  "Introducing Appended"
 date:   2023-12-16 13:43:31 -0500
 categories: ios appended notes notebooks app
+appstore: https://apps.apple.com/us/app/appended/id6443959370
 ---
 
 I have lots of ideas, but I have the memory of a doorknob.

@@ -3,6 +3,7 @@ layout: post
 title:  "Press Here!"
 date:   2025-12-11 16:33:31 -0500
 categories: ios fun goofy
+appstore: https://apps.apple.com/us/app/press-here/id6756083334
 ---
 
 Over fall break last month, my daughter Lily had an idea for an app.
