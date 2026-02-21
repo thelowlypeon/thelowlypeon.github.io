@@ -9,6 +9,7 @@ caption: "A simple notes app for people who like jotting ideas down without the 
 appstore: https://apps.apple.com/us/app/appended/id6443959370
 redirect_from:
  - /projects/blabla
+more: https://appended.app
 ---
 
 ### This is not your typical notes app!

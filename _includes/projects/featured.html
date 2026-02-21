@@ -1,7 +1,9 @@
 <div class="row project-feature bottom-buffer" id="feature-{{ project.slug }}">
   <div class="col-md-10 col-md-offset-1">
-    <a href="{{ project.more }}" target="blank"><img src="/assets/images/{{ project.image }}" width="180px" height="180px" class="img-circle drop-shadow" /></a>
-    <h1><a href={% if project.more %}"{{ project.more }}" target="blank"{% else %}"{{ project.url }}"{% endif %}>{{ project.title }}</a></h1>
+    <a href={% if project.more %}"{{ project.more }}" target="blank"{% else %}"{{ project.url }}"{% endif %}>
+      <img src="/assets/images/{{ project.image }}" width="180px" height="180px" class="img-circle drop-shadow" />
+      <h1>{{ project.title }}</h1>
+    </a>
     {% if project.caption %}
     <div class="caption">
       {{ project.caption }}
