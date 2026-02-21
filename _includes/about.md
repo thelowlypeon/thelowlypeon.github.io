@@ -1,4 +1,4 @@
-I'm just another mid-thirties software engineer. But how I got here is what makes me, well, me.
+I'm just another software engineer, now in my forties. But how I got here is what makes me, well, me.
 
 I've always liked math.
 But I spent my life in high school playing music and making hot glass art.
@@ -30,10 +30,10 @@ I returned to the states to start a company that failed,
 built a website that sold subscriptions to notebooks
 (and subsequently built our [competitor's website](http://fieldnotesbrand.com)),
 have led a few teams of excellent engineers,
-wrote [a couple](http://eastmanegg.com/app) [of iOS](https://stationtostationapp.com) [apps](https://itunes.apple.com/us/app/no-js/id1062685513?mt=8),
+wrote [a couple iOS apps](/projects),
 and met countless wonderful people.
 
-And now, I live in Chicago with my wife and daughter,
+And now, I live in Chicago with my wife and two daughters,
 I bike everywhere,
-run a few times a week,
-and travel back to China as often as I can.
+run almost every day,
+and travel back to Hangzhou as often as I can.
