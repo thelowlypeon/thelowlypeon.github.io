@@ -31,3 +31,5 @@ Subscribe here:
 ```
 https://raw.githubusercontent.com/thelowlypeon/wrigley-calendar/main/wrigley.ics
 ```
+
+See or contribute to the project on [Github](https://github.com/thelowlypeon/wrigley-calendar).
