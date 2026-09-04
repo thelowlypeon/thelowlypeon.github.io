@@ -2,9 +2,9 @@
 
 This is my site! Welcome.
 
-Originally I had this thing built in a rather bloated Rails application,
-using a gem I wrote called [mumblr](https://github.com/thelowlypeon/mumblr)
-to update the content via Tumblr. Now it's a super simple Jekyll-generated static site.
+## Deployment
+
+This is a Jekyll site, built and hosted by Cloudflare workers (formerly Github pages).
 
 ## Installation
 
