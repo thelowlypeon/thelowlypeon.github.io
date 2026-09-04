@@ -14,7 +14,11 @@ I have no idea why you'd want to install or run this yourself, but if you do,
 ```
 $ git clone ...
 $ bundle install
-$ jekyll serve
+$ bundle exec jekyll serve
 ```
 
 Then go to [127.0.0.1:4000](https://127.0.0.1:4000) in a browser.
+
+The Ruby version is pinned in `.ruby-version`; a version manager like rbenv or
+mise will pick it up. If you'd rather not install Ruby at all, `bin/serve` and
+`bin/build` do the same thing through Docker.
