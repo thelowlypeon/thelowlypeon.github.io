@@ -14,6 +14,8 @@ more: https://appended.app
 
 ### This is not your typical notes app!
 
+Visit [appended.app](https://appended.app) to learn more.
+
 In simpler times, if someone had a thought, they might jot it down in a notebook. If they had another thought, it would go right below the earlier one. No need for organizing, tagging, editing, or correcting old mistakes. If something became distracting, or if it was a TODO item that was done, it could just be crossed out.
 
 This app is that: a note taking app reminiscent of pen and paper, where the only form of organization was the sequence the notes were written in. With Appended, if you have a thought, you append it to your only ongoing note. If some entry is no longer relevant, you can cross it out, or delete it, but there is no temptation -- because there's no ability -- to edit or organize.
