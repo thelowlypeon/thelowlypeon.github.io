@@ -40,15 +40,9 @@ This app is that: a note taking app reminiscent of pen and paper, where the only
 
 * Complicated organization that makes you wonder where you've put old notes
 * Super flexible organization that makes you feel guilty when you just need to write something down so you don't forget it
+* Temptation to make everything perfect
 * Todo lists that grow faster than you can manage, resulting in you never using it anymore
 * Complicated sorting
 * Editing existing notes
 
-## Privacy
-
-Appended doesn't collect, store, or share any of your data. If you use iCloud, your notes are stored encrypted in iCloud to sync across your devices.
-If you do not use iCloud, your content stays entirely on the device. Apple provides me with installation statistics that are annonymous, and you have the option to provide me with crash reports if you choose to.
-
-## Support
-
-If you are having problems with Appended, <a href="mailto:appended@petercompernolle.com">let me know!</a>. I'll do my best to help out!
+Visit [appended.app](https://appended.app) to learn more, or grab it from the [app store](https://apps.apple.com/us/app/appended/id6443959370)!
