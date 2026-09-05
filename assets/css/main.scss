@@ -2,9 +2,7 @@
 # Main CSS
 ---
 
-@import
-  "font-awesome.min",
-  "bootstrap.min",
-  "_main",
-  "syntax-highlighting"
-;
+@use "font-awesome.min";
+@use "bootstrap.min";
+@use "site";
+@use "syntax-highlighting";
