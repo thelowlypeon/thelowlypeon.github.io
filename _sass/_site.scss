@@ -1,3 +1,5 @@
+@use "sass:color";
+
 $black: #555;
 $gray: #777;
 $chicagoblue: #b3ddf2;
@@ -235,7 +237,7 @@ img.drop-shadow {
 
 .ad {
   img { max-width: 100%; }
-  border: 1px solid lighten($gray, 40%);
+  border: 1px solid color.adjust($gray, $lightness: 40%);
   padding: 8px;
   p {
     font-size: 0.8em;

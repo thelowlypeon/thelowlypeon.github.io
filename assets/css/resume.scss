@@ -2,8 +2,6 @@
 # Resume CSS
 ---
 
-@import
-  "resume/base",
-  "resume/skeleton",
-  "_resume"
-;
+@use "resume/base";
+@use "resume/skeleton";
+@use "resume-content";
