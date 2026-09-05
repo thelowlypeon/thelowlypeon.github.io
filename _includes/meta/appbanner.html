@@ -1,0 +1,4 @@
+{% if page.appstore contains "/id" %}
+{% assign _app_id = page.appstore | split: "/id" | last | split: "?" | first | split: "#" | first %}
+<meta name="apple-itunes-app" content="app-id={{ _app_id }}, app-argument={{ page.url | prepend: site.url }}">
+{% endif %}
