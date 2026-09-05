@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
-ruby '2.7.8'
+ruby '3.4.10'
 
-gem 'jekyll', '~> 4.0'
+gem 'jekyll', '~> 4.4'
 gem 'jekyll-sitemap'
 gem 'jekyll-redirect-from'
