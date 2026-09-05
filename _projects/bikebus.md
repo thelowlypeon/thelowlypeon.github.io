@@ -3,7 +3,6 @@ layout: project-left
 title: Bike Bus
 date: 2026-02-21 05:44:32 -0500
 categories: bikes kids community
-featured: true
 image: projects/bikebus.png
 caption: "What could be better than kids and bikes?"
 more: https://nettelhorstbikebus.org
