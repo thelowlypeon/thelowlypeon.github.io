@@ -30,13 +30,16 @@ layout: default
 
       <div class="details">
         <div class="details">
-          <p class="date fa fa-calendar"> <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }}</time></p>
-          {% if page.categories %}
-            <p class="tags fa fa-tags">
-            {% for category in page.categories %}
-              #{{ category }}
-            {% endfor %}
-          {% endif %}
+          <p class="date">
+            <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }}</time>
+            {% if page.categories %}
+              <span class="tags">
+              {% for category in page.categories %}
+                #{{ category }}
+              {% endfor %}
+              </span>
+            {% endif %}
+          </p>
         </div>
 
         <p class="top-buffer">

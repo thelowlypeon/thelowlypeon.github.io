@@ -51,10 +51,11 @@ layout: default
       <div class="details">
         <div class="details">
           {% if page.categories %}
-            <p class="tags fa fa-tags">
+            <p class="tags">
             {% for category in page.categories %}
               #{{ category }}
             {% endfor %}
+            </p>
           {% endif %}
         </div>
       </div>
