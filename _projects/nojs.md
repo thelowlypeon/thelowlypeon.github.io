@@ -48,7 +48,7 @@ redirect_from:
 <noscript>
   <header class="post-header">
     <div class="row project-feature bottom-buffer" id="feature-{{ page.slug }}">
-      <div class="col-md-10 col-md-offset-1">
+      <div class="col-md-10 col-md-offset-1 narrow">
         <h3 style="color:#a7b583">Looks like your Javascript is disabled! Hooray!</h3>
         <p>Did you see how much faster the page loaded?</p>
         <hr />

@@ -5,7 +5,7 @@ layout: default
 <div class="row">
   <header class="post-header">
     <div class="row project-feature bottom-buffer" id="feature-{{ page.slug }}">
-      <div class="col-md-10 col-md-offset-1">
+      <div class="col-md-10 col-md-offset-1 narrow">
         <h1><a href="{{ page.url }}">{{ page.title }} <span class="date">({{ page.date | date:"%Y" }})</span></a></h1>
       </div>
     </div>
@@ -13,7 +13,7 @@ layout: default
 
   <div class="row post-content" itemprop="articleBody" style="text-align:center">
 
-    <div class="col-sm-8 col-sm-offset-2">
+    <div class="col-sm-8 col-sm-offset-2 narrower">
       {% if page.aspect and page.aspect.height and page.aspect.width %}
         {% assign aspect = page.aspect.height|times:100|divided_by:page.aspect.width %}
       {% else %}

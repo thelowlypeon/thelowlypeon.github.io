@@ -17,11 +17,11 @@ description: "I talk a lot. These are some of the things I've said."
     {% if forloop.index0 != 0 %}</dl></div></div><!-- end {{ year }} -->{% endif %}
     {% assign year = post_year %}
 
-    <div class="row" id="{{ post_year }}">
-    <div class="col-sm-3 left">
+    <div class="row split" id="{{ post_year }}">
+    <div class="col-sm-3 split-aside left">
       <h3>{{ post_year }}</h3>
     </div>
-    <div class="col-sm-8 right">
+    <div class="col-sm-8 split-main right">
       <dl>
   {% endif %}
 

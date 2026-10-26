@@ -4,9 +4,9 @@ layout: default
 
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 <div class="blog-container">
-  <div class="row">
-    <div class="col-sm-3 text-center">
-      <header class="posat-header">
+  <div class="row split">
+    <div class="col-sm-3 split-aside text-center">
+      <header class="post-header">
         <h3>
           <div>
             <a href="{{ page.url }}"><img src="/assets/images/{{ page.image }}" width="180px" height="180px" class="img-circle drop-shadow" /></a>
@@ -22,7 +22,7 @@ layout: default
       </header>
     </div>
 
-    <div class="col-sm-8 right">
+    <div class="col-sm-8 split-main right">
       {% unless page.appstore %}
         <h1>{{ page.title }}</h1>
       {% endunless %}

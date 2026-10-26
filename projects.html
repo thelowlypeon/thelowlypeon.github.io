@@ -35,8 +35,7 @@ description: "I always have something I'm working on. Here are some of those thi
         {% include projects/thumbnail.html project=project %}
       </div>
 
-  {% if forloop.index0 == forloop.length or index_in_projects == 2 %}
+  {% if forloop.last or index_in_projects == 2 %}
     </div>
   {% endif %}
 {% endfor %}
-</div>
