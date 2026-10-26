@@ -23,5 +23,5 @@ Be I/O takes away the fuzziness of that guidance and makes it very clear, based 
 
 I also really like the name :P
 
-Visit [be-io.app](https://be-io) to learn more, or grab it from the [app store](https://apps.apple.com/app/id6801316145)!
+Visit [be-io.app](https://be-io.app) to learn more, or grab it from the [app store](https://apps.apple.com/app/id6801316145)!
 
