@@ -13,7 +13,7 @@
           points:
             - "An iOS app for finding bikeshare docks or stations closest to your origin or destination. The app, written in Swift, uses my [BikeshareKit](https://github.com/thelowlypeon/bikeshare-kit) framework, which contacts my private API, built using the micro framework Grape. The associated website is built using Sinatra."
             - "Station to Station is an app I use nearly every day. It's also been a great way to keep up with the latest available iOS features, like geofencing, 3D Touch, and in-app purchases"
-        - title: "No JS <small>([app store](https://itunes.apple.com/us/app/no-js/id1062685513?mt=8))</small>"
+        - title: "NoJS <small>([app store](https://itunes.apple.com/us/app/no-js/id1062685513?mt=8))</small>"
           points:
             - "A dead simple iOS app for quickly viewing a website with Javascript disabled."
             - "Uses iOS Action Extension to view links or the current webpage. Great for debugging, web development, or preventing finicky JS from ruining your browsing experience."
