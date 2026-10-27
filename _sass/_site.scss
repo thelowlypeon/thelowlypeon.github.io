@@ -152,6 +152,7 @@ main > article {
     grid-template-columns: 3fr 8fr 1fr;
     grid-template-rows: auto 1fr;
     > header { grid-column: 1; grid-row: 1; margin-bottom: 0; text-align: right; }
+    > header:has(> img, > a) { text-align: center; }
     > aside { display: block; grid-column: 1; grid-row: 2; margin-top: 150px; }
     > div { grid-column: 2; grid-row: 1 / span 2; }
     > footer { grid-column: 2; }
