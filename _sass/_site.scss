@@ -2,9 +2,6 @@
 
 $black: #555;
 $gray: #777;
-$chicagoblue: #b3ddf2;
-$blue: #428bca;
-$chicagored: #f10005;
 $white: #fcfcfc;
 
 // Pico's light theme sets colours on :root:not([data-theme=dark]), so match that specificity.
@@ -16,8 +13,6 @@ $white: #fcfcfc;
   --pico-color: #{$black};
   --pico-muted-color: #{$gray};
   --pico-background-color: #{$white};
-  --pico-primary: #337ab7;
-  --pico-primary-hover: #23527c;
   --pico-spacing: 15px;
   --pico-typography-spacing-vertical: 10px;
   --pico-muted-border-color: #eee;
@@ -35,7 +30,6 @@ address, blockquote, dl, ol, p, pre, table, ul, td {
 // Bootstrap 3's type scale and spacing, which the rest of this file was written against.
 a {
   text-decoration: none;
-  &:visited { color: $blue; }
   &:hover { background-color: $white; }
 }
 body {
