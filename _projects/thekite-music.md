@@ -1,5 +1,5 @@
 ---
-layout: film
+layout: post
 title:  "Music for 'The Kite'"
 date:   2006-02-27 17:26:32 -0500
 categories: music animation film

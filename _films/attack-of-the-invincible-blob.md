@@ -1,5 +1,5 @@
 ---
-layout: film
+layout: post
 title:  "The Attack of the Invincible BLOB"
 date:   2006-01-01 12:00:00 -0500
 caption: Watch out!

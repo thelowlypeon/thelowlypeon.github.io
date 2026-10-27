@@ -1,5 +1,5 @@
 ---
-layout: project-left
+layout: post
 title:  "Be I/O"
 date:   2026-09-05 15:12:32 -0500
 categories: ios air aqi

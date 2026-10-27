@@ -1,5 +1,5 @@
 ---
-layout: project-left
+layout: post
 title:  "FIT Archive"
 date:   2025-09-20 05:44:32 -0500
 categories: fitness activity fit utility

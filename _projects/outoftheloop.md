@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: post
 title:  "Out of the Loop"
 date:   2013-11-22 21:12:0 -0500
 categories: chicago web

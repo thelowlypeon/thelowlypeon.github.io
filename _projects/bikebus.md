@@ -1,5 +1,5 @@
 ---
-layout: project-left
+layout: post
 title: Bike Bus
 date: 2026-02-21 05:44:32 -0500
 categories: bikes kids community
