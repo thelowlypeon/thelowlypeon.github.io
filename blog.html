@@ -10,8 +10,8 @@ description: "I talk a lot."
 
 {% assign recent = site.posts|slice:0,5 %}
 {% for post in recent %}
-  <div class="row" id="{{ post.slug }}">
-    <div class="col-sm-3 left">
+  <div class="split" id="{{ post.slug }}">
+    <div class="split-aside left">
       <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
       <p class="date"> <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %-d, %Y" }}</time></p>
       {% if post.appstore %}
@@ -20,7 +20,7 @@ description: "I talk a lot."
         </div>
       {% endif %}
     </div>
-    <div class="col-sm-8 right">
+    <div class="split-main right">
       {% if post.reposted_from %}
         <p><i>[Syndicated from <a href="{{ post.reposted_from.url }}">{{ post.reposted_from.site }}</a>]</i></p>
       {% endif %}

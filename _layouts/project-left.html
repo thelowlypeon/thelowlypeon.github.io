@@ -4,9 +4,9 @@ layout: default
 
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 <div class="blog-container">
-  <div class="row">
-    <div class="col-sm-3 text-center">
-      <header class="posat-header">
+  <div class="split">
+    <div class="split-aside text-center">
+      <header class="post-header">
         <h3>
           <div>
             <a href="{{ page.url }}"><img src="/assets/images/{{ page.image }}" width="180px" height="180px" class="img-circle drop-shadow" /></a>
@@ -22,7 +22,7 @@ layout: default
       </header>
     </div>
 
-    <div class="col-sm-8 right">
+    <div class="split-main right">
       {% unless page.appstore %}
         <h1>{{ page.title }}</h1>
       {% endunless %}
@@ -42,7 +42,7 @@ layout: default
         {{ content }}
 
         {% if page.appstore %}
-          <div style="margin-top:30px" class="text-center hidden-md hidden-lg">
+          <div style="margin-top:30px" class="text-center stacked-only">
             <a href="{{ page.appstore }}"><img src="/assets/images/app-store.png" width="180px;"></a>
           </div>
         {% endif %}
@@ -51,10 +51,11 @@ layout: default
       <div class="details">
         <div class="details">
           {% if page.categories %}
-            <p class="tags fa fa-tags">
+            <p class="tags">
             {% for category in page.categories %}
               #{{ category }}
             {% endfor %}
+            </p>
           {% endif %}
         </div>
       </div>

@@ -8,35 +8,28 @@ caption: "A collection of some of the short films I've made over the years. Most
 ---
 
   <header class="post-header">
-    <div class="row text-center bottom-buffer">
-      <div class="col-md-10 col-md-offset-1">
+    <div class="text-center bottom-buffer">
+      <div class="narrow">
         <h1>Films</h1>
       </div>
     </div>
   </header>
 
-{% assign columns = 3 %}
-{% assign last_column_index = columns|minus:1 %}
+<div class="tiles">
 {% for film in site.films reversed %}
-  {% assign column = forloop.index0|modulo:columns %}
-  {% if column == 0 %}
-    <div class="row">
-  {% endif %}
-      <div class="film film-thumbnail col-sm-{{ 12|divided_by:columns }}">
-        <a href="{{ film.url }}">
-          <h2>{{ film.title }} <span class="date">({{ film.date | date:"%Y" }})</span></h2>
-          <img src="{{ film.thumbnail }}" />
-        </a>
-      </div>
-  {% if column == last_column_index or forloop.last %}
-    </div>
-  {% endif %}
+  <div class="film film-thumbnail">
+    <a href="{{ film.url }}">
+      <h2>{{ film.title }} <span class="date">({{ film.date | date:"%Y" }})</span></h2>
+      <img src="{{ film.thumbnail }}" />
+    </a>
+  </div>
 {% endfor %}
+</div>
 
 <hr />
 
-<div class="row text-center" style="margin-top:8em">
-  <div class="col-sm-8 col-sm-offset-2">
+<div class="text-center" style="margin-top:8em">
+  <div class="narrower">
     <p>{{ page.caption }}</p>
     <p>
       <span style="font-variant:small-caps;">Editor's note:</span>

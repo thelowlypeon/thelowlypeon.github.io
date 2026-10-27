@@ -8,11 +8,9 @@ description: "I always have something I'm working on. Here are some of those thi
 {% assign featured_projects = site.projects | where: "featured", true %}
 {% assign nonfeatured_projects = site.projects | where_exp: "p", "p.archived != true" %}
 
-<div class="row featured-projects">
+<div class="grid featured-projects">
 {% for project in featured_projects reversed %}
-  <div class="col-md-6">
-    {% include projects/featured.html project=project %}
-  </div>
+  {% include projects/featured.html project=project %}
 {% endfor %}
 </div>
 
@@ -22,21 +20,8 @@ description: "I always have something I'm working on. Here are some of those thi
   </span>
 </div>
 
-
-
+<div class="tiles other-projects">
 {% for project in nonfeatured_projects reversed %}
-
-  {% assign index_in_projects = forloop.index0|modulo:3 %}
-  {% if index_in_projects == 0 %}
-    <div class="row other-projects">
-  {% endif %}
-
-      <div class="col-md-4">
-        {% include projects/thumbnail.html project=project %}
-      </div>
-
-  {% if forloop.index0 == forloop.length or index_in_projects == 2 %}
-    </div>
-  {% endif %}
+  {% include projects/thumbnail.html project=project %}
 {% endfor %}
 </div>

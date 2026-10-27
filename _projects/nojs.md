@@ -13,42 +13,33 @@ redirect_from:
   - /134015575196/introducing-nojs
 ---
 
-<script src="/assets/scripts/projects/nojs/jquery.min.js"></script>
-<script src="/assets/scripts/projects/nojs/bootstrap.min.js"></script>
-
-<div class="row">
-<div class="modal fade" tabindex="-1" role="dialog" id="annoying-popup">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title">You're allowing this to happen!</h4>
-      </div>
-      <div class="modal-body">
-        <div id="ip-info">
-          <h5>How's the weather in <strong id="address"></strong>, by the way?</h5>
-          <p>Oh, and in case you were curious. I know your IP is <code id="ip"></code>.</p>
-        </div>
-        <p>By enabling javascript, this stuff is bound to happen.</p>
-        <p>But never fear!</p>
-        <p>Download <a href="{{ page.appstore }}">NoJS</a> and refresh the page temporarily without javascript!</p>
-        <div style="margin-top:20px;">
-          <a href="{{ page.appstore }}"><img src="/assets/images/app-store.png" width="180px;"></a>
-   	    </div>
-      </div>
-      <div class="modal-footer">
-        <a href="#" data-dismiss="modal">No thanks,<br />I love being interrupted</a>
-        <span style="display:none;" class="modal-sorry">Sorry. Javascript can do this too :(</span>
-      </div>
-    </div><!-- /.modal-content -->
-  </div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
-</div>
+<dialog id="annoying-popup">
+  <article>
+    <header>
+      <button aria-label="Close" rel="prev" data-close></button>
+      <h4>You're allowing this to happen!</h4>
+    </header>
+    <div id="ip-info" hidden>
+      <h5>How's the weather in <strong id="address"></strong>, by the way?</h5>
+      <p>Oh, and in case you were curious. I know your IP is <code id="ip"></code>.</p>
+    </div>
+    <p>By enabling javascript, this stuff is bound to happen.</p>
+    <p>But never fear!</p>
+    <p>Download <a href="{{ page.appstore }}">NoJS</a> and refresh the page temporarily without javascript!</p>
+    <div style="margin-top:20px;">
+      <a href="{{ page.appstore }}"><img src="/assets/images/app-store.png" width="180px;"></a>
+    </div>
+    <footer>
+      <a href="#" class="dismiss" data-close>No thanks,<br />I love being interrupted</a>
+      <span class="sorry" hidden>Sorry. Javascript can do this too :(</span>
+    </footer>
+  </article>
+</dialog>
 
 <noscript>
   <header class="post-header">
-    <div class="row project-feature bottom-buffer" id="feature-{{ page.slug }}">
-      <div class="col-md-10 col-md-offset-1">
+    <div class="project-feature bottom-buffer" id="feature-{{ page.slug }}">
+      <div class="narrow">
         <h3 style="color:#a7b583">Looks like your Javascript is disabled! Hooray!</h3>
         <p>Did you see how much faster the page loaded?</p>
         <hr />
@@ -78,18 +69,28 @@ NoJS doesn't track anything. At all. URLs you share with NoJS remain entirely on
 <script type="text/javascript">
 
 setTimeout(function() {
-  $('#ip-info').hide();
-  try {
-    $.get("//ipinfo.io", function(response) {
-      $("#ip").html(response.ip);
-      $("#address").html(response.city + ", " + response.region);
-      $('#ip-info').show();
-    }, "jsonp");
-  } catch(e) {}
+  var popup = document.getElementById("annoying-popup");
 
-  $('#annoying-popup').modal({});
-  $('#annoying-popup .modal-footer a').hover(function(){
-    $(this).fadeOut(function() { $('#annoying-popup .modal-footer .modal-sorry').fadeIn(); });
+  fetch("https://ipinfo.io/json")
+    .then(function(response) { return response.json(); })
+    .then(function(info) {
+      document.getElementById("ip").textContent = info.ip;
+      document.getElementById("address").textContent = info.city + ", " + info.region;
+      document.getElementById("ip-info").hidden = false;
+    })
+    .catch(function() {});
+
+  popup.querySelectorAll("[data-close]").forEach(function(el) {
+    el.addEventListener("click", function(e) { e.preventDefault(); popup.close(); });
   });
+  popup.addEventListener("click", function(e) {
+    if (e.target === popup) popup.close();
+  });
+  popup.querySelector(".dismiss").addEventListener("mouseenter", function() {
+    this.hidden = true;
+    popup.querySelector(".sorry").hidden = false;
+  });
+
+  popup.showModal();
 }, 2000);
 </script>

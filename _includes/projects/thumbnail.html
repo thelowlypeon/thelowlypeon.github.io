@@ -1,12 +1,8 @@
-<div class="col-md-12 project-thumbnail bottom-buffer" id="project-{{ project.slug }}">
-  <div class="col-md-4">
-    <a target="blank" href="{{ project.more }}"><img src="/assets/images/{{ project.image }}" style="width:100%;max-width:180px;" class="img-circle drop-shadow" /></a>
-  </div>
-  <div class="col-md-8">
-    <div class="caption">
-      <h1><a href={% if project.more %}"{{ project.more }}" target="blank"{% else %}"{{ project.url }}"{% endif %}>{{ project.title }}</a></h1>
-      {{ project.caption }}
-      <a title="permalink" href="{{ project.url }}">#</a>
-    </div>
+<div class="project-thumbnail bottom-buffer" id="project-{{ project.slug }}">
+  <a target="blank" href="{{ project.more }}"><img src="/assets/images/{{ project.image }}" style="width:100%;max-width:180px;" class="img-circle drop-shadow" /></a>
+  <div class="caption">
+    <h1><a href={% if project.more %}"{{ project.more }}" target="blank"{% else %}"{{ project.url }}"{% endif %}>{{ project.title }}</a></h1>
+    {{ project.caption }}
+    <a title="permalink" href="{{ project.url }}">#</a>
   </div>
 </div>

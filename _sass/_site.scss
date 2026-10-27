@@ -7,20 +7,104 @@ $blue: #428bca;
 $chicagored: #f10005;
 $white: #fcfcfc;
 
+// Pico's light theme sets colours on :root:not([data-theme=dark]), so match that specificity.
+:root[data-theme] {
+  --pico-font-family: "Verdana", "Bitstream Vera Sans", sans-serif;
+  --pico-font-family-monospace: Menlo, Monaco, Consolas, "Courier New", monospace;
+  --pico-font-size: 14px;
+  --pico-line-height: 1.42857;
+  --pico-color: #{$black};
+  --pico-muted-color: #{$gray};
+  --pico-background-color: #{$white};
+  --pico-primary: #337ab7;
+  --pico-primary-hover: #23527c;
+  --pico-spacing: 15px;
+  --pico-typography-spacing-vertical: 10px;
+  --pico-muted-border-color: #eee;
+  --pico-code-background-color: #f0f0f4;
+  --pico-code-color: #{$black};
+}
+
+// Pico sets these per element; the rules below rely on them inheriting.
+address, blockquote, dl, ol, p, pre, table, ul, td {
+  color: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+}
+
+// Bootstrap 3's type scale and spacing, which the rest of this file was written against.
 a {
+  text-decoration: none;
   &:visited { color: $blue; }
-  &:hover { background-color: $white; text-decoration: none; }
+  &:hover { background-color: $white; }
 }
 body {
-  font-family: "Verdana", "Bitstream Vera Sans", sans-serif !important;
-  color: $black;
-  background-color: $white !important;
   padding-bottom: 50px;
+  > main { padding-block: 0; }
 }
-h1, h2, h3, h4, h5 {
-  color: $black;
+h1, h2, h3, h4, h5, h6 {
+  --pico-color: #{$black};
+  --pico-font-weight: 500;
+  --pico-line-height: 1.1;
+  margin-top: 20px;
+  margin-bottom: 10px;
   span { font-size: .5em; }
+  small { font-size: 65%; color: $gray; }
 }
+h1 { --pico-font-size: 36px; }
+h2 { --pico-font-size: 30px; }
+h3 { --pico-font-size: 24px; }
+h4 { --pico-font-size: 18px; margin-top: 10px; }
+h5 { --pico-font-size: 14px; margin-top: 10px; }
+h6 { --pico-font-size: 12px; margin-top: 10px; }
+h4, h5, h6 { small { font-size: 75%; } }
+ul li { list-style: inherit; }
+:where(ol, ul) li { margin-bottom: 0; }
+:is(ol, ul) :is(ol, ul) { margin-block: 0; }
+dt, th { font-weight: bold; }
+dl { margin-bottom: 20px; }
+dd { margin-left: 0; }
+hr { margin: 20px 0; }
+article.post {
+  margin: 0;
+  padding: 0;
+  background: none;
+  box-shadow: none;
+}
+
+// Bootstrap's clearfixes on .container and .row kept child margins from collapsing through them.
+.container, .split, .narrow, .narrower, .tiles { display: flow-root; }
+@media (min-width: 1280px) {
+  .container { max-width: 1140px; }
+}
+
+.split {
+  > * { min-width: 0; padding-inline: 15px; }
+  @media (min-width: 768px) {
+    display: grid;
+    grid-template-columns: 3fr 8fr 1fr;
+  }
+}
+.narrow, .narrower { padding-inline: 15px; }
+@media (min-width: 768px) {
+  .narrow { width: 83.333%; margin-inline: auto; }
+  .narrower { width: 66.667%; margin-inline: auto; }
+  .stacked-only { display: none; }
+}
+@media (max-width: 767px) {
+  .unstacked-only { display: none; }
+}
+.tiles {
+  > * { min-width: 0; }
+  @media (min-width: 992px) {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+  }
+}
+
+.text-center { text-align: center; }
+.img-circle { border-radius: 50%; }
 
 .top-buffer {
     margin-top: 40px;
@@ -33,8 +117,6 @@ h1, h2, h3, h4, h5 {
   a , p { color: $gray; }
   img {
     background-color: white;
-    //border: 3px solid #1d6298;
-    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
   }
   p {
@@ -45,72 +127,63 @@ h1, h2, h3, h4, h5 {
 }
 @media (min-width: 768px) {
   #intro {
+    display: grid;
+    grid-template-columns: 1fr 3fr 8fr;
+    column-gap: 30px;
+    align-content: center;
+    align-items: start;
+    min-height: calc(100vh - 200px); // roughly centres the intro in the viewport, below the header
     text-align: left;
-    display: table;
-    div {
-      height: 180px; display: table-cell !important; position: absolute; top: 50%; margin-top: -120px;
-    }
+    img { grid-column: 2; }
   }
 }
 
-.navbar {
-  .navbar-brand {
+.site-header nav {
+  --pico-nav-element-spacing-vertical: 0;
+  --pico-nav-element-spacing-horizontal: 15px;
+  --pico-nav-link-spacing-vertical: 0;
+  --pico-nav-link-spacing-horizontal: 0;
+  justify-content: flex-start;
+  min-height: 52px;
+  margin-bottom: 20px;
+  border: 1px solid #e7e7e7;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-variant: small-caps;
+  a, a:visited { color: #777; }
+  a:hover { color: #333; background-color: transparent; }
+  ul:first-of-type { margin-left: 0; }
+  .brand {
     font-size: 28px;
     font-weight: bold;
   }
-  font-variant: small-caps;
-  ul.navbar-nav {
-    li a {
-      padding-top: 20px;
-      padding-bottom: 10px;
-      text-transform: lowercase;
-    }
+  ul:last-of-type a {
+    padding-top: 10px;
+    text-transform: lowercase;
   }
-  //&.navbar-default { border-bottom: none; }
 }
 
 @media (max-width: 767px) {
-  .navbar ul.navbar-nav li a { 
-    padding: 5px;
-    text-align: center;
+  .site-header nav {
+    --pico-nav-element-spacing-horizontal: 7.5px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0;
+    ul:first-of-type { margin: 0; }
+    ul:last-of-type { margin: 2px 0 4px; }
+    ul:last-of-type a { padding: 0; }
   }
-
-}
-
-/*
-hr#header-divider {
-  margin: 0;
-  border: 0;
-  clear: both;
-  margin: 0 6px 0 6px;
-  height: 9px;
-  background-image: url("http://petercompernolle.com/layout/images/header-repeat.png");
-  background-repeat: repeat-x;
-}
-*/
-
-#footer {
-  background-color: #fcfcfc !important;
-  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
-  text-align: center;
-  li {
-    display: inline-block;
-    line-height: 2em;
-    &.twitter-container span.twitter-name { display: none; }
-  }
-}
-@media (min-width: 768px) {
-    li.twitter-container {
-        &:hover {
-            span.twitter-name { display: inline-block !important; margin-left: 5px; } //only on large screens when left justified
-        }
-    }
 }
 
 blockquote {
     font-size: inherit;
     font-style: italic;
+    margin: 0 0 20px;
+    padding: 10px 20px;
+    border-inline-start-width: 5px;
+    footer { font-size: 80%; }
+    footer::before { content: "\2014 \00A0"; }
+    :is(p, ul, ol):last-child { margin-bottom: 0; }
 }
 
 #etc-page , .blog-container, .races-container {
@@ -118,8 +191,8 @@ blockquote {
     color: $gray;
     font-style: italic;
   }
-  div.row {
-    margin: 2em 0;
+  .split, .narrow {
+    margin-block: 2em;
   }
   div.left {
     text-align: right;
@@ -143,7 +216,6 @@ blockquote {
     }
     word-wrap:break-word;
     color: $gray;
-    //padding-top: 24px;
     text-align: left;
     a.edit {
       display: none;
@@ -161,10 +233,14 @@ blockquote {
   }
 }
 
+.races-container table {
+  margin-bottom: 20px;
+}
 .races-container th, .races-container td {
   border: none !important;
+  padding: 8px;
 }
-.races-container .table tbody tr td {
+.races-container tbody td {
   padding-top: 0;
   padding-bottom: 0;
 }
@@ -199,21 +275,6 @@ blockquote {
       text-align: left;
     }
   }
-  .navbar {
-    .navbar-header {
-      margin-top: 10px;
-      .navbar-brand {
-        float: none;
-      }
-    }
-    text-align: center;
-    .nav.navbar-nav {
-      margin: 0;
-      li {
-        display: inline-block;
-      }
-    }
-  }
   .welcome-message.top-buffer {
     margin-top: 10px;
   }
@@ -227,11 +288,28 @@ pre, code {
     background: #f0f0f4;
     letter-spacing: 0.7px;
 }
+code {
+  display: inline;
+  padding: 2px 4px;
+  font-size: 90%;
+  line-height: inherit;
+}
+pre {
+  margin: 0 0 10px;
+  padding: 9.5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 13px;
+  word-break: break-all;
+  tab-size: 8;
+}
+pre code {
+  padding: 0;
+  white-space: pre-wrap;
+}
 
 img.drop-shadow {
   background-color: white;
-  //border: 3px solid #1d6298;
-  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
 }
 
@@ -256,9 +334,16 @@ img.drop-shadow {
   text-align: center;
   h1 a, h1 a:visited { color: $black; }
 }
+.project-thumbnail {
+  padding-inline: 15px;
+  > * { padding-inline: 15px; }
+}
+.featured-projects { --pico-grid-row-gap: 0; }
 
 @media (min-width: 992px) {
   .project-thumbnail {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
     text-align: left;
     .caption {
       h1 , h2 , h3 { margin-top: 0; font-size: 1em; font-weight: bold; }
@@ -271,9 +356,6 @@ img.app-icon {
   position: relative;
   display: inline-block;
   border: 1px solid #eee;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
   border-radius: 23px;
 }
 
@@ -293,8 +375,8 @@ img.app-icon {
   margin-bottom: 6em;
 }
 
-.video-container iframe,  
-.video-container object,  
+.video-container iframe,
+.video-container object,
 .video-container embed {
   position: absolute;
   top: 0;
