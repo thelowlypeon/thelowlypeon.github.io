@@ -34,8 +34,6 @@ What impressed me the most was the huge community building gems for Rails. (Of c
 
 <em>— I Am Devloper (@iamdevloper) <a href="https://twitter.com/iamdevloper/status/517616294909464576">October 2, 2014</a></em>
 
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
 Then one day, while pushing out a minor patch to <a href="http://ootheloop.com">Out of the Loop</a>, my Rails experiment, everything broke. Turns out one of the gems I was using got a major update despite being the same .x version, and I accidentally ran <code>bundle update</code>. I realized then that my site was hardly even <em>my site</em>: it was a tightly knotted combination of work of thousands of other people, independently building their pieces of the disgusting puzzle I was putting together.
 
 Seriously: look at a Rails app, and try to identify code that was actually written for the project. Aside from the <code>.erb</code> files, and perhaps some controller or model functions (which were all, of course, originally generated using <code>rails g</code>), everything else is from something else. (This is especially apparent when given code samples for Software Engineering candidates that are Rails apps.)
