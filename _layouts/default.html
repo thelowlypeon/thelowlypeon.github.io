@@ -4,22 +4,10 @@
   {% include head.html %}
 
   <body>
-    <main role="main">
-      <div class="content">
+    {% include header.html %}
 
-        {% include header.html %}
-
-        <div id="main-content-container">
-            <div id="main-content">
-                <div class="container">
-                    {{ content }}
-                </div>
-            </div>
-        </div>
-
-
-      </div><!-- content -->
+    <main class="container">
+      {{ content }}
     </main>
-    <script type="text/javascript" src="/assets/scripts/main.js"></script>
   </body>
 </html>
