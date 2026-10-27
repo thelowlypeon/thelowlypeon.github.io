@@ -1,5 +1,5 @@
 ---
-layout: project-left
+layout: post
 title:  "NoJS"
 date:   2015-11-26 17:26:32 -0500
 categories: ios javascript

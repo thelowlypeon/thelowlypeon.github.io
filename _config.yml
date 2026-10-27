@@ -29,9 +29,6 @@ collections:
   resume:
     experience:
       output: false
-  resources:
-    output: true
-    permalink: "resources/:name"
 
 navigation_pages:
   - Projects

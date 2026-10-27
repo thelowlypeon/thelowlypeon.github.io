@@ -1,52 +1,59 @@
 ---
 layout: default
 ---
+{% case page.collection %}
+  {% when "projects" %}
+    {% assign index_url = "/projects/" %}
+  {% when "films" %}
+    {% assign index_url = "/projects/films" %}
+  {% else %}
+    {% assign index_url = "/blog/" %}
+{% endcase %}
 
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-<div class="blog-container">
-  <div class="split">
-    <div class="split-aside left">
-      <header class="post-header">
-        <h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
-      </header>
+<article itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    {% if page.image and page.collection == "projects" %}
+      <img src="/assets/images/{{ page.image }}" alt="" width="180" height="180" />
+    {% endif %}
+    <h1>{{ page.title }}</h1>
+    <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+      {% if page.collection == "films" %}{{ page.date | date: "%Y" }}{% else %}{{ page.date | date: "%B %-d, %Y" }}{% endif %}
+    </time>
+    {% if page.appstore %}
+      <a href="{{ page.appstore }}"><img src="/assets/images/app-store.png" alt="Download on the App Store" width="180" /></a>
+    {% endif %}
+  </header>
+
+  {% if page.collection == "posts" %}
+    <aside>
       {% include side_panel_ads.html %}
-    </div>
+    </aside>
+  {% endif %}
 
-    <div class="split-main right">
-      {% if page.reposted_from %}
-        {% include repost.html %}
-      {% endif %}
+  <div itemprop="articleBody">
+    {% if page.reposted_from %}
+      {% include repost.html %}
+    {% endif %}
 
-      {% if page.editors_note %}
-        {% include editors_note.html %}
-      {% endif %}
-      <div class="post-content" itemprop="articleBody">
-        {% if page.updates %}
-          {% include updates.html %}
-        {% endif %}
+    {% if page.editors_note %}
+      {% include editors_note.html %}
+    {% endif %}
 
-        {{ content }}
-      </div>
+    {% if page.updates %}
+      {% include updates.html %}
+    {% endif %}
 
-      <div class="details">
-        <div class="details">
-          <p class="date">
-            <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }}</time>
-            {% if page.categories %}
-              <span class="tags">
-              {% for category in page.categories %}
-                #{{ category }}
-              {% endfor %}
-              </span>
-            {% endif %}
-          </p>
-        </div>
+    {% if page.embed %}
+      <iframe src="{{ page.embed }}" style="aspect-ratio: {{ page.aspect.width | default: 16 }} / {{ page.aspect.height | default: 9 }}" allowfullscreen></iframe>
+    {% endif %}
 
-        <p class="top-buffer">
-          <a href="/blog/">&larr; Return</a>
-        </p>
-      </div>
-    </div>
+    {{ content }}
   </div>
-</div>
+
+  <footer>
+    {% if page.categories.size > 0 %}
+      <p>{% for category in page.categories %}#{{ category }} {% endfor %}</p>
+    {% endif %}
+    <p><a href="{{ index_url }}">&larr; Return</a></p>
+  </footer>
 </article>

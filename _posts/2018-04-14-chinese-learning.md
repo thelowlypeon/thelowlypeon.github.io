@@ -3,6 +3,7 @@ layout: post
 title:  "Chinese Learning Resources"
 date:   2018-04-14 06:58:32 -0500
 categories: chinese language learning
+redirect_from: /resources/chinese-learning.html
 ---
 
 This is a collection of the resources I've come across, helpful or not, while trying to improve my Chinese.

@@ -1,5 +1,5 @@
 ---
-layout: project-left
+layout: post
 title:  <a href="https://emoj.es">emoj.es</a>
 date:   2017-04-02 17:26:32 -0500
 categories: silly emoji

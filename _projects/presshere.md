@@ -1,5 +1,5 @@
 ---
-layout: project-left
+layout: post
 title:  "Press Here!"
 date:   2025-12-11 16:26:32 -0500
 categories: ios games fun

@@ -1,5 +1,5 @@
 ---
-layout: film
+layout: post
 title:  "Abby's Playtime"
 date:   2003-01-01 12:00:00 -0500
 caption: Abby goes outside.

@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: post
 title:  "Station to Station"
 date:   2015-02-08 17:26:32 -0500
 categories: ios bikeshare

@@ -1,5 +1,5 @@
 ---
-layout: film
+layout: post
 title:  Commute
 date:   2011-05-13 10:59:32 -0500
 caption: A video of my daily commute in Hangzhou, China, shot & edited entirely on an iPhone 4.

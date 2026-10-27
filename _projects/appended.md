@@ -1,5 +1,5 @@
 ---
-layout: project-left
+layout: post
 title:  "Appended"
 date:   2023-12-16 10:26:32 -0500
 categories: ios notes notebooks
