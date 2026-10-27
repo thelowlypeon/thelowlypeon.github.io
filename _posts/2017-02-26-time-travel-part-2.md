@@ -36,21 +36,16 @@ With great enthusiasm, I decided to research the answer to this question, knowin
 I managed to find an old photo of me from around when this quote so changed my course in life.
 Here's that photo, as well as George Moore's portrait on Wikipedia:
 
-<div class="row">
-  <div class="col-sm-4 col-sm-offset-1">
-    <img class="img-responsive" src="/assets/images/posts/time-travel/me-not-george-moore.png" />
+<figure class="narrower">
+  <div class="grid">
+    <img src="/assets/images/posts/time-travel/me-not-george-moore.png" />
+    <img src="/assets/images/posts/time-travel/george-moore.png" />
   </div>
-  <div class="col-sm-4 col-sm-offset-1">
-    <img class="img-responsive" src="/assets/images/posts/time-travel/george-moore.png" />
-  </div>
-
-  <div class="col-sm-9 col-sm-offset-1 text-center">
-    <i class="small">
+  <figcaption class="text-center"><small><i>
       Me and the other me, aka George Moore.
       Note that the photo of me, on the left, was actually taken around the time I read that quote.
-    </i>
-  </div>
-</div>
+  </i></small></figcaption>
+</figure>
 
 I did a quick informal poll of people who know me pretty well, and on a scale of 1-10, the average response was a high 7 for visual similarlities.
 
@@ -60,20 +55,16 @@ It then dawned on me that for the last five or so years, I've been dressing up f
 
 Let's take a look at those alongside each other as well:
 
-<div class="row">
-  <div class="col-sm-6">
-    <img class="img-responsive" src="/assets/images/posts/time-travel/am-i-the-doctor.png" />
+<figure>
+  <div class="grid">
+    <img src="/assets/images/posts/time-travel/am-i-the-doctor.png" />
+    <img src="/assets/images/posts/time-travel/the-doctor.png" />
   </div>
-  <div class="col-sm-6">
-    <img class="img-responsive" src="/assets/images/posts/time-travel/the-doctor.png" />
-  </div>
-  <div class="col-sm-12 text-center">
-    <i class="small">
+  <figcaption class="text-center"><small><i>
       Me and the other me, aka Matt Smith as Doctor Who.
       Taken on Halloween, 2016.
-    </i>
-  </div>
-</div>
+  </i></small></figcaption>
+</figure>
 
 ## Greetings!
 

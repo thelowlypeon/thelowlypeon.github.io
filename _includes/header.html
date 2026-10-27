@@ -1,11 +1,11 @@
 <header class="site-header">
 
-  <nav class="navbar navbar-default" role="navigation">
-    <div class="navbar-header">
-      <a href="{{ site.root_url }}" class="navbar-brand" title="{{ site.title }}">{{ site.title }}</a>
-    </div>
+  <nav>
+    <ul>
+      <li><a href="{{ site.root_url }}" class="brand" title="{{ site.title }}">{{ site.title }}</a></li>
+    </ul>
 
-    <ul class="nav navbar-nav">
+    <ul>
       <li><a href="/projects/">Projects</a></li>
       <li><a href="/blog/">Blog</a></li>
       {% if page.layout == 'film' or page.title == 'Films' %}

@@ -4,8 +4,8 @@ layout: default
 
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 <div class="blog-container">
-  <div class="row split">
-    <div class="col-sm-3 split-aside text-center">
+  <div class="split">
+    <div class="split-aside text-center">
       <header class="post-header">
         <h3>
           <div>
@@ -22,7 +22,7 @@ layout: default
       </header>
     </div>
 
-    <div class="col-sm-8 split-main right">
+    <div class="split-main right">
       {% unless page.appstore %}
         <h1>{{ page.title }}</h1>
       {% endunless %}
@@ -42,7 +42,7 @@ layout: default
         {{ content }}
 
         {% if page.appstore %}
-          <div style="margin-top:30px" class="text-center hidden-md hidden-lg">
+          <div style="margin-top:30px" class="text-center stacked-only">
             <a href="{{ page.appstore }}"><img src="/assets/images/app-store.png" width="180px;"></a>
           </div>
         {% endif %}
