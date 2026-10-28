@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<div class="blog-container blog-archive">
+  <h1 class="blog-container-header">
+    {% if page.tag_urls.posts %}<a href="{{ page.tag_urls.posts }}">Posts</a>{% else %}Posts{% endif %}
+    |
+    {% if page.tag_urls.projects %}<a href="{{ page.tag_urls.projects }}">Projects</a>{% else %}Projects{% endif %}
+  </h1>
+  <p class="text-center">Tagged with: #{{ page.tag }}</p>
+
+  <hr />
+
+{% include archive-list.html posts=page.docs %}
+<hr />
+</div>
+
+<p class="text-center">
+  {% if page.collection == "projects" %}
+    <a href="/projects/">View All Projects</a>
+  {% else %}
+    <a href="/archive/">View All Posts</a>
+  {% endif %}
+</p>
