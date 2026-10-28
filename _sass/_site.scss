@@ -1,23 +1,15 @@
-@use "sass:color";
+$black: var(--pico-color);
+$gray: var(--pico-muted-color);
+$white: var(--pico-background-color);
 
-$black: #555;
-$gray: #777;
-$white: #fcfcfc;
-
-// Pico's light theme sets colours on :root:not([data-theme=dark]), so match that specificity.
-:root[data-theme] {
+// Pico's light theme sets its variables on :root:not([data-theme=dark]), so match that specificity.
+:root:not([data-theme=dark]) {
   --pico-font-family: "Verdana", "Bitstream Vera Sans", sans-serif;
   --pico-font-family-monospace: Menlo, Monaco, Consolas, "Courier New", monospace;
   --pico-font-size: 14px;
   --pico-line-height: 1.42857;
-  --pico-color: #{$black};
-  --pico-muted-color: #{$gray};
-  --pico-background-color: #{$white};
   --pico-spacing: 15px;
   --pico-typography-spacing-vertical: 10px;
-  --pico-muted-border-color: #eee;
-  --pico-code-background-color: #f0f0f4;
-  --pico-code-color: #{$black};
 }
 
 // Pico sets these per element; the rules below rely on them inheriting.
@@ -37,7 +29,6 @@ body {
   > header, > main { padding-block: 0; }
 }
 h1, h2, h3, h4, h5, h6 {
-  --pico-color: #{$black};
   --pico-font-weight: 500;
   --pico-line-height: 1.1;
   margin-top: 20px;
@@ -103,11 +94,7 @@ main > article {
   > header {
     margin-bottom: 2em;
     text-align: center;
-    > img {
-      border-radius: 50%;
-      background-color: white;
-      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
-    }
+    > img { border-radius: 50%; }
     h1 {
       --pico-font-size: 24px;
       margin: 0;
@@ -171,10 +158,6 @@ main > article {
 
 #intro {
   a , p { color: $gray; }
-  img {
-    background-color: white;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
-  }
   p {
     font-size: 0.9em;
     line-height: 1.1em;
@@ -194,6 +177,15 @@ main > article {
   }
 }
 
+.site-header {
+  margin-bottom: 20px;
+  &::after {
+    content: "";
+    display: block;
+    margin-inline: 15px;
+    border-bottom: 1px solid var(--pico-muted-border-color);
+  }
+}
 .site-header nav {
   --pico-nav-element-spacing-vertical: 0;
   --pico-nav-element-spacing-horizontal: 15px;
@@ -201,13 +193,8 @@ main > article {
   --pico-nav-link-spacing-horizontal: 0;
   justify-content: flex-start;
   min-height: 52px;
-  margin-bottom: 20px;
-  border: 1px solid #e7e7e7;
-  border-radius: 4px;
-  background-color: #f8f8f8;
   font-variant: small-caps;
-  a, a:visited { color: #777; }
-  a:hover { color: #333; background-color: transparent; }
+  a:not(:hover, :active, :focus) { --pico-color: var(--pico-h1-color); }
   ul:first-of-type { margin-left: 0; }
   .brand {
     font-size: 28px;
@@ -224,7 +211,6 @@ main > article {
     --pico-nav-element-spacing-horizontal: 7.5px;
     flex-direction: column;
     align-items: center;
-    border-radius: 0;
     ul:first-of-type { margin: 0; }
     ul:last-of-type { margin: 2px 0 4px; }
     ul:last-of-type a { padding: 0; }
@@ -331,8 +317,6 @@ pre, code {
     white-space: nowrap;
     overflow-x: scroll;
     max-width: 100%;
-    color: $black;
-    background: #f0f0f4;
     letter-spacing: 0.7px;
 }
 code {
@@ -344,7 +328,7 @@ code {
 pre {
   margin: 0 0 10px;
   padding: 9.5px;
-  border: 1px solid #ccc;
+  border: 1px solid var(--pico-muted-border-color);
   border-radius: 4px;
   font-size: 13px;
   word-break: break-all;
@@ -355,14 +339,15 @@ pre code {
   white-space: pre-wrap;
 }
 
-img.drop-shadow {
+// Several of these images are transparent and drawn for a white background.
+img.drop-shadow, main > article > header > img, #intro img {
   background-color: white;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 0 0 1px var(--pico-muted-border-color), var(--pico-box-shadow);
 }
 
 .ad {
   img { max-width: 100%; }
-  border: 1px solid color.adjust($gray, $lightness: 40%);
+  border: 1px solid var(--pico-muted-border-color);
   padding: 8px;
   p {
     font-size: 0.8em;
@@ -402,7 +387,7 @@ img.drop-shadow {
 img.app-icon {
   position: relative;
   display: inline-block;
-  border: 1px solid #eee;
+  border: 1px solid var(--pico-muted-border-color);
   border-radius: 23px;
 }
 
@@ -425,10 +410,10 @@ img.app-icon {
 div.hr-with-text {
     width: 100%;
     height: 10px;
-    border-bottom: 0.5px solid #ddd;
+    border-bottom: 0.5px solid var(--pico-muted-border-color);
     text-align: center;
     margin-bottom: 60px;
-    color: #555;
+    color: $black;
     span.hr-text-container {
         background-color: $white;
         padding: 0 20px;
@@ -436,7 +421,7 @@ div.hr-with-text {
         font-variant: small-caps;
         span {
             font-size: 10px;
-            color: #999;
+            color: $gray;
         }
     }
 }
@@ -445,11 +430,11 @@ table.hsk {
   margin: 15px 0;
   width: 100%;
   tr, th, td {
-    border: 1px solid black;
+    border: 1px solid var(--pico-table-border-color);
     padding: 0.4em;
   }
 }
 p.caption {
   font-size: 0.8em;
-  color: gray;
+  color: $gray;
 }
