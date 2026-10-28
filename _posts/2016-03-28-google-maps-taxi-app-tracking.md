@@ -2,8 +2,7 @@
 layout: post
 title:  "iOS Google Maps Checking for Taxi Apps"
 date:   2016-03-28 08:47:20 -0500
-categories: jekyll
-tags: ios, privacy, google
+categories: ios privacy google
 author: peter
 ---
 
