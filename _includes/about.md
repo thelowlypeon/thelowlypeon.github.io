@@ -30,7 +30,7 @@ I returned to the states to start a company that failed,
 built a website that sold subscriptions to notebooks
 (and subsequently built our [competitor's website](http://fieldnotesbrand.com)),
 have led a few teams of excellent engineers,
-wrote [a couple iOS apps](/projects),
+wrote [a couple iOS apps](/projects/ios),
 and met countless wonderful people.
 
 And now, I live in Chicago with my wife and two daughters,
