@@ -52,7 +52,11 @@ layout: default
 
   <footer>
     {% if page.categories.size > 0 %}
-      <p>{% for category in page.categories %}#{{ category }} {% endfor %}</p>
+      <p>
+        {% for category in page.categories %}
+          <a href="/{% if page.collection == "projects" %}projects{% else %}archive{% endif %}/{{ category | slugify }}/">#{{ category }}</a>
+        {% endfor %}
+      </p>
     {% endif %}
     <p><a href="{{ index_url }}">&larr; Return</a></p>
   </footer>
