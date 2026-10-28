@@ -16,7 +16,7 @@ description: "I talk a lot."
       <p class="date"> <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %-d, %Y" }}</time></p>
       {% if post.appstore %}
         <div style="margin-top:30px">
-        <a href="{{ post.appstore }}"><img src="/assets/images/app-store.png" width="120px;"></a>
+        {% include app-store-badge.html url=post.appstore width=120 %}
         </div>
       {% endif %}
     </div>

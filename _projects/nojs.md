@@ -27,7 +27,7 @@ redirect_from:
     <p>But never fear!</p>
     <p>Download <a href="{{ page.appstore }}">NoJS</a> and refresh the page temporarily without javascript!</p>
     <div style="margin-top:20px;">
-      <a href="{{ page.appstore }}"><img src="/assets/images/app-store.png" width="180px;"></a>
+      {% include app-store-badge.html url=page.appstore width=180 %}
     </div>
     <footer>
       <a href="#" class="dismiss" data-close>No thanks,<br />I love being interrupted</a>

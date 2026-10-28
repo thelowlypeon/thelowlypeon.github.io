@@ -15,6 +15,6 @@ redirect_from:
 
 Stop driving and take a bike. This simple iOS app I wrote will help you find nearby bikeshare bikes or docks.
 
-<a href="https://itunes.apple.com/us/app/apple-store/id936262970?pt=96075968&ct=website&mt=8"><img src="/assets/images/app-store.png" width="180px;" /></a>
+{% include app-store-badge.html url="https://itunes.apple.com/us/app/apple-store/id936262970?pt=96075968&ct=website&mt=8" width=180 %}
 
 Read more at [stationtostationapp.com](http://stationtostationapp.com/)
