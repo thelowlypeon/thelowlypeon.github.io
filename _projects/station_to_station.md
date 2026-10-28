@@ -18,3 +18,7 @@ Stop driving and take a bike. This simple iOS app I wrote will help you find nea
 {% include app-store-badge.html url="https://itunes.apple.com/us/app/apple-store/id936262970?pt=96075968&ct=website&mt=8" width=180 %}
 
 Read more at [stationtostationapp.com](http://stationtostationapp.com/)
+
+<small>Update Jan 2018:</small>
+
+Unfortunately, Station to Station is no longer in the app store. I made the regrettable choice to depend on a beta version of ReactiveCocoa, [which stopped working on subsequent Swift versions](/2018/simple-reactive), and I couldn't afford the time required for a rewrite. Station to Station was my first published iOS app ever, so while this was the right move for me, it still breaks my heart.
