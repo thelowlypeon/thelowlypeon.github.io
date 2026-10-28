@@ -20,7 +20,7 @@ layout: default
       {% if page.collection == "films" %}{{ page.date | date: "%Y" }}{% else %}{{ page.date | date: "%B %-d, %Y" }}{% endif %}
     </time>
     {% if page.appstore %}
-      <a href="{{ page.appstore }}"><img src="/assets/images/app-store.png" alt="Download on the App Store" width="180" /></a>
+      {% include app-store-badge.html url=page.appstore width=180 %}
     {% endif %}
   </header>
 
