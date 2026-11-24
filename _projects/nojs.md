@@ -62,9 +62,14 @@ and it breaks lots of websites.
 * Prevent popups, including many paywalls
 * Prevent websites from breaking, including annoying scrolljacking business that breaks basic browser functionality
 
-#### Privacy
+#### Needless Browser
 
-NoJS doesn't track anything. At all. URLs you share with NoJS remain entirely on device, as does any browsing you do in the app.
+On iOS 26, NoJS includes a beta of <a href="https://needlessbrowser.com">Needless Browser</a>.
+
+#### Privacy and support
+
+* <a href="https://needlessbrowser.com/privacy/">Privacy policy</a>
+* <a href="https://needlessbrowser.com/support/">Support</a>
 
 <script type="text/javascript">
 
